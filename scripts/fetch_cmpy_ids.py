@@ -13,7 +13,7 @@ def get_cmpy_id(cmpy_symbol: str) -> str:
         return "" 
 
 def main():
-    with open("../data/listed_company_directory.csv", mode='r', encoding='utf-8') as company_file:
+    with open("data/listed_company_directory.csv", mode='r', encoding='utf-8') as company_file:
         cmpy_list = list(csv.reader(company_file))[1:]  
 
     result = {}
@@ -23,7 +23,7 @@ def main():
         result[symbol] = cmpy_id
         print(f"Processed {symbol}: {cmpy_id}")
 
-    with open('../data/cmpy.json', 'w', encoding='utf-8') as json_file:
+    with open('data/cmpy.json', 'w', encoding='utf-8') as json_file:
         json.dump(result, json_file, indent=4, ensure_ascii=False)
 
 if __name__ == "__main__":
