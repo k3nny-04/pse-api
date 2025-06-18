@@ -1,2 +1,4 @@
 *.pyc
+venv/
 TODO
+*.html
