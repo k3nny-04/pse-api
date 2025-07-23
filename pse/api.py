@@ -20,3 +20,11 @@ STOCK_DIV_URL = "https://edge.pse.com.ph/companyPage/dividends_and_rights_list.a
 # }
 STOCK_CHRT_TAB_DATA_URL = "https://edge.pse.com.ph/common/DisclosureCht.ax"
 
+# Endpoint to retrieve dividend and rights information list.
+# Parameters required: pageNum (page number), sortMode (e.g., "date")
+# curl -X POST "https://edge.pse.com.ph/disclosureData/dividends_and_rights_info_list.ax?DividendsOrRights=Dividends" \
+#   --data "pageNum=1&sortMode=date&dateSortType=DESC&cmpySortType=ASC"
+DIV_LIST_URL = "https://edge.pse.com.ph/disclosureData/dividends_and_rights_info_list.ax?DividendsOrRights=Dividends"
+
+
+

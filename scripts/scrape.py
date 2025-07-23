@@ -1,6 +1,10 @@
+import re
 from bs4 import BeautifulSoup
 from datetime import datetime
 from models.stock import StockData, label_map, float_args
+from models.dividends import DividendData
+
+# TODO: Add error handling, default returns
 
 def scrape_stock_data(html_doc: str) -> StockData:
     stock_args = {}
@@ -57,9 +61,47 @@ def scrape_stock_data(html_doc: str) -> StockData:
     return StockData(**stock_args)
 
 
+def scrape_dividends(html_doc: str) -> list[DividendData]:
+    soup = BeautifulSoup(html_doc, "html.parser")
+    table = soup.find("table", class_="list")
+    
+    if not table:
+        return []
 
-with open("stockData.html", mode='r') as file:
+    rows = table.find_all("tr")[1:]
+    results = []
+
+    for row in rows:
+        cols = [td.get_text(strip=True).replace("\xa0", " ") for td in row.find_all("td")]
+        if len(cols) < 7:
+            continue
+
+        # Extract numeric value from dividendRate
+        match = re.search(r"[\d,.]+", cols[3])
+        rate = float(match.group().replace(",", "")) if match else 0.0
+        ex_div_date = datetime.strptime(cols[4], "%b %d, %Y").strftime("%Y-%m-%d")
+        record_date = datetime.strptime(cols[5], "%b %d, %Y").strftime("%Y-%m-%d")
+        payment_date = datetime.strptime(cols[6], "%b %d, %Y").strftime("%Y-%m-%d")
+        
+        data = DividendData(
+            companyName=cols[0],
+            securityType=cols[1],
+            dividendType=cols[2],
+            dividendRate=rate,
+            exDividendDate=ex_div_date,
+            recordDate=record_date,
+            paymentDate=payment_date,
+        )
+        results.append(data)
+
+    return results
+
+# with open("./html/stockData.html", mode='r') as file:
+#     content = file.read()
+# res = scrape_stock_data(content)
+
+with open("./html/div1.html", mode='r') as file:
     content = file.read()
+res = scrape_dividends(content)
 
-res = scrape_stock_data(content)
-print(res)
+print(res[1])
