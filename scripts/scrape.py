@@ -60,7 +60,41 @@ def scrape_stock_data(html_doc: str) -> StockData:
         
     return StockData(**stock_args)
 
+def scrape_stock_dividends(html_doc: str) -> list[DividendData]:
+    soup = BeautifulSoup(html_doc, "html.parser")
+    table = soup.find("table", class_="list")
+    
+    if not table:
+        return []
 
+    rows = table.find_all("tr")[1:]
+    results = []
+
+    for row in rows:
+        cols = [td.get_text(strip=True).replace("\xa0", " ") for td in row.find_all("td")]
+        if len(cols) < 6:
+            continue
+
+        # Extract numeric value from dividendRate
+        match = re.search(r"[\d,.]+", cols[2])
+        rate = float(match.group().replace(",", "")) if match else 0.0
+        ex_div_date = datetime.strptime(cols[3], "%b %d, %Y").strftime("%Y-%m-%d")
+        record_date = datetime.strptime(cols[4], "%b %d, %Y").strftime("%Y-%m-%d")
+        payment_date = datetime.strptime(cols[5], "%b %d, %Y").strftime("%Y-%m-%d")
+        
+        data = DividendData(
+            companyName="",
+            securityType=cols[0],
+            dividendType=cols[1],
+            dividendRate=rate,
+            exDividendDate=ex_div_date,
+            recordDate=record_date,
+            paymentDate=payment_date,
+        )
+        results.append(data)
+
+    return results
+    
 def scrape_dividends(html_doc: str) -> list[DividendData]:
     soup = BeautifulSoup(html_doc, "html.parser")
     table = soup.find("table", class_="list")
@@ -100,8 +134,13 @@ def scrape_dividends(html_doc: str) -> list[DividendData]:
 #     content = file.read()
 # res = scrape_stock_data(content)
 
-with open("./html/div1.html", mode='r') as file:
-    content = file.read()
-res = scrape_dividends(content)
+# with open("./html/dividends.html", mode='r') as file:
+#     content = file.read()
+# res = scrape_dividends(content)
 
-print(res[1])
+with open("./html/stockDividends.html", mode='r') as file:
+    content = file.read()
+res = scrape_stock_dividends(content)
+
+
+print(res)
