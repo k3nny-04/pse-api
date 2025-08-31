@@ -1,6 +1,4 @@
 {
-    "8990B": null,
-    "8990P": null,
     "AAA": {
         "cmpyId": "55",
         "cmpyNm": "Asia Amalgamated Holdings Corporation",
@@ -64,12 +62,6 @@
         "etfYn": "0",
         "security_id": "140"
     },
-    "ACENA": null,
-    "ACENB": null,
-    "ACPA": null,
-    "ACPAR": null,
-    "ACPB1": null,
-    "ACPB3": null,
     "ACR": {
         "cmpyId": "121",
         "cmpyNm": "Alsons Consolidated Resources, Inc.",
@@ -98,8 +90,6 @@
         "etfYn": "0",
         "security_id": "316"
     },
-    "ALCPD": null,
-    "ALCPF": null,
     "ALHI": {
         "cmpyId": "612",
         "cmpyNm": "Anchor Land Holdings, Inc.",
@@ -135,7 +125,6 @@
         "etfYn": "null",
         "security_id": "696"
     },
-    "ALTP2": null,
     "ANI": {
         "cmpyId": "619",
         "cmpyNm": "AgriNurture, Inc.",
@@ -157,7 +146,6 @@
         "etfYn": "0",
         "security_id": "532"
     },
-    "APB2R": null,
     "APC": {
         "cmpyId": "177",
         "cmpyNm": "APC Group, Inc.",
@@ -242,7 +230,6 @@
         "etfYn": "0",
         "security_id": "176"
     },
-    "ATNB": null,
     "AUB": {
         "cmpyId": "641",
         "cmpyNm": "Asia United Bank Corporation",
@@ -271,7 +258,6 @@
         "etfYn": "0",
         "security_id": "353"
     },
-    "BCB": null,
     "BCOR": {
         "cmpyId": "9",
         "cmpyNm": "Berjaya Philippines Inc.",
@@ -279,7 +265,6 @@
         "etfYn": "0",
         "security_id": "391"
     },
-    "BCP": null,
     "BDO": {
         "cmpyId": "260",
         "cmpyNm": "BDO Unibank, Inc.",
@@ -350,9 +335,6 @@
         "etfYn": "0",
         "security_id": "234"
     },
-    "BRNP": null,
-    "BRNPB": null,
-    "BRNPC": null,
     "BSC": {
         "cmpyId": "60",
         "cmpyNm": "Basic Energy Corporation",
@@ -374,7 +356,6 @@
         "etfYn": "0",
         "security_id": "366"
     },
-    "CAB": null,
     "CAT": {
         "cmpyId": "183",
         "cmpyNm": "Central Azucarera de Tarlac, Inc.",
@@ -403,7 +384,6 @@
         "etfYn": "0",
         "security_id": "560"
     },
-    "CEBCP": null,
     "CEI": {
         "cmpyId": "186",
         "cmpyNm": "Crown Equities, Inc.",
@@ -439,8 +419,6 @@
         "etfYn": "null",
         "security_id": "635"
     },
-    "CLIA1": null,
-    "CLIA2": null,
     "CNPF": {
         "cmpyId": "652",
         "cmpyNm": "Century Pacific Food, Inc.",
@@ -483,8 +461,6 @@
         "etfYn": "0",
         "security_id": "219"
     },
-    "CPGP": null,
-    "CPGPB": null,
     "CPM": {
         "cmpyId": "621",
         "cmpyNm": "Century Peak Holdings Corporation",
@@ -548,7 +524,6 @@
         "etfYn": "null",
         "security_id": "664"
     },
-    "DDPR": null,
     "DELM": {
         "cmpyId": "642",
         "cmpyNm": "Del Monte Pacific Limited",
@@ -591,22 +566,12 @@
         "etfYn": "0",
         "security_id": "192"
     },
-    "DMCP": null,
-    "DMPA1": null,
-    "DMPA2": null,
     "DMW": {
         "cmpyId": "671",
         "cmpyNm": "D.M. Wenceslao & Associates, Incorporated",
         "symbol": "DMW",
         "etfYn": "null",
         "security_id": "641"
-    },
-    "DNA": {
-        "cmpyId": "620",
-        "cmpyNm": "Philab Holdings Corp.",
-        "symbol": "DNA",
-        "etfYn": "0",
-        "security_id": ""
     },
     "DNL": {
         "cmpyId": "639",
@@ -615,7 +580,6 @@
         "etfYn": "0",
         "security_id": "582"
     },
-    "DTEL": null,
     "DWC": {
         "cmpyId": "647",
         "cmpyNm": "Discovery World Corporation ",
@@ -644,8 +608,6 @@
         "etfYn": "0",
         "security_id": "148"
     },
-    "EEIPA": null,
-    "EEIPB": null,
     "EG": {
         "cmpyId": "623",
         "cmpyNm": "IP E-Game Ventures, Inc.",
@@ -709,8 +671,6 @@
         "etfYn": "0",
         "security_id": "161"
     },
-    "FBP": null,
-    "FBP2": null,
     "FCG": {
         "cmpyId": "689",
         "cmpyNm": "Figaro Culinary Group, Inc. ",
@@ -753,7 +713,6 @@
         "etfYn": "0",
         "security_id": "521"
     },
-    "FGENG": null,
     "FILRT": {
         "cmpyId": "683",
         "cmpyNm": "Filinvest REIT Corp.",
@@ -768,7 +727,6 @@
         "etfYn": "0",
         "security_id": "196"
     },
-    "FJPB": null,
     "FLI": {
         "cmpyId": "226",
         "cmpyNm": "Filinvest Land, Inc.",
@@ -825,7 +783,6 @@
         "etfYn": "0",
         "security_id": "372"
     },
-    "FYNB": null,
     "GEO": {
         "cmpyId": "198",
         "cmpyNm": "GEOGRACE Resources Philippines, Inc.",
@@ -847,8 +804,6 @@
         "etfYn": "0",
         "security_id": "190"
     },
-    "GLOPA": null,
-    "GLOPP": null,
     "GMA7": {
         "cmpyId": "610",
         "cmpyNm": "GMA Network, Inc.",
@@ -891,8 +846,6 @@
         "etfYn": "0",
         "security_id": "572"
     },
-    "GTPPA": null,
-    "GTPPB": null,
     "HI": {
         "cmpyId": "82",
         "cmpyNm": "House of Investments, Inc.",
@@ -1012,8 +965,6 @@
         "etfYn": "0",
         "security_id": "158"
     },
-    "JFCPA": null,
-    "JFCPB": null,
     "JGS": {
         "cmpyId": "210",
         "cmpyNm": "JG Summit Holdings, Inc.",
@@ -1042,14 +993,6 @@
         "etfYn": "0",
         "security_id": "306"
     },
-    "KPH": {
-        "cmpyId": "87",
-        "cmpyNm": "Keppel Philippines Holdings, Inc.",
-        "symbol": "KPH",
-        "etfYn": "0",
-        "security_id": ""
-    },
-    "KPHB": null,
     "KPPI": {
         "cmpyId": "672",
         "cmpyNm": "Kepwealth Property Phils., Inc.",
@@ -1078,7 +1021,6 @@
         "etfYn": "0",
         "security_id": "326"
     },
-    "LCB": null,
     "LFM": {
         "cmpyId": "698",
         "cmpyNm": "LFM Properties Corporation",
@@ -1170,7 +1112,6 @@
         "etfYn": "0",
         "security_id": "241"
     },
-    "MAHB": null,
     "MARC": {
         "cmpyId": "175",
         "cmpyNm": "Marcventures Holdings, Inc.",
@@ -1339,14 +1280,6 @@
         "etfYn": "0",
         "security_id": "564"
     },
-    "MWP": null,
-    "MWP2A": null,
-    "MWP2B": null,
-    "MWP4": null,
-    "MWP5": null,
-    "MWP6A": null,
-    "MWP6B": null,
-    "MWP6C": null,
     "NI": {
         "cmpyId": "625",
         "cmpyNm": "Nickel Asia Corporation",
@@ -1403,7 +1336,6 @@
         "etfYn": "0",
         "security_id": "338"
     },
-    "OPMB": null,
     "ORE": {
         "cmpyId": "616",
         "cmpyNm": "Oriental Peninsula Resources Group, Inc.",
@@ -1551,10 +1483,6 @@
         "etfYn": "0",
         "security_id": "531"
     },
-    "PNX3A": null,
-    "PNX3B": null,
-    "PNX4": null,
-    "PNXP": null,
     "PORT": {
         "cmpyId": "129",
         "cmpyNm": "Globalport 900, Inc.",
@@ -1583,15 +1511,6 @@
         "etfYn": "null",
         "security_id": "694"
     },
-    "PRF2A": null,
-    "PRF2B": null,
-    "PRF3A": null,
-    "PRF3B": null,
-    "PRF4A": null,
-    "PRF4B": null,
-    "PRF4C": null,
-    "PRF4D": null,
-    "PRF4E": null,
     "PRIM": {
         "cmpyId": "30",
         "cmpyNm": "Prime Media Holdings, Inc.",
@@ -1760,7 +1679,6 @@
         "etfYn": "0",
         "security_id": "402"
     },
-    "SFIP": null,
     "SGI": {
         "cmpyId": "160",
         "cmpyNm": "Solid Group, Inc.",
@@ -1817,22 +1735,6 @@
         "etfYn": "0",
         "security_id": "165"
     },
-    "SMC2A": null,
-    "SMC2B": null,
-    "SMC2C": null,
-    "SMC2D": null,
-    "SMC2E": null,
-    "SMC2F": null,
-    "SMC2G": null,
-    "SMC2H": null,
-    "SMC2I": null,
-    "SMC2J": null,
-    "SMC2K": null,
-    "SMC2L": null,
-    "SMC2M": null,
-    "SMC2N": null,
-    "SMC2O": null,
-    "SMCP1": null,
     "SMPH": {
         "cmpyId": "112",
         "cmpyNm": "SM Prime Holdings, Inc.",
@@ -1924,10 +1826,6 @@
         "etfYn": "0",
         "security_id": "511"
     },
-    "TCB2A": null,
-    "TCB2B": null,
-    "TCB2C": null,
-    "TCB2D": null,
     "TECH": {
         "cmpyId": "630",
         "cmpyNm": "Cirtek Holdings Philippines Corporation",
@@ -1956,8 +1854,6 @@
         "etfYn": "0",
         "security_id": "595"
     },
-    "TLII": null,
-    "TLJJ": null,
     "TOP": {
         "cmpyId": "650",
         "cmpyNm": "Top Frontier Investment Holdings, Inc.",
@@ -2028,8 +1924,6 @@
         "etfYn": "0",
         "security_id": "530"
     },
-    "VLL2A": null,
-    "VLL2B": null,
     "VMC": {
         "cmpyId": "123",
         "cmpyNm": "Victorias Milling Company, Inc.",

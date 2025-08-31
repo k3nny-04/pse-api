@@ -58,7 +58,17 @@ def populate_security_ids():
     with open('data/cmpy.json', 'w', encoding='utf-8') as json_file:
         json.dump(cmpy_data, json_file, indent=4, ensure_ascii=False)
 
+def clean_file():
+    with open('data/cmpy.json', 'r', encoding='utf-8') as json_file:
+        cmpy_data = json.load(json_file)
+
+    cleaned_data = {k: v for k, v in cmpy_data.items() if k and v}
+
+    with open('data/cmpy.json', 'w', encoding='utf-8') as json_file:
+        json.dump(cleaned_data, json_file, indent=4, ensure_ascii=False)
+
 if __name__ == "__main__":
     populate_cmpy_data()
     populate_security_ids()
+    clean_file()
 
