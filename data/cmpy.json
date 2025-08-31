@@ -1,382 +1,2103 @@
 {
-    "8990B": "",
-    "8990P": "",
-    "AAA": "55",
-    "AB": "174",
-    "ABA": "174",
-    "ABG": "176",
-    "ABS": "114",
-    "ABSP": "15",
-    "AC": "233",
-    "ACE": "233",
-    "ACEN": "233",
-    "ACENA": "",
-    "ACENB": "",
-    "ACPA": "",
-    "ACPAR": "",
-    "ACPB1": "",
-    "ACPB3": "",
-    "ACR": "121",
-    "AEV": "16",
-    "AGI": "212",
-    "ALCO": "172",
-    "ALCPD": "",
-    "ALCPF": "",
-    "ALHI": "612",
-    "ALI": "180",
-    "ALLDY": "686",
-    "ALLHC": "26",
-    "ALTER": "701",
-    "ALTP2": "",
-    "ANI": "619",
-    "ANS": "14",
-    "AP": "609",
-    "APB2R": "",
-    "APC": "177",
-    "APL": "638",
-    "APO": "52",
-    "APVI": "678",
-    "APX": "178",
-    "AR": "33",
-    "ARA": "38",
-    "AREIT": "679",
-    "ASLAG": "694",
-    "AT": "53",
-    "ATI": "53",
-    "ATN": "56",
-    "ATNB": "",
-    "AUB": "641",
-    "AXLM": "673",
-    "BALAI": "697",
-    "BC": "108",
-    "BCB": "",
-    "BCOR": "9",
-    "BCP": "",
-    "BDO": "260",
-    "BEL": "21",
-    "BH": "62",
-    "BHI": "62",
-    "BKR": "66",
-    "BLOOM": "49",
-    "BMM": "181",
-    "BNCOM": "692",
-    "BPI": "234",
-    "BRN": "13",
-    "BRNP": "",
-    "BRNPB": "",
-    "BRNPC": "",
-    "BSC": "60",
-    "C": "624",
-    "CA": "183",
-    "CAB": "",
-    "CAT": "183",
-    "CBC": "184",
-    "CDC": "39",
-    "CEB": "624",
-    "CEBCP": "",
-    "CEI": "186",
-    "CEU": "223",
-    "CHP": "662",
-    "CIC": "648",
-    "CLI": "668",
-    "CLIA1": "",
-    "CLIA2": "",
-    "CNPF": "652",
-    "CNVRG": "680",
-    "COAL": "637",
-    "COL": "601",
-    "COSCO": "50",
-    "CPG": "189",
-    "CPGP": "",
-    "CPGPB": "",
-    "CPM": "621",
-    "CREC": "703",
-    "CREIT": "691",
-    "CROWN": "657",
-    "CSB": "228",
-    "CTS": "693",
-    "CYBR": "67",
-    "DD": "681",
-    "DDMPR": "681",
-    "DDPR": "",
-    "DELM": "642",
-    "DFNN": "187",
-    "DHI": "31",
-    "DITO": "36",
-    "DIZ": "68",
-    "DMC": "188",
-    "DMCP": "",
-    "DMPA1": "",
-    "DMPA2": "",
-    "DMW": "671",
-    "DNA": "620",
-    "DNL": "639",
-    "DTEL": "",
-    "DWC": "647",
-    "ECP": "70",
-    "ECVC": "46",
-    "EEI": "71",
-    "EEIPA": "",
-    "EEIPB": "",
-    "EG": "623",
-    "ELI": "190",
-    "EMI": "632",
-    "ENEX": "653",
-    "EURO": "219",
-    "EVER": "191",
-    "EW": "634",
-    "FAF": "81",
-    "FB": "151",
-    "FBP": "",
-    "FBP2": "",
-    "FCG": "689",
-    "FDC": "75",
-    "FERRO": "643",
-    "FEU": "25",
-    "FFI": "196",
-    "FGEN": "600",
-    "FGENG": "",
-    "FILRT": "683",
-    "FJP": "225",
-    "FJPB": "",
-    "FLI": "226",
-    "FMETF": "649",
-    "FNI": "224",
-    "FOOD": "602",
-    "FPH": "197",
-    "FPI": "220",
-    "FRUIT": "676",
-    "FYN": "80",
-    "FYNB": "",
-    "GEO": "198",
-    "GERI": "193",
-    "GLO": "224",
-    "GLOPA": "",
-    "GLOPP": "",
-    "GMA7": "610",
-    "GMAP": "611",
-    "GPH": "221",
-    "GREEN": "132",
-    "GSMI": "94",
-    "GTCAP": "633",
-    "GTPPA": "",
-    "GTPPB": "",
-    "HI": "82",
-    "HOME": "674",
-    "HOUSE": "626",
-    "HTI": "690",
-    "HVN": "661",
-    "I": "613",
-    "ICT": "83",
-    "IDC": "660",
-    "IMI": "622",
-    "IMP": "201",
-    "INFRA": "84",
-    "ION": "203",
-    "IPM": "4",
-    "IPO": "85",
-    "IS": "204",
-    "JAS": "134",
-    "JFC": "86",
-    "JFCPA": "",
-    "JFCPB": "",
-    "JGS": "210",
-    "JOH": "261",
-    "KEEPR": "2",
-    "KEP": "87",
-    "KPH": "87",
-    "KPHB": "",
-    "KPPI": "672",
-    "LAND": "209",
-    "LBC": "236",
-    "LC": "98",
-    "LCB": "",
-    "LFM": "698",
-    "LMG": "205",
-    "LODE": "37",
-    "LOTO": "605",
-    "LPC": "698",
-    "LPZ": "61",
-    "LSC": "115",
-    "LTG": "12",
-    "MA": "206",
-    "MAB": "206",
-    "MAC": "145",
-    "MACAY": "145",
-    "MAH": "3",
-    "MAHB": "",
-    "MARC": "175",
-    "MAXS": "135",
-    "MB": "117",
-    "MBC": "117",
-    "MBT": "128",
-    "MED": "126",
-    "MEDIC": "687",
-    "MEG": "627",
-    "MER": "118",
-    "MFC": "120",
-    "MFIN": "263",
-    "MG": "192",
-    "MGH": "192",
-    "MHC": "206",
-    "MJC": "102",
-    "MJIC": "24",
-    "MM": "677",
-    "MONDE": "682",
-    "MRC": "131",
-    "MREIT": "685",
-    "MRSGI": "659",
-    "MVC": "100",
-    "MWC": "270",
-    "MWIDE": "627",
-    "MWP": "",
-    "MWP2A": "",
-    "MWP2B": "",
-    "MWP4": "",
-    "MWP5": "",
-    "MWP6A": "",
-    "MWP6B": "",
-    "MWP6C": "",
-    "NI": "625",
-    "NIKL": "625",
-    "NOW": "264",
-    "NRCP": "606",
-    "NXGEN": "179",
-    "OGP": "704",
-    "OM": "207",
-    "OPM": "43",
-    "OPMB": "",
-    "ORE": "616",
-    "OV": "45",
-    "PA": "605",
-    "PAL": "20",
-    "PAX": "194",
-    "PBB": "640",
-    "PBC": "208",
-    "PCOR": "136",
-    "PERC": "578",
-    "PGOLD": "629",
-    "PHA": "148",
-    "PHC": "97",
-    "PHES": "138",
-    "PHN": "107",
-    "PHR": "631",
-    "PIZZA": "664",
-    "PLUS": "96",
-    "PMPC": "104",
-    "PNB": "139",
-    "PNC": "7",
-    "PNX": "608",
-    "PNX3A": "",
-    "PNX3B": "",
-    "PNX4": "",
-    "PNXP": "",
-    "PORT": "129",
-    "PPC": "150",
-    "PRC": "141",
-    "PREIT": "699",
-    "PRF2A": "",
-    "PRF2B": "",
-    "PRF3A": "",
-    "PRF3B": "",
-    "PRF4A": "",
-    "PRF4B": "",
-    "PRF4C": "",
-    "PRF4D": "",
-    "PRF4E": "",
-    "PRIM": "30",
-    "PRMX": "214",
-    "PSB": "142",
-    "PSE": "478",
-    "PTC": "144",
-    "PTT": "76",
-    "PX": "137",
-    "PXP": "628",
-    "RCB": "232",
-    "RCI": "54",
-    "RCR": "684",
-    "REDC": "702",
-    "REG": "153",
-    "RFM": "77",
-    "RLC": "195",
-    "RLT": "40",
-    "ROCK": "635",
-    "ROX": "54",
-    "RRHI": "646",
-    "SBS": "658",
-    "SCC": "157",
-    "SECB": "32",
-    "SEVN": "143",
-    "SFI": "165",
-    "SFIP": "",
-    "SGI": "160",
-    "SGP": "166",
-    "SHLPH": "663",
-    "SHNG": "218",
-    "SLF": "78",
-    "SLI": "41",
-    "SM": "154",
-    "SMC": "154",
-    "SMC2A": "",
-    "SMC2B": "",
-    "SMC2C": "",
-    "SMC2D": "",
-    "SMC2E": "",
-    "SMC2F": "",
-    "SMC2G": "",
-    "SMC2H": "",
-    "SMC2I": "",
-    "SMC2J": "",
-    "SMC2K": "",
-    "SMC2L": "",
-    "SMC2M": "",
-    "SMC2N": "",
-    "SMC2O": "",
-    "SMCP1": "",
-    "SMPH": "112",
-    "SOC": "161",
-    "SPC": "237",
-    "SPM": "156",
-    "SPNEC": "688",
-    "SRDC": "479",
-    "SSI": "654",
-    "": "626",
-    "STI": "222",
-    "STN": "164",
-    "STR": "147",
-    "SUN": "78",
-    "T": "630",
-    "TBGI": "269",
-    "TCB2A": "",
-    "TCB2B": "",
-    "TCB2C": "",
-    "TCB2D": "",
-    "TECH": "630",
-    "TEL": "6",
-    "TFC": "8",
-    "TFHI": "650",
-    "TLII": "",
-    "TLJJ": "",
-    "TOP": "650",
-    "TUGS": "644",
-    "UBP": "167",
-    "UNH": "22",
-    "UPM": "168",
-    "UPSON": "700",
-    "URC": "124",
-    "V": "65",
-    "VITA": "28",
-    "VLL": "607",
-    "VLL2A": "",
-    "VLL2B": "",
-    "VMC": "123",
-    "VREIT": "695",
-    "VVT": "79",
-    "WEB": "122",
-    "WIN": "90",
-    "WLCON": "665",
-    "WPI": "173",
-    "X": "705",
-    "XG": "705",
-    "ZHI": "89"
+    "8990B": null,
+    "8990P": null,
+    "AAA": {
+        "cmpyId": "55",
+        "cmpyNm": "Asia Amalgamated Holdings Corporation",
+        "symbol": "AAA",
+        "etfYn": "0",
+        "security_id": "347"
+    },
+    "AB": {
+        "cmpyId": "174",
+        "cmpyNm": "AbaCore Capital Holdings, Inc.",
+        "symbol": "ABA",
+        "etfYn": "0",
+        "security_id": "173"
+    },
+    "ABA": {
+        "cmpyId": "174",
+        "cmpyNm": "AbaCore Capital Holdings, Inc.",
+        "symbol": "ABA",
+        "etfYn": "0",
+        "security_id": "173"
+    },
+    "ABG": {
+        "cmpyId": "176",
+        "cmpyNm": "Asiabest Group International Inc.",
+        "symbol": "ABG",
+        "etfYn": "0",
+        "security_id": "350"
+    },
+    "ABS": {
+        "cmpyId": "114",
+        "cmpyNm": "ABS-CBN Corporation",
+        "symbol": "ABS",
+        "etfYn": "0",
+        "security_id": "123"
+    },
+    "ABSP": {
+        "cmpyId": "15",
+        "cmpyNm": "ABS-CBN Holdings Corporation",
+        "symbol": "ABSP",
+        "etfYn": "0",
+        "security_id": "259"
+    },
+    "AC": {
+        "cmpyId": "233",
+        "cmpyNm": "ACEN CORPORATION",
+        "symbol": "ACEN",
+        "etfYn": "0",
+        "security_id": "140"
+    },
+    "ACE": {
+        "cmpyId": "233",
+        "cmpyNm": "ACEN CORPORATION",
+        "symbol": "ACEN",
+        "etfYn": "0",
+        "security_id": "140"
+    },
+    "ACEN": {
+        "cmpyId": "233",
+        "cmpyNm": "ACEN CORPORATION",
+        "symbol": "ACEN",
+        "etfYn": "0",
+        "security_id": "140"
+    },
+    "ACENA": null,
+    "ACENB": null,
+    "ACPA": null,
+    "ACPAR": null,
+    "ACPB1": null,
+    "ACPB3": null,
+    "ACR": {
+        "cmpyId": "121",
+        "cmpyNm": "Alsons Consolidated Resources, Inc.",
+        "symbol": "ACR",
+        "etfYn": "0",
+        "security_id": "170"
+    },
+    "AEV": {
+        "cmpyId": "16",
+        "cmpyNm": "Aboitiz Equity Ventures, Inc.",
+        "symbol": "AEV",
+        "etfYn": "0",
+        "security_id": "183"
+    },
+    "AGI": {
+        "cmpyId": "212",
+        "cmpyNm": "Alliance Global Group, Inc.",
+        "symbol": "AGI",
+        "etfYn": "0",
+        "security_id": "179"
+    },
+    "ALCO": {
+        "cmpyId": "172",
+        "cmpyNm": "Arthaland Corporation",
+        "symbol": "ALCO",
+        "etfYn": "0",
+        "security_id": "316"
+    },
+    "ALCPD": null,
+    "ALCPF": null,
+    "ALHI": {
+        "cmpyId": "612",
+        "cmpyNm": "Anchor Land Holdings, Inc.",
+        "symbol": "ALHI",
+        "etfYn": "0",
+        "security_id": "536"
+    },
+    "ALI": {
+        "cmpyId": "180",
+        "cmpyNm": "Ayala Land, Inc.",
+        "symbol": "ALI",
+        "etfYn": "0",
+        "security_id": "293"
+    },
+    "ALLDY": {
+        "cmpyId": "686",
+        "cmpyNm": "AllDay Marts, Inc.",
+        "symbol": "ALLDY",
+        "etfYn": "null",
+        "security_id": "674"
+    },
+    "ALLHC": {
+        "cmpyId": "26",
+        "cmpyNm": "AyalaLand Logistics Holdings Corp.",
+        "symbol": "ALLHC",
+        "etfYn": "0",
+        "security_id": "202"
+    },
+    "ALTER": {
+        "cmpyId": "701",
+        "cmpyNm": "Alternergy Holdings Corporation",
+        "symbol": "ALTER",
+        "etfYn": "null",
+        "security_id": "696"
+    },
+    "ALTP2": null,
+    "ANI": {
+        "cmpyId": "619",
+        "cmpyNm": "AgriNurture, Inc.",
+        "symbol": "ANI",
+        "etfYn": "0",
+        "security_id": "547"
+    },
+    "ANS": {
+        "cmpyId": "14",
+        "cmpyNm": "A. Soriano Corporation",
+        "symbol": "ANS",
+        "etfYn": "0",
+        "security_id": "169"
+    },
+    "AP": {
+        "cmpyId": "609",
+        "cmpyNm": "Aboitiz Power Corporation",
+        "symbol": "AP",
+        "etfYn": "0",
+        "security_id": "532"
+    },
+    "APB2R": null,
+    "APC": {
+        "cmpyId": "177",
+        "cmpyNm": "APC Group, Inc.",
+        "symbol": "APC",
+        "etfYn": "0",
+        "security_id": "182"
+    },
+    "APL": {
+        "cmpyId": "638",
+        "cmpyNm": "Apollo Global Capital, Inc.",
+        "symbol": "APL",
+        "etfYn": "0",
+        "security_id": "581"
+    },
+    "APO": {
+        "cmpyId": "52",
+        "cmpyNm": "Anglo Philippine Holdings Corporation",
+        "symbol": "APO",
+        "etfYn": "0",
+        "security_id": "171"
+    },
+    "APVI": {
+        "cmpyId": "678",
+        "cmpyNm": "Altus Property Ventures, Inc.",
+        "symbol": "APVI",
+        "etfYn": "null",
+        "security_id": "654"
+    },
+    "APX": {
+        "cmpyId": "178",
+        "cmpyNm": "Apex Mining Co., Inc.",
+        "symbol": "APX",
+        "etfYn": "0",
+        "security_id": "318"
+    },
+    "AR": {
+        "cmpyId": "33",
+        "cmpyNm": "Abra Mining and Industrial Corporation",
+        "symbol": "AR",
+        "etfYn": "0",
+        "security_id": "321"
+    },
+    "ARA": {
+        "cmpyId": "38",
+        "cmpyNm": "Araneta Properties, Inc.",
+        "symbol": "ARA",
+        "etfYn": "0",
+        "security_id": "294"
+    },
+    "AREIT": {
+        "cmpyId": "679",
+        "cmpyNm": "AREIT, Inc.",
+        "symbol": "AREIT",
+        "etfYn": "null",
+        "security_id": "655"
+    },
+    "ASLAG": {
+        "cmpyId": "694",
+        "cmpyNm": "Raslag Corp.",
+        "symbol": "ASLAG",
+        "etfYn": "null",
+        "security_id": "689"
+    },
+    "AT": {
+        "cmpyId": "53",
+        "cmpyNm": "Asian Terminals, Inc.",
+        "symbol": "ATI",
+        "etfYn": "0",
+        "security_id": "141"
+    },
+    "ATI": {
+        "cmpyId": "53",
+        "cmpyNm": "Asian Terminals, Inc.",
+        "symbol": "ATI",
+        "etfYn": "0",
+        "security_id": "141"
+    },
+    "ATN": {
+        "cmpyId": "56",
+        "cmpyNm": "ATN Holdings, Inc.",
+        "symbol": "ATN",
+        "etfYn": "0",
+        "security_id": "176"
+    },
+    "ATNB": null,
+    "AUB": {
+        "cmpyId": "641",
+        "cmpyNm": "Asia United Bank Corporation",
+        "symbol": "AUB",
+        "etfYn": "0",
+        "security_id": "584"
+    },
+    "AXLM": {
+        "cmpyId": "673",
+        "cmpyNm": "Axelum Resources Corp.",
+        "symbol": "AXLM",
+        "etfYn": "null",
+        "security_id": "646"
+    },
+    "BALAI": {
+        "cmpyId": "697",
+        "cmpyNm": "Balai Ni Fruitas Inc.",
+        "symbol": "BALAI",
+        "etfYn": "null",
+        "security_id": "692"
+    },
+    "BC": {
+        "cmpyId": "108",
+        "cmpyNm": "Benguet Corporation",
+        "symbol": "BC",
+        "etfYn": "0",
+        "security_id": "353"
+    },
+    "BCB": null,
+    "BCOR": {
+        "cmpyId": "9",
+        "cmpyNm": "Berjaya Philippines Inc.",
+        "symbol": "BCOR",
+        "etfYn": "0",
+        "security_id": "391"
+    },
+    "BCP": null,
+    "BDO": {
+        "cmpyId": "260",
+        "cmpyNm": "BDO Unibank, Inc.",
+        "symbol": "BDO",
+        "etfYn": "0",
+        "security_id": "468"
+    },
+    "BEL": {
+        "cmpyId": "21",
+        "cmpyNm": "Belle Corporation",
+        "symbol": "BEL",
+        "etfYn": "0",
+        "security_id": "252"
+    },
+    "BH": {
+        "cmpyId": "62",
+        "cmpyNm": "BHI Holdings, Inc.",
+        "symbol": "BH",
+        "etfYn": "0",
+        "security_id": "358"
+    },
+    "BHI": {
+        "cmpyId": "62",
+        "cmpyNm": "BHI Holdings, Inc.",
+        "symbol": "BH",
+        "etfYn": "0",
+        "security_id": "358"
+    },
+    "BKR": {
+        "cmpyId": "66",
+        "cmpyNm": "Bright Kindle Resources & Investments Inc.",
+        "symbol": "BKR",
+        "etfYn": "0",
+        "security_id": "116"
+    },
+    "BLOOM": {
+        "cmpyId": "49",
+        "cmpyNm": "Bloomberry Resorts Corporation",
+        "symbol": "BLOOM",
+        "etfYn": "0",
+        "security_id": "233"
+    },
+    "BMM": {
+        "cmpyId": "181",
+        "cmpyNm": "Bogo-Medellin Milling Company, Inc.",
+        "symbol": "BMM",
+        "etfYn": "0",
+        "security_id": "359"
+    },
+    "BNCOM": {
+        "cmpyId": "692",
+        "cmpyNm": "Bank of Commerce",
+        "symbol": "BNCOM",
+        "etfYn": "null",
+        "security_id": "687"
+    },
+    "BPI": {
+        "cmpyId": "234",
+        "cmpyNm": "Bank of the Philippine Islands",
+        "symbol": "BPI",
+        "etfYn": "0",
+        "security_id": "101"
+    },
+    "BRN": {
+        "cmpyId": "13",
+        "cmpyNm": "A Brown Company, Inc.",
+        "symbol": "BRN",
+        "etfYn": "0",
+        "security_id": "234"
+    },
+    "BRNP": null,
+    "BRNPB": null,
+    "BRNPC": null,
+    "BSC": {
+        "cmpyId": "60",
+        "cmpyNm": "Basic Energy Corporation",
+        "symbol": "BSC",
+        "etfYn": "0",
+        "security_id": "188"
+    },
+    "C": {
+        "cmpyId": "624",
+        "cmpyNm": "Cebu Air, Inc.",
+        "symbol": "CEB",
+        "etfYn": "0",
+        "security_id": "560"
+    },
+    "CA": {
+        "cmpyId": "183",
+        "cmpyNm": "Central Azucarera de Tarlac, Inc.",
+        "symbol": "CAT",
+        "etfYn": "0",
+        "security_id": "366"
+    },
+    "CAB": null,
+    "CAT": {
+        "cmpyId": "183",
+        "cmpyNm": "Central Azucarera de Tarlac, Inc.",
+        "symbol": "CAT",
+        "etfYn": "0",
+        "security_id": "366"
+    },
+    "CBC": {
+        "cmpyId": "184",
+        "cmpyNm": "China Banking Corporation",
+        "symbol": "CBC",
+        "etfYn": "0",
+        "security_id": "104"
+    },
+    "CDC": {
+        "cmpyId": "39",
+        "cmpyNm": "Cityland Development Corporation",
+        "symbol": "CDC",
+        "etfYn": "0",
+        "security_id": "297"
+    },
+    "CEB": {
+        "cmpyId": "624",
+        "cmpyNm": "Cebu Air, Inc.",
+        "symbol": "CEB",
+        "etfYn": "0",
+        "security_id": "560"
+    },
+    "CEBCP": null,
+    "CEI": {
+        "cmpyId": "186",
+        "cmpyNm": "Crown Equities, Inc.",
+        "symbol": "CEI",
+        "etfYn": "0",
+        "security_id": "191"
+    },
+    "CEU": {
+        "cmpyId": "223",
+        "cmpyNm": "Centro Escolar University",
+        "symbol": "CEU",
+        "etfYn": "0",
+        "security_id": "291"
+    },
+    "CHP": {
+        "cmpyId": "662",
+        "cmpyNm": "Concreat Holdings Philippines, Inc.",
+        "symbol": "CHP",
+        "etfYn": "0",
+        "security_id": "625"
+    },
+    "CIC": {
+        "cmpyId": "648",
+        "cmpyNm": "Concepcion Industrial Corporation ",
+        "symbol": "CIC",
+        "etfYn": "0",
+        "security_id": "591"
+    },
+    "CLI": {
+        "cmpyId": "668",
+        "cmpyNm": "Cebu Landmasters, Inc.",
+        "symbol": "CLI",
+        "etfYn": "null",
+        "security_id": "635"
+    },
+    "CLIA1": null,
+    "CLIA2": null,
+    "CNPF": {
+        "cmpyId": "652",
+        "cmpyNm": "Century Pacific Food, Inc.",
+        "symbol": "CNPF",
+        "etfYn": "0",
+        "security_id": "597"
+    },
+    "CNVRG": {
+        "cmpyId": "680",
+        "cmpyNm": "Converge Information and Communications Technology Solutions, Inc.",
+        "symbol": "CNVRG",
+        "etfYn": "null",
+        "security_id": "656"
+    },
+    "COAL": {
+        "cmpyId": "637",
+        "cmpyNm": "Coal Asia Holdings Incorporated",
+        "symbol": "COAL",
+        "etfYn": "0",
+        "security_id": "580"
+    },
+    "COL": {
+        "cmpyId": "601",
+        "cmpyNm": "COL Financial Group, Inc.",
+        "symbol": "COL",
+        "etfYn": "0",
+        "security_id": "522"
+    },
+    "COSCO": {
+        "cmpyId": "50",
+        "cmpyNm": "Cosco Capital, Inc.",
+        "symbol": "COSCO",
+        "etfYn": "0",
+        "security_id": "178"
+    },
+    "CPG": {
+        "cmpyId": "189",
+        "cmpyNm": "Century Properties Group, Inc.",
+        "symbol": "CPG",
+        "etfYn": "0",
+        "security_id": "219"
+    },
+    "CPGP": null,
+    "CPGPB": null,
+    "CPM": {
+        "cmpyId": "621",
+        "cmpyNm": "Century Peak Holdings Corporation",
+        "symbol": "CPM",
+        "etfYn": "0",
+        "security_id": "549"
+    },
+    "CREC": {
+        "cmpyId": "703",
+        "cmpyNm": "Citicore Renewable Energy Corporation",
+        "symbol": "CREC",
+        "etfYn": "null",
+        "security_id": "710"
+    },
+    "CREIT": {
+        "cmpyId": "691",
+        "cmpyNm": "Citicore Energy REIT Corp.",
+        "symbol": "CREIT",
+        "etfYn": "null",
+        "security_id": "686"
+    },
+    "CROWN": {
+        "cmpyId": "657",
+        "cmpyNm": "Crown Asia Chemicals Corporation ",
+        "symbol": "CROWN",
+        "etfYn": "0",
+        "security_id": "611"
+    },
+    "CSB": {
+        "cmpyId": "228",
+        "cmpyNm": "Citystate Savings Bank, Inc.",
+        "symbol": "CSB",
+        "etfYn": "0",
+        "security_id": "457"
+    },
+    "CTS": {
+        "cmpyId": "693",
+        "cmpyNm": "CTS Global Equity Group, Inc.",
+        "symbol": "CTS",
+        "etfYn": "null",
+        "security_id": "688"
+    },
+    "CYBR": {
+        "cmpyId": "67",
+        "cmpyNm": "Cyber Bay Corporation",
+        "symbol": "CYBR",
+        "etfYn": "0",
+        "security_id": "295"
+    },
+    "DD": {
+        "cmpyId": "681",
+        "cmpyNm": "DDMP REIT, Inc.",
+        "symbol": "DDMPR",
+        "etfYn": "null",
+        "security_id": "664"
+    },
+    "DDMPR": {
+        "cmpyId": "681",
+        "cmpyNm": "DDMP REIT, Inc.",
+        "symbol": "DDMPR",
+        "etfYn": "null",
+        "security_id": "664"
+    },
+    "DDPR": null,
+    "DELM": {
+        "cmpyId": "642",
+        "cmpyNm": "Del Monte Pacific Limited",
+        "symbol": "DELM",
+        "etfYn": "0",
+        "security_id": "585"
+    },
+    "DFNN": {
+        "cmpyId": "187",
+        "cmpyNm": "DFNN, Inc.",
+        "symbol": "DFNN",
+        "etfYn": "0",
+        "security_id": "125"
+    },
+    "DHI": {
+        "cmpyId": "31",
+        "cmpyNm": "Dominion Holdings, Inc.",
+        "symbol": "DHI",
+        "etfYn": "0",
+        "security_id": "121"
+    },
+    "DITO": {
+        "cmpyId": "36",
+        "cmpyNm": "DITO CME Holdings Corp.",
+        "symbol": "DITO",
+        "etfYn": "0",
+        "security_id": "324"
+    },
+    "DIZ": {
+        "cmpyId": "68",
+        "cmpyNm": "Dizon Copper-Silver Mines, Inc.",
+        "symbol": "DIZ",
+        "etfYn": "0",
+        "security_id": "323"
+    },
+    "DMC": {
+        "cmpyId": "188",
+        "cmpyNm": "DMCI Holdings, Inc.",
+        "symbol": "DMC",
+        "etfYn": "0",
+        "security_id": "192"
+    },
+    "DMCP": null,
+    "DMPA1": null,
+    "DMPA2": null,
+    "DMW": {
+        "cmpyId": "671",
+        "cmpyNm": "D.M. Wenceslao & Associates, Incorporated",
+        "symbol": "DMW",
+        "etfYn": "null",
+        "security_id": "641"
+    },
+    "DNA": {
+        "cmpyId": "620",
+        "cmpyNm": "Philab Holdings Corp.",
+        "symbol": "DNA",
+        "etfYn": "0",
+        "security_id": ""
+    },
+    "DNL": {
+        "cmpyId": "639",
+        "cmpyNm": "D&L Industries, Inc.",
+        "symbol": "DNL",
+        "etfYn": "0",
+        "security_id": "582"
+    },
+    "DTEL": null,
+    "DWC": {
+        "cmpyId": "647",
+        "cmpyNm": "Discovery World Corporation ",
+        "symbol": "DWC",
+        "etfYn": "0",
+        "security_id": "590"
+    },
+    "ECP": {
+        "cmpyId": "70",
+        "cmpyNm": "EasyCall Communications Philippines, Inc.",
+        "symbol": "ECP",
+        "etfYn": "0",
+        "security_id": "126"
+    },
+    "ECVC": {
+        "cmpyId": "46",
+        "cmpyNm": "East Coast Vulcan Mining Corporation",
+        "symbol": "ECVC",
+        "etfYn": "0",
+        "security_id": "346"
+    },
+    "EEI": {
+        "cmpyId": "71",
+        "cmpyNm": "EEI Corporation",
+        "symbol": "EEI",
+        "etfYn": "0",
+        "security_id": "148"
+    },
+    "EEIPA": null,
+    "EEIPB": null,
+    "EG": {
+        "cmpyId": "623",
+        "cmpyNm": "IP E-Game Ventures, Inc.",
+        "symbol": "EG",
+        "etfYn": "0",
+        "security_id": "552"
+    },
+    "ELI": {
+        "cmpyId": "190",
+        "cmpyNm": "Empire East Land Holdings, Inc.",
+        "symbol": "ELI",
+        "etfYn": "0",
+        "security_id": "300"
+    },
+    "EMI": {
+        "cmpyId": "632",
+        "cmpyNm": "Emperador Inc.",
+        "symbol": "EMI",
+        "etfYn": "0",
+        "security_id": "571"
+    },
+    "ENEX": {
+        "cmpyId": "653",
+        "cmpyNm": "ENEX Energy Corp.",
+        "symbol": "ENEX",
+        "etfYn": "0",
+        "security_id": "599"
+    },
+    "EURO": {
+        "cmpyId": "219",
+        "cmpyNm": "Euro-Med Laboratories Phil., Inc.",
+        "symbol": "EURO",
+        "etfYn": "0",
+        "security_id": "236"
+    },
+    "EVER": {
+        "cmpyId": "191",
+        "cmpyNm": "Ever-Gotesco Resources and Holdings, Inc.",
+        "symbol": "EVER",
+        "etfYn": "0",
+        "security_id": "193"
+    },
+    "EW": {
+        "cmpyId": "634",
+        "cmpyNm": "East West Banking Corporation",
+        "symbol": "EW",
+        "etfYn": "0",
+        "security_id": "573"
+    },
+    "FAF": {
+        "cmpyId": "81",
+        "cmpyNm": "First Abacus Financial Holdings Corporation",
+        "symbol": "FAF",
+        "etfYn": "0",
+        "security_id": "118"
+    },
+    "FB": {
+        "cmpyId": "151",
+        "cmpyNm": "San Miguel Food and Beverage, Inc.",
+        "symbol": "FB",
+        "etfYn": "0",
+        "security_id": "161"
+    },
+    "FBP": null,
+    "FBP2": null,
+    "FCG": {
+        "cmpyId": "689",
+        "cmpyNm": "Figaro Culinary Group, Inc. ",
+        "symbol": "FCG",
+        "etfYn": "null",
+        "security_id": "684"
+    },
+    "FDC": {
+        "cmpyId": "75",
+        "cmpyNm": "Filinvest Development Corporation",
+        "symbol": "FDC",
+        "etfYn": "0",
+        "security_id": "199"
+    },
+    "FERRO": {
+        "cmpyId": "643",
+        "cmpyNm": "Ferronoux Holdings, Inc.",
+        "symbol": "FERRO",
+        "etfYn": "0",
+        "security_id": "586"
+    },
+    "FEU": {
+        "cmpyId": "25",
+        "cmpyNm": "Far Eastern University, Incorporated",
+        "symbol": "FEU",
+        "etfYn": "0",
+        "security_id": "292"
+    },
+    "FFI": {
+        "cmpyId": "196",
+        "cmpyNm": "Filipino Fund, Inc.",
+        "symbol": "FFI",
+        "etfYn": "0",
+        "security_id": "117"
+    },
+    "FGEN": {
+        "cmpyId": "600",
+        "cmpyNm": "First Gen Corporation",
+        "symbol": "FGEN",
+        "etfYn": "0",
+        "security_id": "521"
+    },
+    "FGENG": null,
+    "FILRT": {
+        "cmpyId": "683",
+        "cmpyNm": "Filinvest REIT Corp.",
+        "symbol": "FILRT",
+        "etfYn": "null",
+        "security_id": "668"
+    },
+    "FJP": {
+        "cmpyId": "225",
+        "cmpyNm": "F & J Prince Holdings Corporation",
+        "symbol": "FJP",
+        "etfYn": "0",
+        "security_id": "196"
+    },
+    "FJPB": null,
+    "FLI": {
+        "cmpyId": "226",
+        "cmpyNm": "Filinvest Land, Inc.",
+        "symbol": "FLI",
+        "etfYn": "0",
+        "security_id": "302"
+    },
+    "FMETF": {
+        "cmpyId": "649",
+        "cmpyNm": "First Metro Philippine Equity Exchange Traded Fund, Inc.",
+        "symbol": "FMETF",
+        "etfYn": "1",
+        "security_id": "592"
+    },
+    "FNI": {
+        "cmpyId": "224",
+        "cmpyNm": "Global Ferronickel Holdings, Inc.",
+        "symbol": "FNI",
+        "etfYn": "0",
+        "security_id": "190"
+    },
+    "FOOD": {
+        "cmpyId": "602",
+        "cmpyNm": "Alliance Select Foods International, Inc.",
+        "symbol": "FOOD",
+        "etfYn": "0",
+        "security_id": "524"
+    },
+    "FPH": {
+        "cmpyId": "197",
+        "cmpyNm": "First Philippine Holdings Corporation",
+        "symbol": "FPH",
+        "etfYn": "0",
+        "security_id": "197"
+    },
+    "FPI": {
+        "cmpyId": "220",
+        "cmpyNm": "Forum Pacific, Inc.",
+        "symbol": "FPI",
+        "etfYn": "0",
+        "security_id": "200"
+    },
+    "FRUIT": {
+        "cmpyId": "676",
+        "cmpyNm": "Fruitas Holdings, Inc.",
+        "symbol": "FRUIT",
+        "etfYn": "null",
+        "security_id": "650"
+    },
+    "FYN": {
+        "cmpyId": "80",
+        "cmpyNm": "Filsyn Corporation",
+        "symbol": "FYN",
+        "etfYn": "0",
+        "security_id": "372"
+    },
+    "FYNB": null,
+    "GEO": {
+        "cmpyId": "198",
+        "cmpyNm": "GEOGRACE Resources Philippines, Inc.",
+        "symbol": "GEO",
+        "etfYn": "0",
+        "security_id": "201"
+    },
+    "GERI": {
+        "cmpyId": "193",
+        "cmpyNm": "Global-Estate Resorts, Inc.",
+        "symbol": "GERI",
+        "etfYn": "0",
+        "security_id": "307"
+    },
+    "GLO": {
+        "cmpyId": "224",
+        "cmpyNm": "Global Ferronickel Holdings, Inc.",
+        "symbol": "FNI",
+        "etfYn": "0",
+        "security_id": "190"
+    },
+    "GLOPA": null,
+    "GLOPP": null,
+    "GMA7": {
+        "cmpyId": "610",
+        "cmpyNm": "GMA Network, Inc.",
+        "symbol": "GMA7",
+        "etfYn": "0",
+        "security_id": "533"
+    },
+    "GMAP": {
+        "cmpyId": "611",
+        "cmpyNm": "GMA Holdings, Inc.",
+        "symbol": "GMAP",
+        "etfYn": "0",
+        "security_id": "534"
+    },
+    "GPH": {
+        "cmpyId": "221",
+        "cmpyNm": "Grand Plaza Hotel Corporation",
+        "symbol": "GPH",
+        "etfYn": "0",
+        "security_id": "255"
+    },
+    "GREEN": {
+        "cmpyId": "132",
+        "cmpyNm": "Greenergy Holdings Incorporated",
+        "symbol": "GREEN",
+        "etfYn": "0",
+        "security_id": "243"
+    },
+    "GSMI": {
+        "cmpyId": "94",
+        "cmpyNm": "Ginebra San Miguel,  Inc.",
+        "symbol": "GSMI",
+        "etfYn": "0",
+        "security_id": "160"
+    },
+    "GTCAP": {
+        "cmpyId": "633",
+        "cmpyNm": "GT Capital Holdings, Inc.",
+        "symbol": "GTCAP",
+        "etfYn": "0",
+        "security_id": "572"
+    },
+    "GTPPA": null,
+    "GTPPB": null,
+    "HI": {
+        "cmpyId": "82",
+        "cmpyNm": "House of Investments, Inc.",
+        "symbol": "HI",
+        "etfYn": "0",
+        "security_id": "203"
+    },
+    "HOME": {
+        "cmpyId": "674",
+        "cmpyNm": "AllHome Corp.",
+        "symbol": "HOME",
+        "etfYn": "null",
+        "security_id": "647"
+    },
+    "HOUSE": {
+        "cmpyId": "626",
+        "cmpyNm": "8990 Holdings, Inc.",
+        "symbol": "HOUSE",
+        "etfYn": "0",
+        "security_id": "563"
+    },
+    "HTI": {
+        "cmpyId": "690",
+        "cmpyNm": "Haus Talk, Inc.",
+        "symbol": "HTI",
+        "etfYn": "null",
+        "security_id": "685"
+    },
+    "HVN": {
+        "cmpyId": "661",
+        "cmpyNm": "Golden MV Holdings, Inc.",
+        "symbol": "HVN",
+        "etfYn": "0",
+        "security_id": "624"
+    },
+    "I": {
+        "cmpyId": "613",
+        "cmpyNm": "I-Remit, Inc.",
+        "symbol": "I",
+        "etfYn": "0",
+        "security_id": "538"
+    },
+    "ICT": {
+        "cmpyId": "83",
+        "cmpyNm": "International Container Terminal Services, Inc.",
+        "symbol": "ICT",
+        "etfYn": "0",
+        "security_id": "142"
+    },
+    "IDC": {
+        "cmpyId": "660",
+        "cmpyNm": "Italpinas Development Corporation",
+        "symbol": "IDC",
+        "etfYn": "0",
+        "security_id": "617"
+    },
+    "IMI": {
+        "cmpyId": "622",
+        "cmpyNm": "Integrated Micro-Electronics, Inc.",
+        "symbol": "IMI",
+        "etfYn": "0",
+        "security_id": "551"
+    },
+    "IMP": {
+        "cmpyId": "201",
+        "cmpyNm": "Imperial Resources, Inc.",
+        "symbol": "IMP",
+        "etfYn": "0",
+        "security_id": "336"
+    },
+    "INFRA": {
+        "cmpyId": "84",
+        "cmpyNm": "Philippine Infradev Holdings, Inc.",
+        "symbol": "INFRA",
+        "etfYn": "0",
+        "security_id": "337"
+    },
+    "ION": {
+        "cmpyId": "203",
+        "cmpyNm": "Ionics, Inc.",
+        "symbol": "ION",
+        "etfYn": "0",
+        "security_id": "204"
+    },
+    "IPM": {
+        "cmpyId": "4",
+        "cmpyNm": "IPM Holdings, Inc.",
+        "symbol": "IPM",
+        "etfYn": "0",
+        "security_id": "218"
+    },
+    "IPO": {
+        "cmpyId": "85",
+        "cmpyNm": "iPeople, inc.",
+        "symbol": "IPO",
+        "etfYn": "0",
+        "security_id": "205"
+    },
+    "IS": {
+        "cmpyId": "204",
+        "cmpyNm": "Island Information & Technology, Inc.",
+        "symbol": "IS",
+        "etfYn": "0",
+        "security_id": "128"
+    },
+    "JAS": {
+        "cmpyId": "134",
+        "cmpyNm": "Jackstones, Inc.",
+        "symbol": "JAS",
+        "etfYn": "0",
+        "security_id": "392"
+    },
+    "JFC": {
+        "cmpyId": "86",
+        "cmpyNm": "Jollibee Foods Corporation",
+        "symbol": "JFC",
+        "etfYn": "0",
+        "security_id": "158"
+    },
+    "JFCPA": null,
+    "JFCPB": null,
+    "JGS": {
+        "cmpyId": "210",
+        "cmpyNm": "JG Summit Holdings, Inc.",
+        "symbol": "JGS",
+        "etfYn": "0",
+        "security_id": "207"
+    },
+    "JOH": {
+        "cmpyId": "261",
+        "cmpyNm": "Jolliville Holdings Corporation",
+        "symbol": "JOH",
+        "etfYn": "0",
+        "security_id": "470"
+    },
+    "KEEPR": {
+        "cmpyId": "2",
+        "cmpyNm": "The Keepers Holdings, Inc.",
+        "symbol": "KEEPR",
+        "etfYn": "0",
+        "security_id": "150"
+    },
+    "KEP": {
+        "cmpyId": "87",
+        "cmpyNm": "Keppel Philippines Holdings, Inc.",
+        "symbol": "KPH",
+        "etfYn": "0",
+        "security_id": "306"
+    },
+    "KPH": {
+        "cmpyId": "87",
+        "cmpyNm": "Keppel Philippines Holdings, Inc.",
+        "symbol": "KPH",
+        "etfYn": "0",
+        "security_id": ""
+    },
+    "KPHB": null,
+    "KPPI": {
+        "cmpyId": "672",
+        "cmpyNm": "Kepwealth Property Phils., Inc.",
+        "symbol": "KPPI",
+        "etfYn": "null",
+        "security_id": "645"
+    },
+    "LAND": {
+        "cmpyId": "209",
+        "cmpyNm": "City & Land Developers, Incorporated",
+        "symbol": "LAND",
+        "etfYn": "0",
+        "security_id": "308"
+    },
+    "LBC": {
+        "cmpyId": "236",
+        "cmpyNm": "LBC Express Holdings, Inc.",
+        "symbol": "LBC",
+        "etfYn": "0",
+        "security_id": "469"
+    },
+    "LC": {
+        "cmpyId": "98",
+        "cmpyNm": "Lepanto Consolidated Mining Company",
+        "symbol": "LC",
+        "etfYn": "0",
+        "security_id": "326"
+    },
+    "LCB": null,
+    "LFM": {
+        "cmpyId": "698",
+        "cmpyNm": "LFM Properties Corporation",
+        "symbol": "LPC",
+        "etfYn": "null",
+        "security_id": "693"
+    },
+    "LMG": {
+        "cmpyId": "205",
+        "cmpyNm": "LMG Corp.",
+        "symbol": "LMG",
+        "etfYn": "0",
+        "security_id": "379"
+    },
+    "LODE": {
+        "cmpyId": "37",
+        "cmpyNm": "Lodestar Investment Holdings Corporation",
+        "symbol": "LODE",
+        "etfYn": "0",
+        "security_id": "377"
+    },
+    "LOTO": {
+        "cmpyId": "605",
+        "cmpyNm": "Pacific Online Systems Corporation",
+        "symbol": "LOTO",
+        "etfYn": "0",
+        "security_id": "528"
+    },
+    "LPC": {
+        "cmpyId": "698",
+        "cmpyNm": "LFM Properties Corporation",
+        "symbol": "LPC",
+        "etfYn": "null",
+        "security_id": "693"
+    },
+    "LPZ": {
+        "cmpyId": "61",
+        "cmpyNm": "Lopez Holdings Corporation",
+        "symbol": "LPZ",
+        "etfYn": "0",
+        "security_id": "186"
+    },
+    "LSC": {
+        "cmpyId": "115",
+        "cmpyNm": "Lorenzo Shipping Corporation",
+        "symbol": "LSC",
+        "etfYn": "0",
+        "security_id": "144"
+    },
+    "LTG": {
+        "cmpyId": "12",
+        "cmpyNm": "LT Group, Inc.",
+        "symbol": "LTG",
+        "etfYn": "0",
+        "security_id": "225"
+    },
+    "MA": {
+        "cmpyId": "206",
+        "cmpyNm": "Mabuhay Holdings Corporation",
+        "symbol": "MHC",
+        "etfYn": "0",
+        "security_id": "217"
+    },
+    "MAB": {
+        "cmpyId": "206",
+        "cmpyNm": "Mabuhay Holdings Corporation",
+        "symbol": "MHC",
+        "etfYn": "0",
+        "security_id": "217"
+    },
+    "MAC": {
+        "cmpyId": "145",
+        "cmpyNm": "Macay Holdings, Inc.",
+        "symbol": "MACAY",
+        "etfYn": "0",
+        "security_id": "221"
+    },
+    "MACAY": {
+        "cmpyId": "145",
+        "cmpyNm": "Macay Holdings, Inc.",
+        "symbol": "MACAY",
+        "etfYn": "0",
+        "security_id": "221"
+    },
+    "MAH": {
+        "cmpyId": "3",
+        "cmpyNm": "Metro Alliance Holdings & Equities Corp.",
+        "symbol": "MAH",
+        "etfYn": "0",
+        "security_id": "241"
+    },
+    "MAHB": null,
+    "MARC": {
+        "cmpyId": "175",
+        "cmpyNm": "Marcventures Holdings, Inc.",
+        "symbol": "MARC",
+        "etfYn": "0",
+        "security_id": "177"
+    },
+    "MAXS": {
+        "cmpyId": "135",
+        "cmpyNm": "Max's Group, Inc.",
+        "symbol": "MAXS",
+        "etfYn": "0",
+        "security_id": "163"
+    },
+    "MB": {
+        "cmpyId": "117",
+        "cmpyNm": "Manila Broadcasting Company",
+        "symbol": "MBC",
+        "etfYn": "0",
+        "security_id": "382"
+    },
+    "MBC": {
+        "cmpyId": "117",
+        "cmpyNm": "Manila Broadcasting Company",
+        "symbol": "MBC",
+        "etfYn": "0",
+        "security_id": "382"
+    },
+    "MBT": {
+        "cmpyId": "128",
+        "cmpyNm": "Metropolitan Bank & Trust Company",
+        "symbol": "MBT",
+        "etfYn": "0",
+        "security_id": "108"
+    },
+    "MED": {
+        "cmpyId": "126",
+        "cmpyNm": "MEDCO Holdings, Inc.",
+        "symbol": "MED",
+        "etfYn": "0",
+        "security_id": "383"
+    },
+    "MEDIC": {
+        "cmpyId": "687",
+        "cmpyNm": "Medilines Distributors Incorporated",
+        "symbol": "MEDIC",
+        "etfYn": "null",
+        "security_id": "676"
+    },
+    "MEG": {
+        "cmpyId": "627",
+        "cmpyNm": "Megawide Construction Corporation",
+        "symbol": "MWIDE",
+        "etfYn": "0",
+        "security_id": "564"
+    },
+    "MER": {
+        "cmpyId": "118",
+        "cmpyNm": "Manila Electric Company",
+        "symbol": "MER",
+        "etfYn": "0",
+        "security_id": "137"
+    },
+    "MFC": {
+        "cmpyId": "120",
+        "cmpyNm": "Manulife Financial Corporation",
+        "symbol": "MFC",
+        "etfYn": "0",
+        "security_id": "120"
+    },
+    "MFIN": {
+        "cmpyId": "263",
+        "cmpyNm": "Makati Finance Corporation",
+        "symbol": "MFIN",
+        "etfYn": "0",
+        "security_id": "503"
+    },
+    "MG": {
+        "cmpyId": "192",
+        "cmpyNm": "Metro Global Holdings Corporation",
+        "symbol": "MGH",
+        "etfYn": "0",
+        "security_id": "198"
+    },
+    "MGH": {
+        "cmpyId": "192",
+        "cmpyNm": "Metro Global Holdings Corporation",
+        "symbol": "MGH",
+        "etfYn": "0",
+        "security_id": "198"
+    },
+    "MHC": {
+        "cmpyId": "206",
+        "cmpyNm": "Mabuhay Holdings Corporation",
+        "symbol": "MHC",
+        "etfYn": "0",
+        "security_id": "217"
+    },
+    "MJC": {
+        "cmpyId": "102",
+        "cmpyNm": "Manila Jockey Club, Inc.",
+        "symbol": "MJC",
+        "etfYn": "0",
+        "security_id": "256"
+    },
+    "MJIC": {
+        "cmpyId": "24",
+        "cmpyNm": "MJC Investments Corporation",
+        "symbol": "MJIC",
+        "etfYn": "0",
+        "security_id": "194"
+    },
+    "MM": {
+        "cmpyId": "677",
+        "cmpyNm": "MerryMart Consumer Corp.",
+        "symbol": "MM",
+        "etfYn": "null",
+        "security_id": "653"
+    },
+    "MONDE": {
+        "cmpyId": "682",
+        "cmpyNm": "Monde Nissin Corporation",
+        "symbol": "MONDE",
+        "etfYn": "null",
+        "security_id": "665"
+    },
+    "MRC": {
+        "cmpyId": "131",
+        "cmpyNm": "MRC Allied, Inc.",
+        "symbol": "MRC",
+        "etfYn": "0",
+        "security_id": "309"
+    },
+    "MREIT": {
+        "cmpyId": "685",
+        "cmpyNm": "MREIT, Inc.",
+        "symbol": "MREIT",
+        "etfYn": "null",
+        "security_id": "671"
+    },
+    "MRSGI": {
+        "cmpyId": "659",
+        "cmpyNm": "Metro Retail Stores Group, Inc.",
+        "symbol": "MRSGI",
+        "etfYn": "0",
+        "security_id": "616"
+    },
+    "MVC": {
+        "cmpyId": "100",
+        "cmpyNm": "Mabuhay Vinyl Corporation",
+        "symbol": "MVC",
+        "etfYn": "0",
+        "security_id": "242"
+    },
+    "MWC": {
+        "cmpyId": "270",
+        "cmpyNm": "Manila Water Company, Inc.",
+        "symbol": "MWC",
+        "etfYn": "0",
+        "security_id": "518"
+    },
+    "MWIDE": {
+        "cmpyId": "627",
+        "cmpyNm": "Megawide Construction Corporation",
+        "symbol": "MWIDE",
+        "etfYn": "0",
+        "security_id": "564"
+    },
+    "MWP": null,
+    "MWP2A": null,
+    "MWP2B": null,
+    "MWP4": null,
+    "MWP5": null,
+    "MWP6A": null,
+    "MWP6B": null,
+    "MWP6C": null,
+    "NI": {
+        "cmpyId": "625",
+        "cmpyNm": "Nickel Asia Corporation",
+        "symbol": "NIKL",
+        "etfYn": "0",
+        "security_id": "561"
+    },
+    "NIKL": {
+        "cmpyId": "625",
+        "cmpyNm": "Nickel Asia Corporation",
+        "symbol": "NIKL",
+        "etfYn": "0",
+        "security_id": "561"
+    },
+    "NOW": {
+        "cmpyId": "264",
+        "cmpyNm": "Now Corporation",
+        "symbol": "NOW",
+        "etfYn": "0",
+        "security_id": "510"
+    },
+    "NRCP": {
+        "cmpyId": "606",
+        "cmpyNm": "National Reinsurance Corporation of the Philippines",
+        "symbol": "NRCP",
+        "etfYn": "0",
+        "security_id": "529"
+    },
+    "NXGEN": {
+        "cmpyId": "179",
+        "cmpyNm": "NextGenesis Corporation",
+        "symbol": "NXGEN",
+        "etfYn": "0",
+        "security_id": "100"
+    },
+    "OGP": {
+        "cmpyId": "704",
+        "cmpyNm": "OceanaGold (Philippines), Inc.",
+        "symbol": "OGP",
+        "etfYn": "null",
+        "security_id": "716"
+    },
+    "OM": {
+        "cmpyId": "207",
+        "cmpyNm": "Omico Corporation",
+        "symbol": "OM",
+        "etfYn": "0",
+        "security_id": "330"
+    },
+    "OPM": {
+        "cmpyId": "43",
+        "cmpyNm": "Oriental Petroleum and Minerals Corporation",
+        "symbol": "OPM",
+        "etfYn": "0",
+        "security_id": "338"
+    },
+    "OPMB": null,
+    "ORE": {
+        "cmpyId": "616",
+        "cmpyNm": "Oriental Peninsula Resources Group, Inc.",
+        "symbol": "ORE",
+        "etfYn": "0",
+        "security_id": "541"
+    },
+    "OV": {
+        "cmpyId": "45",
+        "cmpyNm": "The Philodrill Corporation",
+        "symbol": "OV",
+        "etfYn": "0",
+        "security_id": "341"
+    },
+    "PA": {
+        "cmpyId": "605",
+        "cmpyNm": "Pacific Online Systems Corporation",
+        "symbol": "LOTO",
+        "etfYn": "0",
+        "security_id": "528"
+    },
+    "PAL": {
+        "cmpyId": "20",
+        "cmpyNm": "PAL Holdings, Inc.",
+        "symbol": "PAL",
+        "etfYn": "0",
+        "security_id": "189"
+    },
+    "PAX": {
+        "cmpyId": "194",
+        "cmpyNm": "Paxys, Inc.",
+        "symbol": "PAX",
+        "etfYn": "0",
+        "security_id": "195"
+    },
+    "PBB": {
+        "cmpyId": "640",
+        "cmpyNm": "Philippine Business Bank",
+        "symbol": "PBB",
+        "etfYn": "0",
+        "security_id": "583"
+    },
+    "PBC": {
+        "cmpyId": "208",
+        "cmpyNm": "Philippine Bank of Communications",
+        "symbol": "PBC",
+        "etfYn": "0",
+        "security_id": "110"
+    },
+    "PCOR": {
+        "cmpyId": "136",
+        "cmpyNm": "Petron Corporation",
+        "symbol": "PCOR",
+        "etfYn": "0",
+        "security_id": "139"
+    },
+    "PERC": {
+        "cmpyId": "578",
+        "cmpyNm": "PetroEnergy Resources Corporation",
+        "symbol": "PERC",
+        "etfYn": "0",
+        "security_id": "516"
+    },
+    "PGOLD": {
+        "cmpyId": "629",
+        "cmpyNm": "Puregold Price Club, Inc.",
+        "symbol": "PGOLD",
+        "etfYn": "0",
+        "security_id": "567"
+    },
+    "PHA": {
+        "cmpyId": "148",
+        "cmpyNm": "Premiere Horizon Alliance Corporation",
+        "symbol": "PHA",
+        "etfYn": "0",
+        "security_id": "258"
+    },
+    "PHC": {
+        "cmpyId": "97",
+        "cmpyNm": "Philcomsat Holdings Corporation",
+        "symbol": "PHC",
+        "etfYn": "0",
+        "security_id": "220"
+    },
+    "PHES": {
+        "cmpyId": "138",
+        "cmpyNm": "Philippine Estates Corporation",
+        "symbol": "PHES",
+        "etfYn": "0",
+        "security_id": "310"
+    },
+    "PHN": {
+        "cmpyId": "107",
+        "cmpyNm": "Phinma Corporation",
+        "symbol": "PHN",
+        "etfYn": "0",
+        "security_id": "184"
+    },
+    "PHR": {
+        "cmpyId": "631",
+        "cmpyNm": "PH Resorts Group Holdings, Inc.",
+        "symbol": "PHR",
+        "etfYn": "0",
+        "security_id": "570"
+    },
+    "PIZZA": {
+        "cmpyId": "664",
+        "cmpyNm": "Shakey's Pizza Asia Ventures, Inc.",
+        "symbol": "PIZZA",
+        "etfYn": "0",
+        "security_id": "631"
+    },
+    "PLUS": {
+        "cmpyId": "96",
+        "cmpyNm": "DigiPlus Interactive Corp.",
+        "symbol": "PLUS",
+        "etfYn": "0",
+        "security_id": "253"
+    },
+    "PMPC": {
+        "cmpyId": "104",
+        "cmpyNm": "Panasonic Manufacturing Philippines Corporation",
+        "symbol": "PMPC",
+        "etfYn": "0",
+        "security_id": "239"
+    },
+    "PNB": {
+        "cmpyId": "139",
+        "cmpyNm": "Philippine National Bank",
+        "symbol": "PNB",
+        "etfYn": "0",
+        "security_id": "109"
+    },
+    "PNC": {
+        "cmpyId": "7",
+        "cmpyNm": "Philippine National Construction Corporation",
+        "symbol": "PNC",
+        "etfYn": "0",
+        "security_id": "151"
+    },
+    "PNX": {
+        "cmpyId": "608",
+        "cmpyNm": "Phoenix Petroleum Philippines, Inc.",
+        "symbol": "PNX",
+        "etfYn": "0",
+        "security_id": "531"
+    },
+    "PNX3A": null,
+    "PNX3B": null,
+    "PNX4": null,
+    "PNXP": null,
+    "PORT": {
+        "cmpyId": "129",
+        "cmpyNm": "Globalport 900, Inc.",
+        "symbol": "PORT",
+        "etfYn": "0",
+        "security_id": "384"
+    },
+    "PPC": {
+        "cmpyId": "150",
+        "cmpyNm": "Pryce Corporation",
+        "symbol": "PPC",
+        "etfYn": "0",
+        "security_id": "246"
+    },
+    "PRC": {
+        "cmpyId": "141",
+        "cmpyNm": "Philippine Racing Club, Inc.",
+        "symbol": "PRC",
+        "etfYn": "0",
+        "security_id": "257"
+    },
+    "PREIT": {
+        "cmpyId": "699",
+        "cmpyNm": "Premiere Island Power REIT Corporation",
+        "symbol": "PREIT",
+        "etfYn": "null",
+        "security_id": "694"
+    },
+    "PRF2A": null,
+    "PRF2B": null,
+    "PRF3A": null,
+    "PRF3B": null,
+    "PRF4A": null,
+    "PRF4B": null,
+    "PRF4C": null,
+    "PRF4D": null,
+    "PRF4E": null,
+    "PRIM": {
+        "cmpyId": "30",
+        "cmpyNm": "Prime Media Holdings, Inc.",
+        "symbol": "PRIM",
+        "etfYn": "0",
+        "security_id": "106"
+    },
+    "PRMX": {
+        "cmpyId": "214",
+        "cmpyNm": "Primex Corporation",
+        "symbol": "PRMX",
+        "etfYn": "0",
+        "security_id": "419"
+    },
+    "PSB": {
+        "cmpyId": "142",
+        "cmpyNm": "Philippine Savings Bank",
+        "symbol": "PSB",
+        "etfYn": "0",
+        "security_id": "112"
+    },
+    "PSE": {
+        "cmpyId": "478",
+        "cmpyNm": "The Philippine Stock Exchange, Inc.",
+        "symbol": "PSE",
+        "etfYn": "0",
+        "security_id": "512"
+    },
+    "PTC": {
+        "cmpyId": "144",
+        "cmpyNm": "Philippine Trust Company",
+        "symbol": "PTC",
+        "etfYn": "0",
+        "security_id": "393"
+    },
+    "PTT": {
+        "cmpyId": "76",
+        "cmpyNm": "PT&T Corp.",
+        "symbol": "PTT",
+        "etfYn": "0",
+        "security_id": "132"
+    },
+    "PX": {
+        "cmpyId": "137",
+        "cmpyNm": "Philex Mining Corporation",
+        "symbol": "PX",
+        "etfYn": "0",
+        "security_id": "331"
+    },
+    "PXP": {
+        "cmpyId": "628",
+        "cmpyNm": "PXP Energy Corporation",
+        "symbol": "PXP",
+        "etfYn": "0",
+        "security_id": "566"
+    },
+    "RCB": {
+        "cmpyId": "232",
+        "cmpyNm": "Rizal Commercial Banking Corporation",
+        "symbol": "RCB",
+        "etfYn": "0",
+        "security_id": "113"
+    },
+    "RCI": {
+        "cmpyId": "54",
+        "cmpyNm": "Roxas and Company, Inc.",
+        "symbol": "RCI",
+        "etfYn": "0",
+        "security_id": "363"
+    },
+    "RCR": {
+        "cmpyId": "684",
+        "cmpyNm": "RL Commercial REIT, Inc.",
+        "symbol": "RCR",
+        "etfYn": "null",
+        "security_id": "670"
+    },
+    "REDC": {
+        "cmpyId": "702",
+        "cmpyNm": "Repower Energy Development Corporation",
+        "symbol": "REDC",
+        "etfYn": "null",
+        "security_id": "702"
+    },
+    "REG": {
+        "cmpyId": "153",
+        "cmpyNm": "Republic Glass Holdings Corporation",
+        "symbol": "REG",
+        "etfYn": "0",
+        "security_id": "153"
+    },
+    "RFM": {
+        "cmpyId": "77",
+        "cmpyNm": "RFM Corporation",
+        "symbol": "RFM",
+        "etfYn": "0",
+        "security_id": "164"
+    },
+    "RLC": {
+        "cmpyId": "195",
+        "cmpyNm": "Robinsons Land Corporation",
+        "symbol": "RLC",
+        "etfYn": "0",
+        "security_id": "312"
+    },
+    "RLT": {
+        "cmpyId": "40",
+        "cmpyNm": "Philippine Realty and Holdings Corporation",
+        "symbol": "RLT",
+        "etfYn": "0",
+        "security_id": "313"
+    },
+    "ROCK": {
+        "cmpyId": "635",
+        "cmpyNm": "Rockwell Land Corporation",
+        "symbol": "ROCK",
+        "etfYn": "0",
+        "security_id": "574"
+    },
+    "ROX": {
+        "cmpyId": "54",
+        "cmpyNm": "Roxas and Company, Inc.",
+        "symbol": "RCI",
+        "etfYn": "0",
+        "security_id": "363"
+    },
+    "RRHI": {
+        "cmpyId": "646",
+        "cmpyNm": "Robinsons Retail Holdings, Inc.",
+        "symbol": "RRHI",
+        "etfYn": "0",
+        "security_id": "589"
+    },
+    "SBS": {
+        "cmpyId": "658",
+        "cmpyNm": "SBS Philippines Corporation",
+        "symbol": "SBS",
+        "etfYn": "0",
+        "security_id": "612"
+    },
+    "SCC": {
+        "cmpyId": "157",
+        "cmpyNm": "Semirara Mining and Power Corporation",
+        "symbol": "SCC",
+        "etfYn": "0",
+        "security_id": "396"
+    },
+    "SECB": {
+        "cmpyId": "32",
+        "cmpyNm": "Security Bank Corporation",
+        "symbol": "SECB",
+        "etfYn": "0",
+        "security_id": "114"
+    },
+    "SEVN": {
+        "cmpyId": "143",
+        "cmpyNm": "Philippine Seven Corporation",
+        "symbol": "SEVN",
+        "etfYn": "0",
+        "security_id": "251"
+    },
+    "SFI": {
+        "cmpyId": "165",
+        "cmpyNm": "Swift Foods, Inc.",
+        "symbol": "SFI",
+        "etfYn": "0",
+        "security_id": "402"
+    },
+    "SFIP": null,
+    "SGI": {
+        "cmpyId": "160",
+        "cmpyNm": "Solid Group, Inc.",
+        "symbol": "SGI",
+        "etfYn": "0",
+        "security_id": "224"
+    },
+    "SGP": {
+        "cmpyId": "166",
+        "cmpyNm": "Synergy Grid & Development Phils., Inc.",
+        "symbol": "SGP",
+        "etfYn": "0",
+        "security_id": "385"
+    },
+    "SHLPH": {
+        "cmpyId": "663",
+        "cmpyNm": "Shell Pilipinas Corporation",
+        "symbol": "SHLPH",
+        "etfYn": "null",
+        "security_id": "629"
+    },
+    "SHNG": {
+        "cmpyId": "218",
+        "cmpyNm": "Shang Properties, Inc.",
+        "symbol": "SHNG",
+        "etfYn": "0",
+        "security_id": "301"
+    },
+    "SLF": {
+        "cmpyId": "78",
+        "cmpyNm": "Sun Life Financial Inc.",
+        "symbol": "SLF",
+        "etfYn": "0",
+        "security_id": "122"
+    },
+    "SLI": {
+        "cmpyId": "41",
+        "cmpyNm": "Sta. Lucia Land, Inc.",
+        "symbol": "SLI",
+        "etfYn": "0",
+        "security_id": "417"
+    },
+    "SM": {
+        "cmpyId": "154",
+        "cmpyNm": "San Miguel Corporation",
+        "symbol": "SMC",
+        "etfYn": "0",
+        "security_id": "165"
+    },
+    "SMC": {
+        "cmpyId": "154",
+        "cmpyNm": "San Miguel Corporation",
+        "symbol": "SMC",
+        "etfYn": "0",
+        "security_id": "165"
+    },
+    "SMC2A": null,
+    "SMC2B": null,
+    "SMC2C": null,
+    "SMC2D": null,
+    "SMC2E": null,
+    "SMC2F": null,
+    "SMC2G": null,
+    "SMC2H": null,
+    "SMC2I": null,
+    "SMC2J": null,
+    "SMC2K": null,
+    "SMC2L": null,
+    "SMC2M": null,
+    "SMC2N": null,
+    "SMC2O": null,
+    "SMCP1": null,
+    "SMPH": {
+        "cmpyId": "112",
+        "cmpyNm": "SM Prime Holdings, Inc.",
+        "symbol": "SMPH",
+        "etfYn": "0",
+        "security_id": "314"
+    },
+    "SOC": {
+        "cmpyId": "161",
+        "cmpyNm": "SOCResources, Inc.",
+        "symbol": "SOC",
+        "etfYn": "0",
+        "security_id": "345"
+    },
+    "SPC": {
+        "cmpyId": "237",
+        "cmpyNm": "SPC Power Corporation",
+        "symbol": "SPC",
+        "etfYn": "0",
+        "security_id": "466"
+    },
+    "SPM": {
+        "cmpyId": "156",
+        "cmpyNm": "Seafront Resources Corporation",
+        "symbol": "SPM",
+        "etfYn": "0",
+        "security_id": "223"
+    },
+    "SPNEC": {
+        "cmpyId": "688",
+        "cmpyNm": "SP New Energy Corporation",
+        "symbol": "SPNEC",
+        "etfYn": "null",
+        "security_id": "678"
+    },
+    "SRDC": {
+        "cmpyId": "479",
+        "cmpyNm": "Supercity Realty Development Corporation",
+        "symbol": "SRDC",
+        "etfYn": "0",
+        "security_id": "513"
+    },
+    "SSI": {
+        "cmpyId": "654",
+        "cmpyNm": "SSI Group, Inc.",
+        "symbol": "SSI",
+        "etfYn": "0",
+        "security_id": "604"
+    },
+    "STI": {
+        "cmpyId": "222",
+        "cmpyNm": "STI Education Systems Holdings, Inc.",
+        "symbol": "STI",
+        "etfYn": "0",
+        "security_id": "376"
+    },
+    "STN": {
+        "cmpyId": "164",
+        "cmpyNm": "Steniel Manufacturing Corporation",
+        "symbol": "STN",
+        "etfYn": "0",
+        "security_id": "249"
+    },
+    "STR": {
+        "cmpyId": "147",
+        "cmpyNm": "Vistamalls, Inc.",
+        "symbol": "STR",
+        "etfYn": "0",
+        "security_id": "333"
+    },
+    "SUN": {
+        "cmpyId": "78",
+        "cmpyNm": "Sun Life Financial Inc.",
+        "symbol": "SLF",
+        "etfYn": "0",
+        "security_id": "122"
+    },
+    "T": {
+        "cmpyId": "630",
+        "cmpyNm": "Cirtek Holdings Philippines Corporation",
+        "symbol": "TECH",
+        "etfYn": "0",
+        "security_id": "569"
+    },
+    "TBGI": {
+        "cmpyId": "269",
+        "cmpyNm": "Transpacific Broadband Group Int`l. Inc.",
+        "symbol": "TBGI",
+        "etfYn": "0",
+        "security_id": "511"
+    },
+    "TCB2A": null,
+    "TCB2B": null,
+    "TCB2C": null,
+    "TCB2D": null,
+    "TECH": {
+        "cmpyId": "630",
+        "cmpyNm": "Cirtek Holdings Philippines Corporation",
+        "symbol": "TECH",
+        "etfYn": "0",
+        "security_id": "569"
+    },
+    "TEL": {
+        "cmpyId": "6",
+        "cmpyNm": "PLDT Inc.",
+        "symbol": "TEL",
+        "etfYn": "0",
+        "security_id": "134"
+    },
+    "TFC": {
+        "cmpyId": "8",
+        "cmpyNm": "PTFC Redevelopment Corporation",
+        "symbol": "TFC",
+        "etfYn": "0",
+        "security_id": "413"
+    },
+    "TFHI": {
+        "cmpyId": "650",
+        "cmpyNm": "Top Frontier Investment Holdings, Inc.",
+        "symbol": "TFHI",
+        "etfYn": "0",
+        "security_id": "595"
+    },
+    "TLII": null,
+    "TLJJ": null,
+    "TOP": {
+        "cmpyId": "650",
+        "cmpyNm": "Top Frontier Investment Holdings, Inc.",
+        "symbol": "TFHI",
+        "etfYn": "0",
+        "security_id": "595"
+    },
+    "TUGS": {
+        "cmpyId": "644",
+        "cmpyNm": "Harbor Star Shipping Services, Inc. ",
+        "symbol": "TUGS",
+        "etfYn": "0",
+        "security_id": "587"
+    },
+    "UBP": {
+        "cmpyId": "167",
+        "cmpyNm": "Union Bank of the Philippines",
+        "symbol": "UBP",
+        "etfYn": "0",
+        "security_id": "115"
+    },
+    "UNH": {
+        "cmpyId": "22",
+        "cmpyNm": "Uniholdings Inc.",
+        "symbol": "UNH",
+        "etfYn": "0",
+        "security_id": "367"
+    },
+    "UPM": {
+        "cmpyId": "168",
+        "cmpyNm": "United Paragon Mining Corporation",
+        "symbol": "UPM",
+        "etfYn": "0",
+        "security_id": "334"
+    },
+    "UPSON": {
+        "cmpyId": "700",
+        "cmpyNm": "Upson International Corp.",
+        "symbol": "UPSON",
+        "etfYn": "null",
+        "security_id": "695"
+    },
+    "URC": {
+        "cmpyId": "124",
+        "cmpyNm": "Universal Robina Corporation",
+        "symbol": "URC",
+        "etfYn": "0",
+        "security_id": "167"
+    },
+    "V": {
+        "cmpyId": "65",
+        "cmpyNm": "Vantage Equities, Inc.",
+        "symbol": "V",
+        "etfYn": "0",
+        "security_id": "135"
+    },
+    "VITA": {
+        "cmpyId": "28",
+        "cmpyNm": "Vitarich Corporation",
+        "symbol": "VITA",
+        "etfYn": "0",
+        "security_id": "168"
+    },
+    "VLL": {
+        "cmpyId": "607",
+        "cmpyNm": "Vista Land & Lifescapes, Inc.",
+        "symbol": "VLL",
+        "etfYn": "0",
+        "security_id": "530"
+    },
+    "VLL2A": null,
+    "VLL2B": null,
+    "VMC": {
+        "cmpyId": "123",
+        "cmpyNm": "Victorias Milling Company, Inc.",
+        "symbol": "VMC",
+        "etfYn": "0",
+        "security_id": "415"
+    },
+    "VREIT": {
+        "cmpyId": "695",
+        "cmpyNm": "VistaREIT, Inc.",
+        "symbol": "VREIT",
+        "etfYn": "null",
+        "security_id": "690"
+    },
+    "VVT": {
+        "cmpyId": "79",
+        "cmpyNm": "Vivant Corporation",
+        "symbol": "VVT",
+        "etfYn": "0",
+        "security_id": "133"
+    },
+    "WEB": {
+        "cmpyId": "122",
+        "cmpyNm": "PhilWeb Corporation",
+        "symbol": "WEB",
+        "etfYn": "0",
+        "security_id": "136"
+    },
+    "WIN": {
+        "cmpyId": "90",
+        "cmpyNm": "Wellex Industries, Incorporated",
+        "symbol": "WIN",
+        "etfYn": "0",
+        "security_id": "229"
+    },
+    "WLCON": {
+        "cmpyId": "665",
+        "cmpyNm": "Wilcon Depot, Inc.",
+        "symbol": "WLCON",
+        "etfYn": "null",
+        "security_id": "632"
+    },
+    "WPI": {
+        "cmpyId": "173",
+        "cmpyNm": "Waterfront Philippines, Incorporated",
+        "symbol": "WPI",
+        "etfYn": "0",
+        "security_id": "228"
+    },
+    "X": {
+        "cmpyId": "705",
+        "cmpyNm": "NexGen Energy Corp.",
+        "symbol": "XG",
+        "etfYn": "null",
+        "security_id": "717"
+    },
+    "XG": {
+        "cmpyId": "705",
+        "cmpyNm": "NexGen Energy Corp.",
+        "symbol": "XG",
+        "etfYn": "null",
+        "security_id": "717"
+    },
+    "ZHI": {
+        "cmpyId": "89",
+        "cmpyNm": "Zeus Holdings, Inc.",
+        "symbol": "ZHI",
+        "etfYn": "0",
+        "security_id": "232"
+    }
 }
