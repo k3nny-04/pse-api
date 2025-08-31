@@ -1,15 +1,25 @@
 import re
+import requests
+import json
+
 from bs4 import BeautifulSoup
 from datetime import datetime
 from models.stock import StockData, label_map, float_args
 from models.dividends import DividendData
+from pse.api import *
 
 # TODO: Add error handling, default returns
 
-def scrape_stock_data(html_doc: str) -> StockData:
-    stock_args = {}
-    soup = BeautifulSoup(html_doc, "html.parser")
+with open("data/cmpy.json", 'r', encoding='utf-8') as json_file:
+    cmpy_list = json.load(json_file)
 
+cmpy_list_values = cmpy_list.values()
+
+def scrape_stock_data(cmpy_id: str) -> StockData:
+    stock_args = {}
+
+    response = requests.get(STOCK_DATA_URL, params={"cmpy_id": cmpy_id})
+    soup = BeautifulSoup(response.text, "html.parser")
     content_div = soup.find("div", id="contents")
 
     cmpy_name = content_div.find("div", class_="compInfo").p.string
@@ -35,7 +45,8 @@ def scrape_stock_data(html_doc: str) -> StockData:
             if label == "Previous Close and Date":
                 space_idx = values[idx].find(' ')
                 close = values[idx][:space_idx]
-                date = values[idx][(space_idx+2):-1]
+                par_idx = values[idx].find('(')
+                date = values[idx][(par_idx+1):-1]
                 date_formatted = datetime.strptime(date, "%b %d %Y")
 
                 stock_args[label_map[label][0]] = float(close)
@@ -60,8 +71,25 @@ def scrape_stock_data(html_doc: str) -> StockData:
         
     return StockData(**stock_args)
 
-def scrape_stock_dividends(html_doc: str) -> list[DividendData]:
-    soup = BeautifulSoup(html_doc, "html.parser")
+def scrape_stock_chart(cmpy_id: str, start_date: str, end_date: str) -> list[dict]:
+    sec_id = None
+    for entry in cmpy_list_values:
+        if entry.get("cmpyId") == cmpy_id:
+            sec_id = entry.get("security_id")
+            break
+
+    payload = {
+        "cmpy_id": cmpy_id,        
+        "security_id": sec_id,     
+        "startDate": start_date,
+        "endDate": end_date 
+    }
+    response = requests.post(STOCK_CHRT_TAB_DATA_URL, json=payload)
+    return response.json().get("chartData", [])
+
+def scrape_stock_dividends(cmpy_id: str) -> list[DividendData]:
+    response = requests.get(STOCK_DIV_URL, params={"cmpy_id": cmpy_id})
+    soup = BeautifulSoup(response.text, "html.parser")
     table = soup.find("table", class_="list")
     
     if not table:
@@ -130,17 +158,7 @@ def scrape_dividends(html_doc: str) -> list[DividendData]:
 
     return results
 
-# with open("./html/stockData.html", mode='r') as file:
-#     content = file.read()
-# res = scrape_stock_data(content)
 
-# with open("./html/dividends.html", mode='r') as file:
-#     content = file.read()
-# res = scrape_dividends(content)
-
-with open("./html/stockDividends.html", mode='r') as file:
-    content = file.read()
-res = scrape_stock_dividends(content)
-
-
+res = scrape_stock_chart("128", "07-30-2025", "08-31-2025")
 print(res)
+
