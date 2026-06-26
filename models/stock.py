@@ -19,19 +19,20 @@ float_args = ["lastTradedPrice", "open", "previousClose", "change", "percentChan
 
 @dataclass
 class StockData:
-    cmpyName: str
-    date: str
-    time: str
-    lastTradedPrice: float
-    open: float
-    previousClose: float
-    previousCloseDate: str
-    change: float
-    percentChange: float
-    high: float
-    value: float
-    low: float
-    volume: int
-    averagePrice: float
-    week52High: float
-    week52Low: float
+    cmpyName: str = ""
+    date: str = ""
+    time: str = ""
+    lastTradedPrice: float = 0.0
+    open: float = 0.0
+    previousClose: float = 0.0
+    previousCloseDate: str = ""
+    change: float = 0.0
+    percentChange: float = 0.0
+    high: float = 0.0
+    value: float = 0.0
+    low: float = 0.0
+    volume: int = 0
+    averagePrice: float = 0.0
+    week52High: float = 0.0
+    week52Low: float = 0.0
+
