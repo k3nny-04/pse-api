@@ -1,0 +1,242 @@
+{
+  "chartData": [
+    {
+      "OPEN": 37.35,
+      "VALUE": 40865345.0,
+      "CLOSE": 37.0,
+      "CHART_DATE": "Jul 01, 2026 00:00:00",
+      "HIGH": 37.45,
+      "LOW": 37.0
+    },
+    {
+      "OPEN": 37.35,
+      "VALUE": 114786015.0,
+      "CLOSE": 36.5,
+      "CHART_DATE": "Jul 02, 2026 00:00:00",
+      "HIGH": 37.35,
+      "LOW": 36.5
+    },
+    {
+      "OPEN": 36.75,
+      "VALUE": 58739135.0,
+      "CLOSE": 37.4,
+      "CHART_DATE": "Jul 03, 2026 00:00:00",
+      "HIGH": 37.4,
+      "LOW": 36.7
+    },
+    {
+      "OPEN": 37.5,
+      "VALUE": 36825010.0,
+      "CLOSE": 37.4,
+      "CHART_DATE": "Jul 06, 2026 00:00:00",
+      "HIGH": 37.6,
+      "LOW": 37.2
+    },
+    {
+      "OPEN": 37.55,
+      "VALUE": 43186405.0,
+      "CLOSE": 37.1,
+      "CHART_DATE": "Jul 07, 2026 00:00:00",
+      "HIGH": 37.75,
+      "LOW": 36.95
+    },
+    {
+      "OPEN": 37.2,
+      "VALUE": 57459575.0,
+      "CLOSE": 37.2,
+      "CHART_DATE": "Jul 08, 2026 00:00:00",
+      "HIGH": 37.35,
+      "LOW": 36.75
+    },
+    {
+      "OPEN": 37.3,
+      "VALUE": 42599130.0,
+      "CLOSE": 37.0,
+      "CHART_DATE": "Jul 09, 2026 00:00:00",
+      "HIGH": 37.3,
+      "LOW": 36.85
+    },
+    {
+      "OPEN": 37.0,
+      "VALUE": 38143005.0,
+      "CLOSE": 37.4,
+      "CHART_DATE": "Jul 10, 2026 00:00:00",
+      "HIGH": 37.65,
+      "LOW": 37.0
+    },
+    {
+      "OPEN": 37.4,
+      "VALUE": 34665360.0,
+      "CLOSE": 37.4,
+      "CHART_DATE": "Jul 13, 2026 00:00:00",
+      "HIGH": 37.55,
+      "LOW": 37.05
+    },
+    {
+      "OPEN": 37.4,
+      "VALUE": 53211020.0,
+      "CLOSE": 37.0,
+      "CHART_DATE": "Jul 14, 2026 00:00:00",
+      "HIGH": 37.55,
+      "LOW": 37.0
+    },
+    {
+      "OPEN": 37.25,
+      "VALUE": 32780280.0,
+      "CLOSE": 37.25,
+      "CHART_DATE": "Jul 15, 2026 00:00:00",
+      "HIGH": 37.25,
+      "LOW": 37.0
+    },
+    {
+      "OPEN": 37.2,
+      "VALUE": 25208500.0,
+      "CLOSE": 37.2,
+      "CHART_DATE": "Jul 16, 2026 00:00:00",
+      "HIGH": 37.35,
+      "LOW": 37.1
+    },
+    {
+      "OPEN": 37.25,
+      "VALUE": 36865985.0,
+      "CLOSE": 37.25,
+      "CHART_DATE": "Jul 17, 2026 00:00:00",
+      "HIGH": 37.45,
+      "LOW": 37.2
+    },
+    {
+      "OPEN": 37.5,
+      "VALUE": 44402305.0,
+      "CLOSE": 37.35,
+      "CHART_DATE": "Jul 20, 2026 00:00:00",
+      "HIGH": 37.55,
+      "LOW": 37.15
+    },
+    {
+      "OPEN": 37.5,
+      "VALUE": 47813460.0,
+      "CLOSE": 37.2,
+      "CHART_DATE": "Jul 21, 2026 00:00:00",
+      "HIGH": 37.5,
+      "LOW": 37.2
+    },
+    {
+      "OPEN": 37.5,
+      "VALUE": 47813460.0,
+      "CLOSE": 37.2,
+      "CHART_DATE": "Jul 21, 2026 00:00:00",
+      "HIGH": 37.5,
+      "LOW": 37.2
+    },
+    {
+      "OPEN": 37.3,
+      "VALUE": 21772715.0,
+      "CLOSE": 37.25,
+      "CHART_DATE": "Jul 22, 2026 00:00:00",
+      "HIGH": 37.45,
+      "LOW": 37.1
+    },
+    {
+      "OPEN": 37.25,
+      "VALUE": 36184745.0,
+      "CLOSE": 37.05,
+      "CHART_DATE": "Jul 23, 2026 00:00:00",
+      "HIGH": 37.35,
+      "LOW": 37.05
+    },
+    {
+      "OPEN": 37.05,
+      "VALUE": 68528935.0,
+      "CLOSE": 36.95,
+      "CHART_DATE": "Jul 24, 2026 00:00:00",
+      "HIGH": 37.1,
+      "LOW": 36.9
+    },
+    {
+      "OPEN": 36.95,
+      "VALUE": 39002175.0,
+      "CLOSE": 37.3,
+      "CHART_DATE": "Jul 27, 2026 00:00:00",
+      "HIGH": 37.3,
+      "LOW": 36.95
+    },
+    {
+      "OPEN": 37.05,
+      "VALUE": 36417485.0,
+      "CLOSE": 37.0,
+      "CHART_DATE": "Jul 28, 2026 00:00:00",
+      "HIGH": 37.15,
+      "LOW": 36.95
+    },
+    {
+      "OPEN": 37.15,
+      "VALUE": 89779785.0,
+      "CLOSE": 37.25,
+      "CHART_DATE": "Jul 29, 2026 00:00:00",
+      "HIGH": 37.6,
+      "LOW": 37.1
+    },
+    {
+      "OPEN": 37.25,
+      "VALUE": 43095630.0,
+      "CLOSE": 37.25,
+      "CHART_DATE": "Jul 30, 2026 00:00:00",
+      "HIGH": 37.5,
+      "LOW": 37.0
+    },
+    {
+      "OPEN": 37.25,
+      "VALUE": 193320020.0,
+      "CLOSE": 38.0,
+      "CHART_DATE": "Jul 31, 2026 00:00:00",
+      "HIGH": 38.0,
+      "LOW": 37.05
+    }
+  ],
+  "tableData": [
+    {
+      "SM_DM": "Jul 27, 2026 08:46 AM",
+      "SUBJECT_TITLE": "[Amend-1]Other SEC Forms, Reports and Requirements"
+    },
+    {
+      "SM_DM": "Jul 21, 2026 08:36 AM",
+      "SUBJECT_TITLE": "Reinvestment Plan Progress Report"
+    },
+    {
+      "SM_DM": "Jul 21, 2026 08:35 AM",
+      "SUBJECT_TITLE": "Reinvestment Plan Progress Report"
+    },
+    {
+      "SM_DM": "Jul 21, 2026 08:34 AM",
+      "SUBJECT_TITLE": "Reinvestment Plan Progress Report"
+    },
+    {
+      "SM_DM": "Jul 21, 2026 08:33 AM",
+      "SUBJECT_TITLE": "Reinvestment Plan Progress Report"
+    },
+    {
+      "SM_DM": "Jul 15, 2026 02:31 PM",
+      "SUBJECT_TITLE": "List of Top 100 Stockholders (Common Shares)"
+    },
+    {
+      "SM_DM": "Jul 15, 2026 09:04 AM",
+      "SUBJECT_TITLE": "Public Ownership Report"
+    },
+    {
+      "SM_DM": "Jul 09, 2026 08:28 AM",
+      "SUBJECT_TITLE": "Statement of Changes in Beneficial Ownership of Securities"
+    },
+    {
+      "SM_DM": "Jul 07, 2026 03:51 PM",
+      "SUBJECT_TITLE": "Statement of Changes in Beneficial Ownership of Securities"
+    },
+    {
+      "SM_DM": "Jul 03, 2026 09:12 AM",
+      "SUBJECT_TITLE": "Other SEC Forms, Reports and Requirements"
+    },
+    {
+      "SM_DM": "Jul 01, 2026 02:54 PM",
+      "SUBJECT_TITLE": "[Amend-1]Reinvestment Plan"
+    }
+  ]
+}
