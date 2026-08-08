@@ -11,8 +11,6 @@ from pse.api import *
 
 with open("data/cmpy.json", 'r', encoding='utf-8') as json_file:
     cmpy_list = json.load(json_file)
-cmpy_list_values = cmpy_list.values()
-
 
 def scrape_cmpy_info(cmpy_id: str) -> CompanyData:
     try:
@@ -133,13 +131,7 @@ def scrape_stock_data(cmpy_id: str) -> StockData:
         print(f"Error parsing stock data for cmpy_id {cmpy_id}: {e}")
         return StockData()
 
-def scrape_stock_chart(ticker_symbol: str, cmpy_id: str, start_date: str, end_date: str) -> list[dict]:
-    cmpy_id = cmpy_list.get(ticker_symbol, {}).get("cmpyId")
-    if not cmpy_id:
-        print(f"Company {ticker_symbol} not found in cmpy_list.")
-        return []
-    sec_id = cmpy_list.get(ticker_symbol, {}).get("security_id")
-
+def scrape_stock_chart(cmpy_id: str, sec_id: str, start_date: str, end_date: str) -> list[dict]:
     payload = {
         "cmpy_id": cmpy_id,        
         "security_id": sec_id,     
@@ -277,8 +269,17 @@ def scrape_dividends() -> list[DividendData]:
 
     return results
 
+def lookup_cmpy_id(ticker_symbol: str, return_entire_object: bool = False):
+    if ticker_symbol not in cmpy_list:
+        print(f"Ticker symbol {ticker_symbol} not found in cmpy_list.")
+        raise KeyError(f"Ticker symbol {ticker_symbol} not found in cmpy_list.")
 
-my_stocks = ["SCC", "DMC", "AREIT", "TEL", "MBT", "RCR"]
+    if return_entire_object:
+        return cmpy_list[ticker_symbol]
+    else:
+        return cmpy_list[ticker_symbol].get("cmpyId")
+
+# my_stocks = ["SCC", "DMC", "AREIT", "TEL", "MBT", "RCR"]
 # Test for scrape_stock_data function
 # for stock in my_stocks:
 #     cmpy_id = cmpy_list.get(stock, {}).get("cmpyId")
@@ -303,4 +304,4 @@ my_stocks = ["SCC", "DMC", "AREIT", "TEL", "MBT", "RCR"]
 # print(scrape_stock_chart("AREIT", "679", "01-01-1900", "08-01-2026")[0])
 # print(scrape_stock_dividends("114"))
 
-print(scrape_cmpy_info("114"))
+print(scrape_cmpy_info(lookup_cmpy_id("AREIT")))
