@@ -2,6 +2,10 @@
 # Example usage: pass a query string like "Ayala" or "AC" to retrieve matching companies.
 FND_CMPY_URL = "https://edge.pse.com.ph/autoComplete/searchCompanyNameSymbol.ax"
 
+# Endpoint to retrieve detailed company information.
+# Parameters required: cmpy_id (e.g., https://edge.pse.com.ph/companyInformation/form.do?cmpy_id=128)
+CMPY_INFO_URL = "https://edge.pse.com.ph/companyInformation/form.do?"
+
 # Endpoint to retrieve general stock data for a specific company.
 # Parameters required: cmpy_id (e.g., https://edge.pse.com.ph/companyPage/stockData.do?cmpy_id=128)
 STOCK_DATA_URL = "https://edge.pse.com.ph/companyPage/stockData.do?"

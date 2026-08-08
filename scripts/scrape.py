@@ -6,12 +6,67 @@ from bs4 import BeautifulSoup
 from datetime import datetime
 from models.stock import StockData, label_map, float_args
 from models.dividends import DividendData
+from models.company import CompanyData
 from pse.api import *
 
 with open("data/cmpy.json", 'r', encoding='utf-8') as json_file:
     cmpy_list = json.load(json_file)
 cmpy_list_values = cmpy_list.values()
 
+
+def scrape_cmpy_info(cmpy_id: str) -> CompanyData:
+    try:
+        response = requests.get(CMPY_INFO_URL, params={"cmpy_id": cmpy_id}, timeout=10)
+        response.raise_for_status()
+    except requests.RequestException as e:
+        print(f"Error fetching company info for cmpy_id {cmpy_id}: {e}")
+        return CompanyData()
+
+    try:
+        soup = BeautifulSoup(response.text, "html.parser")
+        content_div = soup.find("div", id="dataList")
+
+        overview = ""
+        sector = ""
+        subSector = ""
+        website = ""
+
+        tables = content_div.find_all("table", class_="view")
+        for table in tables:
+            caption = table.find("caption")
+            if not caption:
+                continue
+            cap = caption.get_text(strip=True)
+
+            if "Company Description" in cap:
+                td = table.find("td")
+                if td:
+                    overview = td.get_text(" ", strip=True).replace("\xa0", " ")
+
+            elif "Security Information" in cap:
+                trs = table.find_all("tr")
+                # Extract sector and sub-sector from the first two rows of the table
+                if trs:
+                   sector =trs[0].find("td").get_text(strip=True) 
+                   subSector = trs[1].find("td").get_text(" ", strip=True).replace("\xa0", " ")
+
+
+            elif "Contact Information" in cap:
+                # Website is under the last <tr> in the table
+                trs = table.find_all("tr")
+                if trs:
+                    website = trs[-1].find("td").get_text(" ", strip=True).replace("\xa0", " ")
+
+        return CompanyData(
+            overview=overview,
+            sector=sector,
+            subSector=subSector,
+            website=website,
+        )
+    
+    except Exception as e:
+        print(f"Error parsing company info for cmpy_id {cmpy_id}: {e}")
+        return CompanyData()
 
 def scrape_stock_data(cmpy_id: str) -> StockData:
     try:
@@ -78,12 +133,12 @@ def scrape_stock_data(cmpy_id: str) -> StockData:
         print(f"Error parsing stock data for cmpy_id {cmpy_id}: {e}")
         return StockData()
 
-def scrape_stock_chart(cmpy_id: str, start_date: str, end_date: str) -> list[dict]:
-    sec_id = None
-    for entry in cmpy_list_values:
-        if entry.get("cmpyId") == cmpy_id:
-            sec_id = entry.get("security_id")
-            break
+def scrape_stock_chart(ticker_symbol: str, cmpy_id: str, start_date: str, end_date: str) -> list[dict]:
+    cmpy_id = cmpy_list.get(ticker_symbol, {}).get("cmpyId")
+    if not cmpy_id:
+        print(f"Company {ticker_symbol} not found in cmpy_list.")
+        return []
+    sec_id = cmpy_list.get(ticker_symbol, {}).get("security_id")
 
     payload = {
         "cmpy_id": cmpy_id,        
@@ -222,4 +277,30 @@ def scrape_dividends() -> list[DividendData]:
 
     return results
 
-print(scrape_dividends())
+
+my_stocks = ["SCC", "DMC", "AREIT", "TEL", "MBT", "RCR"]
+# Test for scrape_stock_data function
+# for stock in my_stocks:
+#     cmpy_id = cmpy_list.get(stock, {}).get("cmpyId")
+#     if cmpy_id:
+#         stock_data = scrape_stock_data(cmpy_id)
+#         print(stock_data)
+#     else:
+#         print(f"Company ID for {stock} not found in cmpy_list.")
+
+# Test for scrape_stock_dividends function
+# for stock in my_stocks:
+#     cmpy_id = cmpy_list.get(stock, {}).get("cmpyId")
+#     if cmpy_id:
+#         dividends = scrape_stock_dividends(cmpy_id)
+#         print(f"Dividends for {stock}:")
+#         for dividend in dividends:
+#             print(dividend)
+#     else:
+#         print(f"Company ID for {stock} not found in cmpy_list.")
+
+# print(scrape_stock_data("128"))
+# print(scrape_stock_chart("AREIT", "679", "01-01-1900", "08-01-2026")[0])
+# print(scrape_stock_dividends("114"))
+
+print(scrape_cmpy_info("114"))
