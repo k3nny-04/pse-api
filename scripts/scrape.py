@@ -269,7 +269,7 @@ def scrape_dividends() -> list[DividendData]:
 
     return results
 
-def lookup_cmpy_id(ticker_symbol: str, return_entire_object: bool = False):
+def lookup_cmpy(ticker_symbol: str, return_entire_object: bool = False):
     if ticker_symbol not in cmpy_list:
         print(f"Ticker symbol {ticker_symbol} not found in cmpy_list.")
         raise KeyError(f"Ticker symbol {ticker_symbol} not found in cmpy_list.")
