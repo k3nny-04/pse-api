@@ -2,3 +2,4 @@
 venv/
 TODO
 *.html
+tests/fixtures/
