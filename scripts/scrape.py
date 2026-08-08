@@ -8,20 +8,85 @@ from models.stock import StockData, label_map, float_args
 from models.dividends import DividendData
 from models.company import CompanyData
 from pse.api import *
+from pse.exceptions import (
+    CompanyNotFoundError,
+    PSEBadRequestError,
+    PSEUnavailableError,
+    PSEParseError,
+)
 
 with open("data/cmpy.json", 'r', encoding='utf-8') as json_file:
     cmpy_list = json.load(json_file)
 
-def scrape_cmpy_info(cmpy_id: str) -> CompanyData:
+def _request(method, url, **kwargs):
     try:
-        response = requests.get(CMPY_INFO_URL, params={"cmpy_id": cmpy_id}, timeout=10)
+        response = method(url, timeout=10, **kwargs)
         response.raise_for_status()
+        return response
+    except requests.HTTPError as e:
+        status = e.response.status_code if e.response is not None else None
+        if status == 400:
+            raise PSEBadRequestError(f"PSE rejected request to {url}: {e}") from e
+        raise PSEUnavailableError(f"PSE returned error for {url}: {e}") from e
     except requests.RequestException as e:
-        print(f"Error fetching company info for cmpy_id {cmpy_id}: {e}")
-        return CompanyData()
+        raise PSEUnavailableError(f"Error reaching PSE at {url}: {e}") from e
 
+def lookup_cmpy(ticker_symbol: str, return_entire_object: bool = False):
+    if ticker_symbol not in cmpy_list:
+        raise CompanyNotFoundError(f"Ticker symbol {ticker_symbol} not found in cmpy_list.")
+
+    if return_entire_object:
+        return cmpy_list[ticker_symbol]
+    else:
+        return cmpy_list[ticker_symbol].get("cmpyId")
+
+
+# ----------------------------------------------------------------------
+# FETCH FUNCTIONS
+# ----------------------------------------------------------------------
+def _fetch_cmpy_info(cmpy_id: str) -> str:
+    response = _request(requests.get, CMPY_INFO_URL, params={"cmpy_id": cmpy_id})
+    return response.text
+
+def _fetch_stock_data(cmpy_id: str) -> str:
+    response = _request(requests.get, STOCK_DATA_URL, params={"cmpy_id": cmpy_id})
+    return response.text
+
+def _fetch_stock_chart(cmpy_id: str, sec_id: str, start_date: str, end_date: str) -> dict:
+    if not sec_id:
+        raise CompanyNotFoundError(f"No security_id available for cmpy_id {cmpy_id}")
+
+    payload = {
+        "cmpy_id": cmpy_id,
+        "security_id": sec_id,
+        "startDate": start_date,
+        "endDate": end_date,
+    }
+
+    response = _request(requests.post, STOCK_CHRT_TAB_DATA_URL, json=payload)
+    return response.json()
+
+def _fetch_stock_dividends(cmpy_id: str) -> str:
+    response = _request(requests.get, STOCK_DIV_URL, params={"cmpy_id": cmpy_id})
+    return response.text
+
+def _fetch_dividends_page(page_num: int) -> str:
+    payload = {
+        "pageNum": page_num,
+        "sortMode": "date",
+        "dateSortType": "DESC",
+        "cmpySortType": "ASC"
+    }
+    response = _request(requests.post, DIV_LIST_URL, data=payload)
+    return response.text
+
+
+# ----------------------------------------------------------------------
+# PARSE FUNCTIONS
+# ----------------------------------------------------------------------
+def _parse_cmpy_info(html: str) -> CompanyData:
     try:
-        soup = BeautifulSoup(response.text, "html.parser")
+        soup = BeautifulSoup(html, "html.parser")
         content_div = soup.find("div", id="dataList")
 
         overview = ""
@@ -43,14 +108,11 @@ def scrape_cmpy_info(cmpy_id: str) -> CompanyData:
 
             elif "Security Information" in cap:
                 trs = table.find_all("tr")
-                # Extract sector and sub-sector from the first two rows of the table
                 if trs:
-                   sector =trs[0].find("td").get_text(strip=True) 
-                   subSector = trs[1].find("td").get_text(" ", strip=True).replace("\xa0", " ")
-
+                    sector = trs[0].find("td").get_text(strip=True)
+                    subSector = trs[1].find("td").get_text(" ", strip=True).replace("\xa0", " ")
 
             elif "Contact Information" in cap:
-                # Website is under the last <tr> in the table
                 trs = table.find_all("tr")
                 if trs:
                     website = trs[-1].find("td").get_text(" ", strip=True).replace("\xa0", " ")
@@ -61,21 +123,12 @@ def scrape_cmpy_info(cmpy_id: str) -> CompanyData:
             subSector=subSector,
             website=website,
         )
-    
     except Exception as e:
-        print(f"Error parsing company info for cmpy_id {cmpy_id}: {e}")
-        return CompanyData()
+        raise PSEParseError(f"Error parsing company info: {e}") from e
 
-def scrape_stock_data(cmpy_id: str) -> StockData:
+def _parse_stock_data(html: str) -> StockData:
     try:
-        response = requests.get(STOCK_DATA_URL, params={"cmpy_id": cmpy_id}, timeout=10)
-        response.raise_for_status()
-    except requests.RequestException as e:
-        print(f"Error fetching stock data for cmpy_id {cmpy_id}: {e}")
-        return StockData()
-
-    try:
-        soup = BeautifulSoup(response.text, "html.parser")
+        soup = BeautifulSoup(html, "html.parser")
         content_div = soup.find("div", id="contents")
 
         cmpy_name = content_div.find("div", class_="compInfo").p.string
@@ -93,7 +146,7 @@ def scrape_stock_data(cmpy_id: str) -> StockData:
         for row in rows:
             labels = [x.string for x in row.find_all("th")]
             values = [x.get_text(strip=True).replace("\xa0", '').replace(',', '') for x in row.find_all("td")]
-            
+
             for idx, label in enumerate(labels):
                 if label not in label_map.keys():
                     continue
@@ -102,7 +155,7 @@ def scrape_stock_data(cmpy_id: str) -> StockData:
                     space_idx = values[idx].find(' ')
                     close = values[idx][:space_idx]
                     par_idx = values[idx].find('(')
-                    date = values[idx][(par_idx+1):-1]
+                    date = values[idx][(par_idx + 1):-1]
                     date_formatted = datetime.strptime(date, "%b %d %Y")
 
                     stock_args[label_map[label][0]] = float(close)
@@ -124,41 +177,22 @@ def scrape_stock_data(cmpy_id: str) -> StockData:
                     values[idx] = float(values[idx])
 
                 stock_args[label_map[label]] = values[idx]
-            
+
         return StockData(**stock_args)
-    
     except Exception as e:
-        print(f"Error parsing stock data for cmpy_id {cmpy_id}: {e}")
-        return StockData()
+        raise PSEParseError(f"Error parsing stock data: {e}") from e
 
-def scrape_stock_chart(cmpy_id: str, sec_id: str, start_date: str, end_date: str) -> list[dict]:
-    payload = {
-        "cmpy_id": cmpy_id,        
-        "security_id": sec_id,     
-        "startDate": start_date,
-        "endDate": end_date 
-    }
+def _parse_stock_chart(data: dict) -> list[dict]:
+    try:
+        return data.get("chartData", [])
+    except Exception as e:
+        raise PSEParseError(f"Error parsing stock chart data: {e}") from e
 
+def _parse_stock_dividends(html: str) -> list[DividendData]:
     try:
-        response = requests.post(STOCK_CHRT_TAB_DATA_URL, json=payload, timeout=10)
-        response.raise_for_status()
-        return response.json().get("chartData", [])
-    except requests.RequestException as e:
-        print(f"Error fetching stock chart data for cmpy_id {cmpy_id}: {e}")
-        return []
-
-def scrape_stock_dividends(cmpy_id: str) -> list[DividendData]:
-    try:
-        response = requests.get(STOCK_DIV_URL, params={"cmpy_id": cmpy_id}, timeout=10)
-        response.raise_for_status()
-    except requests.RequestException as e:
-        print(f"Error fetching stock dividends for cmpy_id {cmpy_id}: {e}")
-        return []
-    
-    try:
-        soup = BeautifulSoup(response.text, "html.parser")
+        soup = BeautifulSoup(html, "html.parser")
         table = soup.find("table", class_="list")
-        
+
         if not table:
             return []
 
@@ -175,8 +209,8 @@ def scrape_stock_dividends(cmpy_id: str) -> list[DividendData]:
             ex_div_date = datetime.strptime(cols[3], "%b %d, %Y").strftime("%Y-%m-%d")
             record_date = datetime.strptime(cols[4], "%b %d, %Y").strftime("%Y-%m-%d")
             payment_date = datetime.strptime(cols[5], "%b %d, %Y").strftime("%Y-%m-%d")
-            
-            data = DividendData(
+
+            results.append(DividendData(
                 companyName="",
                 securityType=cols[0],
                 dividendType=cols[1],
@@ -184,100 +218,96 @@ def scrape_stock_dividends(cmpy_id: str) -> list[DividendData]:
                 exDividendDate=ex_div_date,
                 recordDate=record_date,
                 paymentDate=payment_date,
-            )
-            results.append(data)
+            ))
 
         return results
     except Exception as e:
-        print(f"Error parsing stock dividends for cmpy_id {cmpy_id}: {e}")
-        return []
-    
+        raise PSEParseError(f"Error parsing stock dividends: {e}") from e
+
+def _parse_dividends_page(html: str, current_year: int) -> tuple[list[DividendData], bool]:
+    try:
+        soup = BeautifulSoup(html, "html.parser")
+        table = soup.find("table", class_="list")
+        rows = table.find_all("tr")[1:]
+    except Exception as e:
+        raise PSEParseError(f"Error parsing dividends page: {e}") from e
+
+    results = []
+    stop_pagination = False
+
+    for row in rows:
+        try:
+            cols = [td.get_text(strip=True).replace("\xa0", " ") for td in row.find_all("td")]
+            if len(cols) < 7:
+                continue
+
+            ex_div_dt = datetime.strptime(cols[4], "%b %d, %Y")
+            year = ex_div_dt.year
+
+            if year > current_year:
+                continue
+            elif year < current_year:
+                stop_pagination = True
+                break
+
+            match = re.search(r"[\d,.]+", cols[3])
+            rate = float(match.group().replace(",", "")) if match else 0.0
+
+            record_date = datetime.strptime(cols[5], "%b %d, %Y").strftime("%Y-%m-%d")
+            payment_date = datetime.strptime(cols[6], "%b %d, %Y").strftime("%Y-%m-%d")
+
+            results.append(DividendData(
+                companyName=cols[0],
+                securityType=cols[1],
+                dividendType=cols[2],
+                dividendRate=rate,
+                exDividendDate=ex_div_dt.strftime("%Y-%m-%d"),
+                recordDate=record_date,
+                paymentDate=payment_date,
+            ))
+        except Exception as e:
+            print(f"Error parsing row: {e}")
+            continue
+
+    return results, stop_pagination
+
+
+# ----------------------------------------------------------------------
+# SCRAPE FUNCTIONS
+# ----------------------------------------------------------------------
+def scrape_cmpy_info(cmpy_id: str) -> CompanyData:
+    html = _fetch_cmpy_info(cmpy_id)
+    return _parse_cmpy_info(html)
+
+def scrape_stock_data(cmpy_id: str) -> StockData:
+    html = _fetch_stock_data(cmpy_id)
+    return _parse_stock_data(html)
+
+def scrape_stock_chart(cmpy_id: str, sec_id: str, start_date: str, end_date: str) -> list[dict]:
+    data = _fetch_stock_chart(cmpy_id, sec_id, start_date, end_date)
+    return _parse_stock_chart(data)
+
+def scrape_stock_dividends(cmpy_id: str) -> list[DividendData]:
+    html = _fetch_stock_dividends(cmpy_id)
+    return _parse_stock_dividends(html)
+
 def scrape_dividends() -> list[DividendData]:
     current_year = datetime.now().year
     results = []
     page_num = 1
 
-    try:
-        while True:
-            payload = {
-                "pageNum": page_num,
-                "sortMode": "date",
-                "dateSortType": "DESC",
-                "cmpySortType": "ASC"
-            }
+    while True:
+        html = _fetch_dividends_page(page_num)
+        page_results, stop_pagination = _parse_dividends_page(html, current_year)
+        results.extend(page_results)
 
-            try:
-                response = requests.post(DIV_LIST_URL, data=payload, timeout=10)
-                response.raise_for_status()
-            except requests.RequestException as e:
-                print(f"Error fetching dividend page {page_num}: {e}")
-                break
+        if stop_pagination:
+            break
 
-            soup = BeautifulSoup(response.text, "html.parser")
-            table = soup.find("table", class_="list")
-            rows = table.find_all("tr")[1:]  
-            
-            stop_pagination = False
-            for row in rows:
-                try:
-                    cols = [td.get_text(strip=True).replace("\xa0", " ") for td in row.find_all("td")]
-                    if len(cols) < 7:
-                        continue
-
-                    # Parse ex-dividend date to decide what to do with the row
-                    ex_div_dt = datetime.strptime(cols[4], "%b %d, %Y")
-                    year = ex_div_dt.year
-
-                    if year > current_year:
-                        # Future dividend (e.g., 2026) — skip but keep scanning
-                        continue
-                    elif year < current_year:
-                        # We’ve reached older data — stop this page and all further pages
-                        stop_pagination = True
-                        break
-
-                    # Parse dividend rate (extract numeric value)
-                    match = re.search(r"[\d,.]+", cols[3])
-                    rate = float(match.group().replace(",", "")) if match else 0.0
-
-                    # Convert dates to YYYY-MM-DD
-                    record_date = datetime.strptime(cols[5], "%b %d, %Y").strftime("%Y-%m-%d")
-                    payment_date = datetime.strptime(cols[6], "%b %d, %Y").strftime("%Y-%m-%d")
-
-                    data = DividendData(
-                        companyName=cols[0],
-                        securityType=cols[1],
-                        dividendType=cols[2],
-                        dividendRate=rate,
-                        exDividendDate=ex_div_dt.strftime("%Y-%m-%d"),
-                        recordDate=record_date,
-                        paymentDate=payment_date,
-                    )
-                    results.append(data)
-                except Exception as e:
-                    print(f"Error parsing row on page {page_num}: {e}")
-                    continue
-
-            if stop_pagination:
-                print("Reached dividends outside current year. Stopping.")
-                break
-
-            page_num += 1
-
-    except Exception as e:
-        print(f"Unexpected error: {e}")
+        page_num += 1
 
     return results
 
-def lookup_cmpy(ticker_symbol: str, return_entire_object: bool = False):
-    if ticker_symbol not in cmpy_list:
-        print(f"Ticker symbol {ticker_symbol} not found in cmpy_list.")
-        raise KeyError(f"Ticker symbol {ticker_symbol} not found in cmpy_list.")
-
-    if return_entire_object:
-        return cmpy_list[ticker_symbol]
-    else:
-        return cmpy_list[ticker_symbol].get("cmpyId")
 
 # my_stocks = ["SCC", "DMC", "AREIT", "TEL", "MBT", "RCR"]
 # Test for scrape_stock_data function
@@ -301,7 +331,10 @@ def lookup_cmpy(ticker_symbol: str, return_entire_object: bool = False):
 #         print(f"Company ID for {stock} not found in cmpy_list.")
 
 # print(scrape_stock_data("128"))
-# print(scrape_stock_chart("AREIT", "679", "01-01-1900", "08-01-2026")[0])
+# cmpy = lookup_cmpy("AREIT", return_entire_object=True)
+# cmpy_id = cmpy.get("cmpyId")
+# sec_id = cmpy.get("security_id")
+# print(scrape_stock_chart(cmpy_id, sec_id, "08-03-2026", "08-07-2026"))
 # print(scrape_stock_dividends("114"))
 
-print(scrape_cmpy_info(lookup_cmpy_id("AREIT")))
+# print(scrape_cmpy_info(lookup_cmpy("AREIT")))
