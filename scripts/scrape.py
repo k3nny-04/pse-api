@@ -4,6 +4,7 @@ import json
 
 from bs4 import BeautifulSoup
 from datetime import datetime
+from models.chart import ChartData
 from models.stock import StockData, label_map, float_args
 from models.dividends import DividendData
 from models.company import CompanyData
@@ -164,7 +165,7 @@ def _parse_stock_data(html: str) -> StockData:
 
                 if label == "Change(% Change)":
                     change = stock_args["lastTradedPrice"] - stock_args["previousClose"]
-                    percent_change = change / stock_args["lastTradedPrice"] * 100
+                    percent_change = change / stock_args["previousClose"] * 100
 
                     stock_args[label_map[label][0]] = round(float(change), 2)
                     stock_args[label_map[label][1]] = round(float(percent_change), 2)
@@ -182,9 +183,20 @@ def _parse_stock_data(html: str) -> StockData:
     except Exception as e:
         raise PSEParseError(f"Error parsing stock data: {e}") from e
 
-def _parse_stock_chart(data: dict) -> list[dict]:
+def _parse_stock_chart(data: dict) -> list[ChartData]:
     try:
-        return data.get("chartData", [])
+        raw_rows = data.get("chartData", [])
+        return [
+            ChartData(
+                open = row.get("OPEN"),
+                value = row.get("VALUE"),
+                close = row.get("CLOSE"),
+                chartDate = row.get("CHART_DATE", ""),
+                high = row.get("HIGH"),
+                low = row.get("LOW"),
+            )
+            for row in raw_rows
+        ]
     except Exception as e:
         raise PSEParseError(f"Error parsing stock chart data: {e}") from e
 
