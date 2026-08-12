@@ -1,6 +1,4 @@
 "Company Name ","Symbol ","Sector ","Sub-Sector ","Listing Date ","Listing Board "
-"8990 Holdings, Inc. Series B Perpetual Preferred Shares",8990B,PROPERTY,PROPERTY,2021/02/10,Main Board
-"8990 Holdings, Inc. Series A Perpetual Preferred Shares",8990P,PROPERTY,PROPERTY,2017/12/01,Main Board
 "Asia Amalgamated Holdings Corporation",AAA,HOLDING FIRMS,HOLDING FIRMS,1973/03/22,Main Board
 "Atok-Big Wedge Co., Inc.",AB,MINING & OIL,MINING,1948/01/08,Main Board
 "AbaCore Capital Holdings, Inc.",ABA,HOLDING FIRMS,HOLDING FIRMS,1987/10/28,Main Board
@@ -16,9 +14,11 @@
 "Ayala Corporation Non-Voting Perpetual Preferred A Shares",ACPAR,HOLDING FIRMS,HOLDING FIRMS,2023/05/29,Main Board
 "Ayala Corporation Class ``B`` Series 1 Preferred Shares",ACPB1,HOLDING FIRMS,HOLDING FIRMS,2006/07/21,Main Board
 "Ayala Corporation Class ``B`` Series 3 Preferred Shares",ACPB3,HOLDING FIRMS,HOLDING FIRMS,2024/10/15,Main Board
+"Ayala Corporation Class ``B`` Series 4 Preferred Shares",ACPB4,HOLDING FIRMS,HOLDING FIRMS,2025/06/19,Main Board
 "Alsons Consolidated Resources, Inc.",ACR,INDUSTRIAL,ELEC., ENERGY, POWER & WATER,1993/04/12,Main Board
 "Aboitiz Equity Ventures, Inc.",AEV,HOLDING FIRMS,HOLDING FIRMS,1994/11/16,Main Board
 "Alliance Global Group, Inc.",AGI,HOLDING FIRMS,HOLDING FIRMS,1999/04/19,Main Board
+"Alliance Global Group, Inc. Warrants",AGIW,HOLDING FIRMS,HOLDING FIRMS,2025/12/19,Main Board
 "Arthaland Corporation",ALCO,PROPERTY,PROPERTY,1996/03/19,Main Board
 "Arthaland Corporation Series ``D`` Preferred Shares",ALCPD,PROPERTY,PROPERTY,2021/12/03,Main Board
 "Arthaland Corporation Series ``F`` Preferred Shares",ALCPF,PROPERTY,PROPERTY,2024/11/14,Main Board
@@ -42,12 +42,12 @@
 "AREIT, Inc.",AREIT,PROPERTY,PROPERTY,2020/08/13,Main Board
 "Raslag Corp.",ASLAG,INDUSTRIAL,ELEC., ENERGY, POWER & WATER,2022/06/06,Main Board
 "Atlas Consolidated Mining and Development Corporation",AT,MINING & OIL,MINING,1970/11/17,Main Board
-"Asian Terminals, Inc.",ATI,SERVICES,TRANSPORTATION SERVICES,1996/01/25,Main Board
-"ATN Holdings, Inc. ``A``",ATN,HOLDING FIRMS,HOLDING FIRMS,1970/09/24,Main Board
-"ATN Holdings, Inc. ``B``",ATNB,HOLDING FIRMS,HOLDING FIRMS,1970/09/24,Main Board
+"ASIAN TERMINALS, INC.",,,,1996/01/25,Main Board
+"ATN Holdings, Inc. ``A``",ATN,INDUSTRIAL,CONSTRUCTION, INFR. & ALLIED,1970/09/24,Main Board
+"ATN Holdings, Inc. ``B``",ATNB,INDUSTRIAL,CONSTRUCTION, INFR. & ALLIED,1970/09/24,Main Board
 "Asia United Bank Corporation",AUB,FINANCIALS,BANKS,2013/05/17,Main Board
 "Axelum Resources Corp.",AXLM,INDUSTRIAL,FOOD, BEVERAGE & TOBACCO,2019/10/07,Main Board
-"Balai Ni Fruitas Inc.",BALAI,SME,SME,2022/06/30,SME Board
+"Balai Ni Fruitas Inc.",BALAI,INDUSTRIAL,FOOD, BEVERAGE & TOBACCO,2022/06/30,Main Board
 "Benguet Corporation ``A``",BC,MINING & OIL,MINING,1950/01/04,Main Board
 "Benguet Corporation ``B``",BCB,MINING & OIL,MINING,1950/01/04,Main Board
 "Berjaya Philippines, Inc.",BCOR,SERVICES,RETAIL,1948/11/29,Main Board
@@ -83,11 +83,10 @@
 "Cebu Landmasters, Inc. Series A-2 Preferred Shares",CLIA2,PROPERTY,PROPERTY,2024/04/12,Main Board
 "Century Pacific Food, Inc.",CNPF,INDUSTRIAL,FOOD, BEVERAGE & TOBACCO,2014/05/06,Main Board
 "Converge Information and Communications Technology Solutions, Inc.",CNVRG,SERVICES,INFORMATION TECHNOLOGY,2020/10/26,Main Board
-"Coal Asia Holdings Incorporated",COAL,MINING & OIL,MINING,2012/10/23,Main Board
 "COL Financial Group, Inc.",COL,FINANCIALS,OTHER FINANCIAL INSTITUTIONS,2006/07/12,Main Board
 "Cosco Capital, Inc.",COSCO,HOLDING FIRMS,HOLDING FIRMS,1988/09/26,Main Board
 "Century Properties Group Inc.",CPG,PROPERTY,PROPERTY,1976/06/16,Main Board
-"Century Properties Group Inc. Preferred A Shares",CPGP,PROPERTY,PROPERTY,2020/01/10,Main Board
+"Century Properties Group, Inc. Preferred A Shares",,,,2020/01/10,Main Board
 "Century Properties Group, Inc. Preferred B Shares",CPGPB,PROPERTY,PROPERTY,2024/02/22,Main Board
 "Century Peak Holdings Corporation",CPM,MINING & OIL,MINING,2009/10/06,Main Board
 "Citicore Renewable Energy Corporation",CREC,INDUSTRIAL,ELEC., ENERGY, POWER & WATER,2024/06/07,Main Board
@@ -102,28 +101,28 @@
 "Del Monte Pacific Limited",DELM,INDUSTRIAL,FOOD, BEVERAGE & TOBACCO,2013/06/10,Main Board
 "DFNN, Inc.",DFNN,SERVICES,INFORMATION TECHNOLOGY,2000/10/30,Main Board
 "Dominion Holdings, Inc.",DHI,FINANCIALS,OTHER FINANCIAL INSTITUTIONS,1997/01/06,Main Board
-"DITO CME Holdings Corp.",DITO,SERVICES,INFORMATION TECHNOLOGY,1975/10/01,Main Board
+"DITO CME Holdings Corp.",DITO,SERVICES,TELECOMMUNICATIONS,1975/10/01,Main Board
 "Dizon Copper-Silver Mines, Inc.",DIZ,MINING & OIL,MINING,1988/02/10,Main Board
 "DMCI Holdings, Inc.",DMC,HOLDING FIRMS,HOLDING FIRMS,1995/12/18,Main Board
 "DMCI Holdings, Inc. - Cumulative Convertible Preferred",DMCP,HOLDING FIRMS,HOLDING FIRMS,1997/04/07,Main Board
 "Del Monte Pacific Limited U.S. Dollar-Denominated Series A-1 Preference Shares",DMPA1,INDUSTRIAL,FOOD, BEVERAGE & TOBACCO,2017/04/07,Main Board
 "Del Monte Pacific Limited U.S. Dollar-Denominated Series A-2 Preference Shares",DMPA2,INDUSTRIAL,FOOD, BEVERAGE & TOBACCO,2017/12/15,Main Board
 "D.M. Wenceslao & Associates, Incorporated",DMW,PROPERTY,PROPERTY,2018/06/29,Main Board
-"Philab Holdings Corp.",DNA,SME,SME,2009/09/03,SME Board
 "D&L Industries, Inc.",DNL,INDUSTRIAL,FOOD, BEVERAGE & TOBACCO,2012/12/12,Main Board
 "PLDT INC. -USD",DTEL,SERVICES,TELECOMMUNICATIONS,2003/07/16,Main Board
 "Discovery World Corporation",DWC,SERVICES,HOTEL & LEISURE,2013/11/21,Main Board
-"Easycall Communications Philippines, Inc.",ECP,SERVICES,OTHER SERVICES,1992/05/05,Main Board
-"East Coast Vulcan Mining Corporation",ECVC,INDUSTRIAL,CONSTRUCTION, INFR. & ALLIED,1970/08/31,Main Board
+"Easycall Communications Philippines, Inc.",ECP,SERVICES,INFORMATION TECHNOLOGY,1992/05/05,Main Board
+"East Coast Vulcan Mining Corporation",ECVC,MINING & OIL,MINING,1970/08/31,Main Board
 "EEI Corporation",EEI,INDUSTRIAL,CONSTRUCTION, INFR. & ALLIED,1975/07/21,Main Board
 "EEI Corporation Series A Preferred Shares",EEIPA,INDUSTRIAL,CONSTRUCTION, INFR. & ALLIED,2021/12/23,Main Board
 "EEI Corporation Series B Preferred Shares",EEIPB,INDUSTRIAL,CONSTRUCTION, INFR. & ALLIED,2021/12/23,Main Board
+"EEI Corporation Series D Preferred Shares",EEIPD,INDUSTRIAL,CONSTRUCTION, INFR. & ALLIED,2026/02/24,Main Board
 "IP E-Game Ventures, Inc.",EG,SERVICES,CASINOS & GAMING,2010/02/17,Main Board
+"Everwoods Green Resources and Holdings, Inc.",EGRN,PROPERTY,PROPERTY,1996/09/16,Main Board
 "Empire East Land Holdings, Inc.",ELI,PROPERTY,PROPERTY,1996/06/28,Main Board
 "Emperador Inc.",EMI,INDUSTRIAL,FOOD, BEVERAGE & TOBACCO,2011/12/19,Main Board
 "ENEX Energy Corp.",ENEX,MINING & OIL,OIL,2014/08/28,Main Board
 "Euro-Med Laboratories Phil., Inc.",EURO,INDUSTRIAL,CHEMICALS,1998/07/02,Main Board
-"Ever-Gotesco Resources and Holdings, Inc.",EVER,PROPERTY,PROPERTY,1996/09/16,Main Board
 "East West Banking Corporation",EW,FINANCIALS,BANKS,2012/05/07,Main Board
 "First Abacus Financial Holdings Corp.",FAF,FINANCIALS,OTHER FINANCIAL INSTITUTIONS,1994/11/17,Main Board
 "San Miguel Food and Beverage, Inc.",FB,INDUSTRIAL,FOOD, BEVERAGE & TOBACCO,1971/10/28,Main Board
@@ -131,6 +130,8 @@
 "San Miguel Food and Beverage, Inc. Perpetual Preferred Shares Series ``2``",FBP2,INDUSTRIAL,FOOD, BEVERAGE & TOBACCO,2015/03/12,Main Board
 "Figaro Culinary Group, Inc.",FCG,INDUSTRIAL,FOOD, BEVERAGE & TOBACCO,2022/01/24,Main Board
 "Filinvest Development Corporation",FDC,HOLDING FIRMS,HOLDING FIRMS,1982/12/22,Main Board
+"Filinvest Development Corporation Series A Preferred Shares",FDCPA,HOLDING FIRMS,HOLDING FIRMS,2025/08/08,Main Board
+"Filinvest Development Corporation Series B Preferred Shares",FDCPB,HOLDING FIRMS,HOLDING FIRMS,2025/08/08,Main Board
 "Ferronoux Holdings, Inc.",FERRO,FINANCIALS,OTHER FINANCIAL INSTITUTIONS,2013/08/13,Main Board
 "Far Eastern University, Incorporated",FEU,SERVICES,EDUCATION,1986/07/11,Main Board
 "Filipino Fund, Inc.",FFI,FINANCIALS,OTHER FINANCIAL INSTITUTIONS,1995/09/27,Main Board
@@ -146,11 +147,13 @@
 "First Philippine Holdings Corporation",FPH,INDUSTRIAL,ELEC., ENERGY, POWER & WATER,1963/05/23,Main Board
 "Forum Pacific, Inc.",FPI,HOLDING FIRMS,HOLDING FIRMS,1994/12/19,Main Board
 "Fruitas Holdings, Inc.",FRUIT,INDUSTRIAL,FOOD, BEVERAGE & TOBACCO,2019/11/29,Main Board
-"Filsyn Corporation ``A``",FYN,INDUSTRIAL,OTHER INDUSTRIALS,1975/06/03,Main Board
-"Filsyn Corporation ``B``",FYNB,INDUSTRIAL,OTHER INDUSTRIALS,1975/06/03,Main Board
+"Filsyn Corporation ``A``",FYN,INDUSTRIAL,CHEMICALS,1975/06/03,Main Board
+"Filsyn Corporation ``B``",FYNB,INDUSTRIAL,CHEMICALS,1975/06/03,Main Board
 "GEOGRACE Resources Philippines, Inc.",GEO,MINING & OIL,MINING,1972/02/07,Main Board
 "Global-Estate Resorts, Inc.",GERI,PROPERTY,PROPERTY,1995/11/23,Main Board
 "Globe Telecom, Inc.",GLO,SERVICES,TELECOMMUNICATIONS,1975/08/11,Main Board
+"Globe Telecom, Inc. Series A Non-Voting Preferred Shares",GLOBA,SERVICES,TELECOMMUNICATIONS,2026/03/02,Main Board
+"Globe Telecom, Inc. Series B Non-Voting Preferred Shares",GLOBB,SERVICES,TELECOMMUNICATIONS,2026/03/02,Main Board
 "Globe Telecom, Inc. Series A Voting Perpetual Preferred Shares",GLOPA,SERVICES,TELECOMMUNICATIONS,2001/06/29,Main Board
 "Globe Telecom, Inc. Series A Non-Voting Perpetual Preferred Shares",GLOPP,SERVICES,TELECOMMUNICATIONS,2014/08/22,Main Board
 "GMA Network, Inc.",GMA7,SERVICES,MEDIA,2007/07/30,Main Board
@@ -163,9 +166,8 @@
 "GT Capital Holdings, Inc. Non-Voting Perpetual Preferred Shares Series ``B``",GTPPB,HOLDING FIRMS,HOLDING FIRMS,2016/10/27,Main Board
 "House of Investments, Inc.",HI,HOLDING FIRMS,HOLDING FIRMS,1962/07/02,Main Board
 "AllHome Corp.",HOME,SERVICES,RETAIL,2019/10/10,Main Board
-"8990 Holdings, Inc.",HOUSE,PROPERTY,PROPERTY,2010/12/09,Main Board
+"8990 Holdings, Inc.",,,,2010/12/09,Main Board
 "Haus Talk, Inc.",HTI,SME,SME,2022/01/17,SME Board
-"Golden MV Holdings, Inc.",HVN,PROPERTY,PROPERTY,2016/06/29,Main Board
 "I-Remit, Inc.",I,FINANCIALS,OTHER FINANCIAL INSTITUTIONS,2007/10/17,Main Board
 "International Container Terminal Services, Inc.",ICT,SERVICES,TRANSPORTATION SERVICES,1992/03/23,Main Board
 "Italpinas Development Corporation",IDC,SME,SME,2015/12/07,SME Board
@@ -176,7 +178,7 @@
 "IPM Holdings, Inc.",IPM,SERVICES,OTHER SERVICES,1998/06/17,Main Board
 "iPeople, Inc.",IPO,SERVICES,EDUCATION,1990/01/24,Main Board
 "Island Information & Technology, Inc.",IS,SERVICES,INFORMATION TECHNOLOGY,1988/12/06,Main Board
-"Jackstones, Inc.",JAS,SERVICES,INFORMATION TECHNOLOGY,1967/10/27,Main Board
+"Jackstones, Inc.",JAS,PROPERTY,PROPERTY,1967/10/27,Main Board
 "Jollibee Foods Corporation",JFC,INDUSTRIAL,FOOD, BEVERAGE & TOBACCO,1993/07/14,Main Board
 "Jollibee Foods Corporation Non-Voting Perpetual Series A Preferred Shares",JFCPA,INDUSTRIAL,FOOD, BEVERAGE & TOBACCO,2021/10/14,Main Board
 "Jollibee Foods Corporation Non-Voting Perpetual Series B Preferred Shares",JFCPB,INDUSTRIAL,FOOD, BEVERAGE & TOBACCO,2021/10/14,Main Board
@@ -184,15 +186,14 @@
 "Jolliville Holdings Corporation",JOH,INDUSTRIAL,ELEC., ENERGY, POWER & WATER,2002/06/17,Main Board
 "The Keepers Holdings, Inc.",KEEPR,INDUSTRIAL,FOOD, BEVERAGE & TOBACCO,1991/09/03,Main Board
 "Keppel Philippines Properties, Inc.",KEP,PROPERTY,PROPERTY,1989/09/11,Main Board
-"Keppel Philippines Holdings, Inc. ``A``",KPH,HOLDING FIRMS,HOLDING FIRMS,1987/08/26,Main Board
-"Keppel Philippines Holdings, Inc. ``B``",KPHB,HOLDING FIRMS,HOLDING FIRMS,1987/08/26,Main Board
+"KEPPEL PHILIPPINE HOLDINGS, INC. "A"",,,,1987/08/26,Main Board
+"KEPPEL PHILIPPINE HOLDINGS, INC. "B"",,,,1987/08/26,Main Board
 "Kepwealth Property Phils., Inc.",KPPI,SME,SME,2019/08/19,SME Board
-"City & Land Developers, Incorporated",LAND,PROPERTY,PROPERTY,1999/12/13,Main Board
 "LBC Express Holdings, Inc.",LBC,SERVICES,TRANSPORTATION SERVICES,2001/12/21,Main Board
 "Lepanto Consolidated Mining Company ``A``",LC,MINING & OIL,MINING,1947/04/30,Main Board
 "Lepanto Consolidated Mining Company ``B``",LCB,MINING & OIL,MINING,1947/04/30,Main Board
 "Liberty Flour Mills, Inc.",LFM,INDUSTRIAL,FOOD, BEVERAGE & TOBACCO,1985/04/25,Main Board
-"LMG Corp.",LMG,INDUSTRIAL,CHEMICALS,1986/01/07,Main Board
+"LMG Corp.",LMG,FINANCIALS,OTHER FINANCIAL INSTITUTIONS,1986/01/07,Main Board
 "Lodestar Investment Holdings Corporation",LODE,HOLDING FIRMS,HOLDING FIRMS,1989/05/26,Main Board
 "Pacific Online Systems Corporation",LOTO,SERVICES,CASINOS & GAMING,2007/04/12,Main Board
 "LFM Properties Corporation",LPC,SME,SME,2022/11/09,SME Board
@@ -237,6 +238,9 @@
 "Megawide Construction Corporation Non-Voting Perpetual Series 6A Preferred Shares",MWP6A,INDUSTRIAL,CONSTRUCTION, INFR. & ALLIED,2025/04/14,Main Board
 "Megawide Construction Corporation Non-Voting Perpetual Series 6B Preferred Shares",MWP6B,INDUSTRIAL,CONSTRUCTION, INFR. & ALLIED,2025/04/14,Main Board
 "Megawide Construction Corporation Non-Voting Perpetual Series 6C Preferred Shares",MWP6C,INDUSTRIAL,CONSTRUCTION, INFR. & ALLIED,2025/04/14,Main Board
+"Megawide Construction Corporation Non-Voting Perpetual Series 7A Preferred Shares",MWP7A,INDUSTRIAL,CONSTRUCTION, INFR. & ALLIED,2025/11/19,Main Board
+"Megawide Construction Corporation Non-Voting Perpetual Series 7B Preferred Shares",MWP7B,INDUSTRIAL,CONSTRUCTION, INFR. & ALLIED,2025/11/19,Main Board
+"Maynilad Water Services, Inc.",MYNLD,INDUSTRIAL,ELEC., ENERGY, POWER & WATER,2025/11/07,Main Board
 "NiHAO Mineral Resources International, Inc.",NI,MINING & OIL,MINING,1990/10/03,Main Board
 "Nickel Asia Corporation",NIKL,MINING & OIL,MINING,2010/11/22,Main Board
 "Now Corporation",NOW,SERVICES,INFORMATION TECHNOLOGY,2003/07/23,Main Board
@@ -256,11 +260,11 @@
 "Petron Corporation",PCOR,INDUSTRIAL,ELEC., ENERGY, POWER & WATER,1994/09/07,Main Board
 "PetroEnergy Resources Corporation",PERC,INDUSTRIAL,ELEC., ENERGY, POWER & WATER,2004/08/11,Main Board
 "Puregold Price Club, Inc.",PGOLD,SERVICES,RETAIL,2011/10/05,Main Board
-"Premiere Horizon Alliance Corporation",PHA,SERVICES,OTHER SERVICES,1997/05/05,Main Board
+"Premiere Horizon Alliance Corporation",PHA,PROPERTY,PROPERTY,1997/05/05,Main Board
 "Philcomsat Holdings Corporation",PHC,SERVICES,OTHER SERVICES,1958/11/28,Main Board
 "Philippine Estates Corporation",PHES,PROPERTY,PROPERTY,1985/01/21,Main Board
 "Phinma Corporation",PHN,INDUSTRIAL,CONSTRUCTION, INFR. & ALLIED,1958/08/18,Main Board
-"PH Resorts Group Holdings, Inc.",PHR,SERVICES,CASINOS & GAMING,2011/11/24,Main Board
+"PH Resorts Group Holdings, Inc.",PHR,SERVICES,HOTEL & LEISURE,2011/11/24,Main Board
 "Shakey`s Pizza Asia Ventures Inc.",PIZZA,INDUSTRIAL,FOOD, BEVERAGE & TOBACCO,2016/12/15,Main Board
 "DigiPlus Interactive Corp.",PLUS,SERVICES,CASINOS & GAMING,1958/04/17,Main Board
 "Panasonic Manufacturing Philippines Corporation",PMPC,INDUSTRIAL,ELECTRICAL COMPONENTS & EQUIP.,1983/01/21,Main Board
@@ -272,8 +276,8 @@
 "P-H-O-E-N-I-X PETROLEUM PHILIPPINES, INC. Non-Voting Perpetual Preferred Shares Series ``4``",PNX4,INDUSTRIAL,ELEC., ENERGY, POWER & WATER,2019/11/07,Main Board
 "P-H-O-E-N-I-X PETROLEUM PHILIPPINES, INC. Non-Voting Perpetual Preferred Shares",PNXP,INDUSTRIAL,ELEC., ENERGY, POWER & WATER,2015/01/08,Main Board
 "Globalport 900, Inc.",PORT,SERVICES,TRANSPORTATION SERVICES,1948/06/09,Main Board
-"Pryce Corporation",PPC,INDUSTRIAL,CHEMICALS,1991/10/29,Main Board
-"Philippine Racing Club, Inc.",PRC,SERVICES,CASINOS & GAMING,1952/03/02,Main Board
+"Pryce Corporation",PPC,INDUSTRIAL,ELEC., ENERGY, POWER & WATER,1991/10/29,Main Board
+"Philippine Racing Club, Inc.",PRC,PROPERTY,PROPERTY,1952/03/02,Main Board
 "Premiere Island Power REIT Corporation",PREIT,PROPERTY,PROPERTY,2022/12/15,Main Board
 "Petron Corporation Perpetual Preferred Shares Series ``2`` -Subseries ``2A``",PRF2A,INDUSTRIAL,ELEC., ENERGY, POWER & WATER,2014/11/03,Main Board
 "Petron Corporation Perpetual Preferred Shares Series ``2`` -Subseries ``2B``",PRF2B,INDUSTRIAL,ELEC., ENERGY, POWER & WATER,2014/11/03,Main Board
@@ -303,6 +307,7 @@
 "Rockwell Land Corporation",ROCK,PROPERTY,PROPERTY,2012/05/11,Main Board
 "Roxas Holdings, Inc.",ROX,INDUSTRIAL,FOOD, BEVERAGE & TOBACCO,1996/08/08,Main Board
 "Robinsons Retail Holdings, Inc.",RRHI,SERVICES,RETAIL,2013/11/11,Main Board
+"Raslag Corp. Series 1 Preferred Shares",RSLG1,INDUSTRIAL,ELEC., ENERGY, POWER & WATER,2025/10/30,Main Board
 "SBS Philippines Corporation",SBS,SERVICES,OTHER SERVICES,2015/08/10,Main Board
 "Semirara Mining and Power Corporation",SCC,INDUSTRIAL,ELEC., ENERGY, POWER & WATER,1983/11/28,Main Board
 "Security Bank Corporation",SECB,FINANCIALS,BANKS,1995/06/08,Main Board
@@ -317,10 +322,10 @@
 "Sta. Lucia Land, Inc.",SLI,PROPERTY,PROPERTY,1987/09/14,Main Board
 "SM Investments Corporation",SM,HOLDING FIRMS,HOLDING FIRMS,2005/03/22,Main Board
 "San Miguel Corporation",SMC,HOLDING FIRMS,HOLDING FIRMS,1948/11/05,Main Board
-"San Miguel Corporation Series ``2`` Preferred Shares - Subseries ``2-A``",SMC2A,HOLDING FIRMS,HOLDING FIRMS,2012/09/28,Main Board
-"San Miguel Corporation Series ``2`` Preferred Shares - Subseries ``2-B``",SMC2B,HOLDING FIRMS,HOLDING FIRMS,2012/09/28,Main Board
-"San Miguel Corporation Series ``2`` Preferred Shares - Subseries ``2-C``",SMC2C,HOLDING FIRMS,HOLDING FIRMS,2012/09/28,Main Board
-"San Miguel Corporation Series ``2`` Preferred Shares - Subseries ``2-D``",SMC2D,HOLDING FIRMS,HOLDING FIRMS,2015/09/21,Main Board
+"San Miguel Corporation Series "2" Preferred Shares - Subseries "2-A"",,,,2012/09/28,Main Board
+"San Miguel Corporation Series "2" Preferred Shares - Subseries "2-B"",,,,2012/09/28,Main Board
+"San Miguel Corporation Series "2" Preferred Shares - Subseries "2-C"",,,,2012/09/28,Main Board
+"SAN MIGUEL CORPORATION SERIES "2" PREFERRED SHARES - SUBSERIES "2-D"",,,,2015/09/21,Main Board
 "San Miguel Corporation Series ``2`` Preferred Shares - Subseries ``2-E``",SMC2E,HOLDING FIRMS,HOLDING FIRMS,2015/09/21,Main Board
 "San Miguel Corporation Series ``2`` Preferred Shares - Subseries ``2-F``",SMC2F,HOLDING FIRMS,HOLDING FIRMS,2015/09/21,Main Board
 "San Miguel Corporation Series ``2`` Preferred Shares - Subseries ``2-G``",SMC2G,HOLDING FIRMS,HOLDING FIRMS,2016/03/30,Main Board
@@ -332,6 +337,15 @@
 "San Miguel Corporation Series ``2`` Preferred Shares - Subseries ``2-M``",SMC2M,HOLDING FIRMS,HOLDING FIRMS,2023/08/29,Main Board
 "San Miguel Corporation Series 2 Preferred Shares – Subseries ``2N``",SMC2N,HOLDING FIRMS,HOLDING FIRMS,2023/12/01,Main Board
 "San Miguel Corporation Series 2 Preferred Shares – Subseries ``2O``",SMC2O,HOLDING FIRMS,HOLDING FIRMS,2023/12/01,Main Board
+"San Miguel Corporation Series ``2`` Preferred Shares – Subseries ``2-P``",SMC2P,HOLDING FIRMS,HOLDING FIRMS,2025/10/24,Main Board
+"San Miguel Corporation Series ``2`` Preferred Shares – Subseries ``2-Q``",SMC2Q,HOLDING FIRMS,HOLDING FIRMS,2025/10/24,Main Board
+"San Miguel Corporation Series ``2`` Preferred Shares – Subseries ``2-R``",SMC2R,HOLDING FIRMS,HOLDING FIRMS,2025/10/24,Main Board
+"San Miguel Corporation Series ``2`` Preferred Shares – Subseries ``2-S``",SMC2S,HOLDING FIRMS,HOLDING FIRMS,2025/10/24,Main Board
+"San Miguel Corporation Series ``2`` Preferred Shares – Subseries ``2-T``",SMC2T,HOLDING FIRMS,HOLDING FIRMS,2025/10/24,Main Board
+"San Miguel Corporation Series ``2`` Preferred Shares – Subseries ``2-U``",SMC2U,HOLDING FIRMS,HOLDING FIRMS,2025/10/24,Main Board
+"San Miguel Corporation Series ``2`` Preferred Shares – Subseries ``2-V``",SMC2V,HOLDING FIRMS,HOLDING FIRMS,2026/08/03,Main Board
+"San Miguel Corporation Series ``2`` Preferred Shares – Subseries ``2-W``",SMC2W,HOLDING FIRMS,HOLDING FIRMS,2026/08/03,Main Board
+"San Miguel Corporation Series ``2`` Preferred Shares – Subseries ``2-X``",SMC2X,HOLDING FIRMS,HOLDING FIRMS,2026/08/03,Main Board
 "San Miguel Corporation - Preferred Series ``1``",SMCP1,HOLDING FIRMS,HOLDING FIRMS,2010/12/08,Main Board
 "SM Prime Holdings, Inc.",SMPH,PROPERTY,PROPERTY,1994/07/05,Main Board
 "SOCResources, Inc.",SOC,PROPERTY,PROPERTY,1994/01/05,Main Board
@@ -358,14 +372,18 @@
 "PLDT Inc. Convertible Preferred Shares Series ``II``",TLII,SERVICES,TELECOMMUNICATIONS,2014/10/15,Main Board
 "PLDT Inc. Convertible Preferred Shares Series ``JJ``",TLJJ,SERVICES,TELECOMMUNICATIONS,2016/01/21,Main Board
 "Top Line Business Development Corp.",TOP,INDUSTRIAL,ELEC., ENERGY, POWER & WATER,2025/04/08,Main Board
+"Top Line Business Development Corp. Series A-1 Preferred Shares",TOPA1,INDUSTRIAL,ELEC., ENERGY, POWER & WATER,2026/06/26,Main Board
+"Top Line Business Development Corp. Series A-2 Preferred Shares",TOPA2,INDUSTRIAL,ELEC., ENERGY, POWER & WATER,2026/06/26,Main Board
+"Tubig Pilipinas Holdings Inc.",TUBIG,MINING & OIL,MINING,2012/10/23,Main Board
 "Harbor Star Shipping Services, Inc.",TUGS,SERVICES,TRANSPORTATION SERVICES,2013/10/30,Main Board
 "Union Bank of the Philippines",UBP,FINANCIALS,BANKS,1992/06/29,Main Board
-"Uniholdings Inc.",UNH,INDUSTRIAL,CHEMICALS,1985/11/21,Main Board
+"Uniholdings Inc.",UNH,PROPERTY,PROPERTY,1985/11/21,Main Board
 "United Paragon Mining Corporation",UPM,MINING & OIL,MINING,1972/08/31,Main Board
 "Upson International Corp.",UPSON,SERVICES,RETAIL,2023/04/03,Main Board
 "Universal Robina Corporation",URC,INDUSTRIAL,FOOD, BEVERAGE & TOBACCO,1994/03/25,Main Board
 "Vantage Equities, Inc.",V,FINANCIALS,OTHER FINANCIAL INSTITUTIONS,1993/03/30,Main Board
 "Vitarich Corporation",VITA,INDUSTRIAL,FOOD, BEVERAGE & TOBACCO,1995/02/08,Main Board
+"Villar Land Holdings Corp.",VLC,PROPERTY,PROPERTY,2016/06/29,Main Board
 "Vista Land & Lifescapes, Inc.",VLL,PROPERTY,PROPERTY,2007/06/25,Main Board
 "Vista Land & Lifescapes, Inc. Series 2A Preferred Shares",VLL2A,PROPERTY,PROPERTY,2024/10/04,Main Board
 "Vista Land & Lifescapes, Inc. Series 2B Preferred Shares",VLL2B,PROPERTY,PROPERTY,2024/10/04,Main Board
@@ -373,7 +391,7 @@
 "VistaREIT, Inc.",VREIT,PROPERTY,PROPERTY,2022/06/15,Main Board
 "Vivant Corporation",VVT,INDUSTRIAL,ELEC., ENERGY, POWER & WATER,1994/06/23,Main Board
 "Philweb Corporation",WEB,SERVICES,CASINOS & GAMING,1969/12/08,Main Board
-"Wellex Industries, Inc.",WIN,HOLDING FIRMS,HOLDING FIRMS,1958/01/09,Main Board
+"Wellex Industries, Inc.",WIN,PROPERTY,PROPERTY,1958/01/09,Main Board
 "Wilcon Depot, Inc.",WLCON,SERVICES,RETAIL,2017/03/31,Main Board
 "Waterfront Philippines, Incorporated",WPI,SERVICES,HOTEL & LEISURE,1995/03/17,Main Board
 "Xurpas Inc.",X,SME,SME,2014/12/02,SME Board

@@ -210,18 +210,11 @@
         "security_id": "689"
     },
     "AT": {
-        "cmpyId": "53",
-        "cmpyNm": "Asian Terminals, Inc.",
-        "symbol": "ATI",
+        "cmpyId": "34",
+        "cmpyNm": "Atlas Consolidated Mining and Development Corporation",
+        "symbol": "AT",
         "etfYn": "0",
-        "security_id": "141"
-    },
-    "ATI": {
-        "cmpyId": "53",
-        "cmpyNm": "Asian Terminals, Inc.",
-        "symbol": "ATI",
-        "etfYn": "0",
-        "security_id": "141"
+        "security_id": "320"
     },
     "ATN": {
         "cmpyId": "56",
@@ -433,13 +426,6 @@
         "etfYn": "null",
         "security_id": "656"
     },
-    "COAL": {
-        "cmpyId": "637",
-        "cmpyNm": "Coal Asia Holdings Incorporated",
-        "symbol": "COAL",
-        "etfYn": "0",
-        "security_id": "580"
-    },
     "COL": {
         "cmpyId": "601",
         "cmpyNm": "COL Financial Group, Inc.",
@@ -609,11 +595,18 @@
         "security_id": "148"
     },
     "EG": {
-        "cmpyId": "623",
-        "cmpyNm": "IP E-Game Ventures, Inc.",
-        "symbol": "EG",
+        "cmpyId": "191",
+        "cmpyNm": "Everwoods Green Resources and Holdings, Inc.",
+        "symbol": "EGRN",
         "etfYn": "0",
-        "security_id": "552"
+        "security_id": "193"
+    },
+    "EGRN": {
+        "cmpyId": "191",
+        "cmpyNm": "Everwoods Green Resources and Holdings, Inc.",
+        "symbol": "EGRN",
+        "etfYn": "0",
+        "security_id": "193"
     },
     "ELI": {
         "cmpyId": "190",
@@ -642,13 +635,6 @@
         "symbol": "EURO",
         "etfYn": "0",
         "security_id": "236"
-    },
-    "EVER": {
-        "cmpyId": "191",
-        "cmpyNm": "Ever-Gotesco Resources and Holdings, Inc.",
-        "symbol": "EVER",
-        "etfYn": "0",
-        "security_id": "193"
     },
     "EW": {
         "cmpyId": "634",
@@ -804,6 +790,13 @@
         "etfYn": "0",
         "security_id": "190"
     },
+    "GLOBA": {
+        "cmpyId": "224",
+        "cmpyNm": "Global Ferronickel Holdings, Inc.",
+        "symbol": "FNI",
+        "etfYn": "0",
+        "security_id": "190"
+    },
     "GMA7": {
         "cmpyId": "610",
         "cmpyNm": "GMA Network, Inc.",
@@ -860,26 +853,12 @@
         "etfYn": "null",
         "security_id": "647"
     },
-    "HOUSE": {
-        "cmpyId": "626",
-        "cmpyNm": "8990 Holdings, Inc.",
-        "symbol": "HOUSE",
-        "etfYn": "0",
-        "security_id": "563"
-    },
     "HTI": {
         "cmpyId": "690",
         "cmpyNm": "Haus Talk, Inc.",
         "symbol": "HTI",
         "etfYn": "null",
         "security_id": "685"
-    },
-    "HVN": {
-        "cmpyId": "661",
-        "cmpyNm": "Golden MV Holdings, Inc.",
-        "symbol": "HVN",
-        "etfYn": "0",
-        "security_id": "624"
     },
     "I": {
         "cmpyId": "613",
@@ -987,9 +966,9 @@
         "security_id": "150"
     },
     "KEP": {
-        "cmpyId": "87",
-        "cmpyNm": "Keppel Philippines Holdings, Inc.",
-        "symbol": "KPH",
+        "cmpyId": "88",
+        "cmpyNm": "Keppel Philippines Properties, Inc.",
+        "symbol": "KEP",
         "etfYn": "0",
         "security_id": "306"
     },
@@ -999,13 +978,6 @@
         "symbol": "KPPI",
         "etfYn": "null",
         "security_id": "645"
-    },
-    "LAND": {
-        "cmpyId": "209",
-        "cmpyNm": "City & Land Developers, Incorporated",
-        "symbol": "LAND",
-        "etfYn": "0",
-        "security_id": "308"
     },
     "LBC": {
         "cmpyId": "236",
@@ -1279,6 +1251,13 @@
         "symbol": "MWIDE",
         "etfYn": "0",
         "security_id": "564"
+    },
+    "MYNLD": {
+        "cmpyId": "707",
+        "cmpyNm": "Maynilad Water Services, Inc.",
+        "symbol": "MYNLD",
+        "etfYn": "null",
+        "security_id": "737"
     },
     "NI": {
         "cmpyId": "625",
@@ -1861,6 +1840,13 @@
         "etfYn": "0",
         "security_id": "595"
     },
+    "TUBIG": {
+        "cmpyId": "637",
+        "cmpyNm": "Tubig Pilipinas Holdings Inc.",
+        "symbol": "TUBIG",
+        "etfYn": "0",
+        "security_id": "580"
+    },
     "TUGS": {
         "cmpyId": "644",
         "cmpyNm": "Harbor Star Shipping Services, Inc. ",
@@ -1916,6 +1902,13 @@
         "symbol": "VITA",
         "etfYn": "0",
         "security_id": "168"
+    },
+    "VLC": {
+        "cmpyId": "661",
+        "cmpyNm": "Villar Land Holdings Corp.",
+        "symbol": "VLC",
+        "etfYn": "0",
+        "security_id": "624"
     },
     "VLL": {
         "cmpyId": "607",
