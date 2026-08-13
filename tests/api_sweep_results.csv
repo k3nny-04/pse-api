@@ -1,0 +1,1137 @@
+timestamp,symbol,endpoint,http_status,elapsed_ms,detail
+2026-08-13T16:52:59.977208,AAA,company-info,200,365.7,sector='Holding Firms'
+2026-08-13T16:53:00.337603,AAA,stock-data,200,360.2,cmpyName='Asia Amalgamated Holdings Corporation' lastTradedPrice=0.0
+2026-08-13T16:53:00.692094,AAA,chart,200,354.3,rows=0
+2026-08-13T16:53:01.006929,AAA,dividends,200,314.6,rows=0
+2026-08-13T16:53:01.327933,AB,company-info,200,320.8,sector='Holding Firms'
+2026-08-13T16:53:01.637273,AB,stock-data,200,309.1,"cmpyName='AbaCore Capital Holdings, Inc.' lastTradedPrice=0.33"
+2026-08-13T16:53:02.045505,AB,chart,200,407.7,rows=156
+2026-08-13T16:53:02.323582,AB,dividends,200,277.9,rows=3
+2026-08-13T16:53:02.603245,ABA,company-info,200,279.5,sector='Holding Firms'
+2026-08-13T16:53:02.883528,ABA,stock-data,200,280.0,"cmpyName='AbaCore Capital Holdings, Inc.' lastTradedPrice=0.33"
+2026-08-13T16:53:03.231617,ABA,chart,200,347.6,rows=156
+2026-08-13T16:53:03.544349,ABA,dividends,200,312.5,rows=3
+2026-08-13T16:53:03.827349,ABG,company-info,200,282.8,sector='Holding Firms'
+2026-08-13T16:53:04.142693,ABG,stock-data,200,315.1,cmpyName='Asiabest Group International Inc.' lastTradedPrice=53.45
+2026-08-13T16:53:04.469253,ABG,chart,200,326.0,rows=156
+2026-08-13T16:53:04.752789,ABG,dividends,200,283.2,rows=0
+2026-08-13T16:53:05.065539,ABS,company-info,200,312.0,sector='Services'
+2026-08-13T16:53:05.358082,ABS,stock-data,200,292.3,cmpyName='ABS-CBN Corporation' lastTradedPrice=4.34
+2026-08-13T16:53:05.716960,ABS,chart,200,358.3,rows=156
+2026-08-13T16:53:06.005662,ABS,dividends,200,288.5,rows=0
+2026-08-13T16:53:06.285174,ABSP,company-info,200,279.3,sector='Services'
+2026-08-13T16:53:06.578513,ABSP,stock-data,200,293.1,cmpyName='ABS-CBN Holdings Corporation' lastTradedPrice=3.65
+2026-08-13T16:53:06.934688,ABSP,chart,200,355.9,rows=82
+2026-08-13T16:53:07.283444,ABSP,dividends,200,348.5,rows=0
+2026-08-13T16:53:07.608971,AC,company-info,200,325.3,sector='Industrial'
+2026-08-13T16:53:07.914213,AC,stock-data,200,304.9,cmpyName='ACEN CORPORATION' lastTradedPrice=2.97
+2026-08-13T16:53:08.301188,AC,chart,200,386.5,rows=156
+2026-08-13T16:53:08.593710,AC,dividends,200,292.3,rows=11
+2026-08-13T16:53:08.915085,ACE,company-info,200,321.2,sector='Industrial'
+2026-08-13T16:53:09.234890,ACE,stock-data,200,319.6,cmpyName='ACEN CORPORATION' lastTradedPrice=2.97
+2026-08-13T16:53:09.594752,ACE,chart,200,359.4,rows=156
+2026-08-13T16:53:09.961368,ACE,dividends,200,366.4,rows=11
+2026-08-13T16:53:10.252976,ACEN,company-info,200,291.4,sector='Industrial'
+2026-08-13T16:53:10.583137,ACEN,stock-data,200,329.9,cmpyName='ACEN CORPORATION' lastTradedPrice=2.97
+2026-08-13T16:53:12.014270,ACEN,chart,200,1430.3,rows=156
+2026-08-13T16:53:12.294724,ACEN,dividends,200,280.2,rows=11
+2026-08-13T16:53:12.590035,ACR,company-info,200,295.1,sector='Industrial'
+2026-08-13T16:53:12.895345,ACR,stock-data,200,305.0,"cmpyName='Alsons Consolidated Resources, Inc.' lastTradedPrice=0.78"
+2026-08-13T16:53:13.284471,ACR,chart,200,388.6,rows=156
+2026-08-13T16:53:13.560488,ACR,dividends,200,275.8,rows=1
+2026-08-13T16:53:13.907032,AEV,company-info,200,346.3,sector='Holding Firms'
+2026-08-13T16:53:14.259633,AEV,stock-data,200,352.4,"cmpyName='Aboitiz Equity Ventures, Inc.' lastTradedPrice=37.0"
+2026-08-13T16:53:14.623537,AEV,chart,200,363.4,rows=156
+2026-08-13T16:53:14.923089,AEV,dividends,200,299.4,rows=2
+2026-08-13T16:53:15.226568,AGI,company-info,200,303.3,sector='Holding Firms'
+2026-08-13T16:53:15.531838,AGI,stock-data,200,305.1,"cmpyName='Alliance Global Group, Inc.' lastTradedPrice=9.14"
+2026-08-13T16:53:15.885754,AGI,chart,200,353.4,rows=156
+2026-08-13T16:53:16.190579,AGI,dividends,200,304.6,rows=1
+2026-08-13T16:53:16.463013,ALCO,company-info,200,272.2,sector='Property'
+2026-08-13T16:53:16.746404,ALCO,stock-data,200,283.1,cmpyName='Arthaland Corporation' lastTradedPrice=0.475
+2026-08-13T16:53:17.113390,ALCO,chart,200,366.6,rows=119
+2026-08-13T16:53:17.390858,ALCO,dividends,200,277.2,rows=11
+2026-08-13T16:53:17.670738,ALHI,company-info,200,279.6,sector='Property'
+2026-08-13T16:53:18.013196,ALHI,stock-data,200,342.2,"cmpyName='Anchor Land Holdings, Inc.' lastTradedPrice=4.0"
+2026-08-13T16:53:18.337954,ALHI,chart,200,324.4,rows=28
+2026-08-13T16:53:18.607117,ALHI,dividends,200,268.9,rows=1
+2026-08-13T16:53:18.945331,ALI,company-info,200,337.9,sector='Property'
+2026-08-13T16:53:19.259839,ALI,stock-data,200,314.3,"cmpyName='Ayala Land, Inc.' lastTradedPrice=14.98"
+2026-08-13T16:53:19.648317,ALI,chart,200,387.7,rows=156
+2026-08-13T16:53:19.953393,ALI,dividends,200,304.8,rows=3
+2026-08-13T16:53:20.269032,ALLDY,company-info,200,315.4,sector='Services'
+2026-08-13T16:53:20.633380,ALLDY,stock-data,200,364.1,"cmpyName='AllDay Marts, Inc.' lastTradedPrice=0.0"
+2026-08-13T16:53:20.929050,ALLDY,chart,200,295.2,rows=103
+2026-08-13T16:53:21.213426,ALLDY,dividends,200,284.2,rows=0
+2026-08-13T16:53:21.487452,ALLHC,company-info,200,273.8,sector='Property'
+2026-08-13T16:53:21.812695,ALLHC,stock-data,200,325.0,cmpyName='AyalaLand Logistics Holdings Corp.' lastTradedPrice=1.19
+2026-08-13T16:53:22.183186,ALLHC,chart,200,370.0,rows=156
+2026-08-13T16:53:22.452618,ALLHC,dividends,200,269.2,rows=0
+2026-08-13T16:53:22.792089,ALTER,company-info,200,339.2,sector='Industrial'
+2026-08-13T16:53:23.104075,ALTER,stock-data,200,311.7,cmpyName='Alternergy Holdings Corporation' lastTradedPrice=0.77
+2026-08-13T16:53:23.427209,ALTER,chart,200,322.7,rows=156
+2026-08-13T16:53:23.963567,ALTER,dividends,200,536.2,rows=2
+2026-08-13T16:53:24.295892,ANI,company-info,200,332.1,sector='Industrial'
+2026-08-13T16:53:24.573244,ANI,stock-data,200,277.2,"cmpyName='AgriNurture, Inc.' lastTradedPrice=0.0"
+2026-08-13T16:53:24.930251,ANI,chart,200,356.7,rows=111
+2026-08-13T16:53:25.237529,ANI,dividends,200,307.1,rows=0
+2026-08-13T16:53:25.657466,ANS,company-info,200,419.7,sector='Holding Firms'
+2026-08-13T16:53:25.990068,ANS,stock-data,200,332.4,cmpyName='A. Soriano Corporation' lastTradedPrice=17.08
+2026-08-13T16:53:26.302838,ANS,chart,200,312.2,rows=151
+2026-08-13T16:53:26.577013,ANS,dividends,200,274.0,rows=3
+2026-08-13T16:53:26.916565,AP,company-info,200,339.4,sector='Industrial'
+2026-08-13T16:53:27.269364,AP,stock-data,200,352.5,cmpyName='Aboitiz Power Corporation' lastTradedPrice=45.1
+2026-08-13T16:53:27.629864,AP,chart,200,360.0,rows=156
+2026-08-13T16:53:27.926099,AP,dividends,200,296.0,rows=2
+2026-08-13T16:53:28.201626,APC,company-info,200,275.3,sector='Services'
+2026-08-13T16:53:28.551250,APC,stock-data,200,349.4,"cmpyName='APC Group, Inc.' lastTradedPrice=0.113"
+2026-08-13T16:53:28.891556,APC,chart,200,339.9,rows=135
+2026-08-13T16:53:29.161196,APC,dividends,200,269.4,rows=0
+2026-08-13T16:53:29.451499,APL,company-info,200,290.1,sector='Services'
+2026-08-13T16:53:29.797805,APL,stock-data,200,346.1,"cmpyName='Apollo Global Capital, Inc.' lastTradedPrice=0.0063"
+2026-08-13T16:53:30.179377,APL,chart,200,381.1,rows=156
+2026-08-13T16:53:30.492421,APL,dividends,200,312.9,rows=0
+2026-08-13T16:53:30.809611,APO,company-info,200,317.0,sector='Holding Firms'
+2026-08-13T16:53:31.128204,APO,stock-data,200,318.4,cmpyName='Anglo Philippine Holdings Corporation' lastTradedPrice=1.09
+2026-08-13T16:53:31.442213,APO,chart,200,313.5,rows=148
+2026-08-13T16:53:31.711348,APO,dividends,200,268.9,rows=0
+2026-08-13T16:53:32.018618,APVI,company-info,200,307.0,sector='Property'
+2026-08-13T16:53:32.328375,APVI,stock-data,200,309.5,"cmpyName='Altus Property Ventures, Inc.' lastTradedPrice=10.7"
+2026-08-13T16:53:32.689359,APVI,chart,200,360.6,rows=137
+2026-08-13T16:53:32.959166,APVI,dividends,200,269.5,rows=1
+2026-08-13T16:53:33.274922,APX,company-info,200,315.5,sector='Mining and Oil'
+2026-08-13T16:53:33.572765,APX,stock-data,200,297.6,"cmpyName='Apex Mining Co., Inc.' lastTradedPrice=14.7"
+2026-08-13T16:53:33.949146,APX,chart,200,375.8,rows=156
+2026-08-13T16:53:34.249578,APX,dividends,200,300.2,rows=2
+2026-08-13T16:53:34.527374,AR,company-info,200,277.6,sector='Mining and Oil'
+2026-08-13T16:53:34.804769,AR,stock-data,200,277.2,cmpyName='Abra Mining and Industrial Corporation' lastTradedPrice=0.0
+2026-08-13T16:53:35.164217,AR,chart,200,359.2,rows=0
+2026-08-13T16:53:35.450507,AR,dividends,200,286.1,rows=0
+2026-08-13T16:53:35.728869,ARA,company-info,200,278.2,sector='Property'
+2026-08-13T16:53:36.041821,ARA,stock-data,200,312.7,"cmpyName='Araneta Properties, Inc.' lastTradedPrice=0.27"
+2026-08-13T16:53:36.344765,ARA,chart,200,302.5,rows=112
+2026-08-13T16:53:36.626653,ARA,dividends,200,281.7,rows=0
+2026-08-13T16:53:36.894857,AREIT,company-info,200,268.0,sector='Property'
+2026-08-13T16:53:37.193718,AREIT,stock-data,200,298.6,"cmpyName='AREIT, Inc.' lastTradedPrice=38.1"
+2026-08-13T16:53:37.499664,AREIT,chart,200,305.5,rows=156
+2026-08-13T16:53:37.775410,AREIT,dividends,200,275.5,rows=5
+2026-08-13T16:53:38.057976,ASLAG,company-info,200,282.4,sector='Industrial'
+2026-08-13T16:53:38.397792,ASLAG,stock-data,200,339.6,cmpyName='Raslag Corp.' lastTradedPrice=1.01
+2026-08-13T16:53:38.722781,ASLAG,chart,200,324.5,rows=155
+2026-08-13T16:53:39.074243,ASLAG,dividends,200,351.2,rows=6
+2026-08-13T16:53:39.394192,AT,company-info,200,319.7,sector='Mining and Oil'
+2026-08-13T16:53:39.682627,AT,stock-data,200,288.2,cmpyName='Atlas Consolidated Mining and Development Corporation' lastTradedPrice=15.5
+2026-08-13T16:53:40.416271,AT,chart,200,732.6,rows=156
+2026-08-13T16:53:40.701461,AT,dividends,200,285.0,rows=0
+2026-08-13T16:53:40.973622,ATN,company-info,200,272.0,sector='Industrial'
+2026-08-13T16:53:41.312282,ATN,stock-data,200,338.5,"cmpyName='ATN Holdings, Inc.' lastTradedPrice=0.415"
+2026-08-13T16:53:41.650608,ATN,chart,200,338.0,rows=105
+2026-08-13T16:53:41.972500,ATN,dividends,200,321.7,rows=1
+2026-08-13T16:53:42.293097,AUB,company-info,200,320.4,sector='Financials'
+2026-08-13T16:53:42.608215,AUB,stock-data,200,314.9,cmpyName='Asia United Bank Corporation' lastTradedPrice=48.95
+2026-08-13T16:53:42.930047,AUB,chart,200,321.4,rows=156
+2026-08-13T16:53:43.197721,AUB,dividends,200,267.5,rows=7
+2026-08-13T16:53:43.473880,AXLM,company-info,200,276.0,sector='Industrial'
+2026-08-13T16:53:43.762779,AXLM,stock-data,200,288.7,cmpyName='Axelum Resources Corp.' lastTradedPrice=2.88
+2026-08-13T16:53:44.120136,AXLM,chart,200,356.9,rows=150
+2026-08-13T16:53:44.398017,AXLM,dividends,200,277.7,rows=1
+2026-08-13T16:53:44.683960,BALAI,company-info,200,285.7,sector='Industrial'
+2026-08-13T16:53:44.994847,BALAI,stock-data,200,310.7,cmpyName='Balai Ni Fruitas Inc.' lastTradedPrice=0.315
+2026-08-13T16:53:45.428346,BALAI,chart,200,433.1,rows=123
+2026-08-13T16:53:45.742800,BALAI,dividends,200,314.2,rows=0
+2026-08-13T16:53:46.055858,BC,company-info,200,312.8,sector='Mining and Oil'
+2026-08-13T16:53:46.396156,BC,stock-data,200,340.1,cmpyName='Benguet Corporation' lastTradedPrice=6.8
+2026-08-13T16:53:46.770824,BC,chart,200,374.2,rows=154
+2026-08-13T16:53:47.077482,BC,dividends,200,306.4,rows=4
+2026-08-13T16:53:47.382488,BCOR,company-info,200,304.8,sector='Services'
+2026-08-13T16:53:47.694955,BCOR,stock-data,200,312.2,cmpyName='Berjaya Philippines Inc.' lastTradedPrice=0.0
+2026-08-13T16:53:48.030810,BCOR,chart,200,335.5,rows=71
+2026-08-13T16:53:48.340486,BCOR,dividends,200,309.5,rows=0
+2026-08-13T16:53:48.649743,BDO,company-info,200,309.1,sector='Financials'
+2026-08-13T16:53:48.968081,BDO,stock-data,200,318.1,"cmpyName='BDO Unibank, Inc.' lastTradedPrice=126.0"
+2026-08-13T16:53:49.345263,BDO,chart,200,376.7,rows=156
+2026-08-13T16:53:49.664953,BDO,dividends,200,319.5,rows=4
+2026-08-13T16:53:49.970621,BEL,company-info,200,305.5,sector='Services'
+2026-08-13T16:53:50.311341,BEL,stock-data,200,340.5,cmpyName='Belle Corporation' lastTradedPrice=1.16
+2026-08-13T16:53:50.637617,BEL,chart,200,325.6,rows=155
+2026-08-13T16:53:50.964975,BEL,dividends,200,327.1,rows=1
+2026-08-13T16:53:51.251295,BH,company-info,200,286.0,sector='Holding Firms'
+2026-08-13T16:53:51.574191,BH,stock-data,200,322.6,"cmpyName='BHI Holdings, Inc.' lastTradedPrice=0.0"
+2026-08-13T16:53:51.947294,BH,chart,200,372.9,rows=2
+2026-08-13T16:53:52.266507,BH,dividends,200,318.9,rows=0
+2026-08-13T16:53:52.591701,BHI,company-info,200,325.0,sector='Holding Firms'
+2026-08-13T16:53:53.026872,BHI,stock-data,200,434.9,"cmpyName='BHI Holdings, Inc.' lastTradedPrice=0.0"
+2026-08-13T16:53:53.364933,BHI,chart,200,337.8,rows=2
+2026-08-13T16:53:53.682754,BHI,dividends,200,317.6,rows=0
+2026-08-13T16:53:53.989924,BKR,company-info,200,306.9,sector='Financials'
+2026-08-13T16:53:54.282704,BKR,stock-data,200,292.6,cmpyName='Bright Kindle Resources & Investments Inc.' lastTradedPrice=0.5
+2026-08-13T16:53:54.687933,BKR,chart,200,404.8,rows=121
+2026-08-13T16:53:55.026132,BKR,dividends,200,338.0,rows=2
+2026-08-13T16:53:55.294508,BLOOM,company-info,200,268.1,sector='Services'
+2026-08-13T16:53:55.601228,BLOOM,stock-data,200,306.5,cmpyName='Bloomberry Resorts Corporation' lastTradedPrice=2.07
+2026-08-13T16:53:55.942054,BLOOM,chart,200,340.3,rows=156
+2026-08-13T16:53:56.221631,BLOOM,dividends,200,279.4,rows=0
+2026-08-13T16:53:56.523075,BMM,company-info,200,301.2,sector='Industrial'
+2026-08-13T16:53:56.811902,BMM,stock-data,200,288.6,"cmpyName='Bogo-Medellin Milling Company, Inc.' lastTradedPrice=0.0"
+2026-08-13T16:53:57.152007,BMM,chart,200,339.9,rows=0
+2026-08-13T16:53:57.426479,BMM,dividends,200,274.3,rows=1
+2026-08-13T16:53:57.709031,BNCOM,company-info,200,282.4,sector='Financials'
+2026-08-13T16:53:58.008083,BNCOM,stock-data,200,298.8,cmpyName='Bank of Commerce' lastTradedPrice=10.46
+2026-08-13T16:53:58.376176,BNCOM,chart,200,367.6,rows=156
+2026-08-13T16:53:58.672359,BNCOM,dividends,200,296.0,rows=2
+2026-08-13T16:53:58.951362,BPI,company-info,200,278.8,sector='Financials'
+2026-08-13T16:53:59.317742,BPI,stock-data,200,366.2,cmpyName='Bank of the Philippine Islands' lastTradedPrice=106.9
+2026-08-13T16:53:59.676049,BPI,chart,200,357.9,rows=156
+2026-08-13T16:53:59.985097,BPI,dividends,200,308.8,rows=2
+2026-08-13T16:54:00.294446,BRN,company-info,200,309.2,sector='Property'
+2026-08-13T16:54:00.609823,BRN,stock-data,200,315.1,"cmpyName='A Brown Company, Inc.' lastTradedPrice=0.7"
+2026-08-13T16:54:00.952227,BRN,chart,200,341.9,rows=141
+2026-08-13T16:54:01.235924,BRN,dividends,200,283.5,rows=21
+2026-08-13T16:54:01.543785,BSC,company-info,200,307.6,sector='Industrial'
+2026-08-13T16:54:01.869626,BSC,stock-data,200,325.6,cmpyName='Basic Energy Corporation' lastTradedPrice=0.112
+2026-08-13T16:54:02.209058,BSC,chart,200,338.9,rows=156
+2026-08-13T16:54:02.546177,BSC,dividends,200,336.9,rows=0
+2026-08-13T16:54:02.890408,C,company-info,200,344.0,sector='Services'
+2026-08-13T16:54:03.176018,C,stock-data,200,285.4,"cmpyName='Cebu Air, Inc.' lastTradedPrice=28.65"
+2026-08-13T16:54:03.565649,C,chart,200,389.2,rows=156
+2026-08-13T16:54:03.886213,C,dividends,200,320.3,rows=1
+2026-08-13T16:54:04.164405,CA,company-info,200,278.0,sector='Industrial'
+2026-08-13T16:54:04.486197,CA,stock-data,200,321.5,"cmpyName='Central Azucarera de Tarlac, Inc.' lastTradedPrice=9.8"
+2026-08-13T16:54:04.817818,CA,chart,200,331.2,rows=74
+2026-08-13T16:54:05.110384,CA,dividends,200,292.3,rows=1
+2026-08-13T16:54:05.410164,CAT,company-info,200,299.6,sector='Industrial'
+2026-08-13T16:54:05.722771,CAT,stock-data,200,312.4,"cmpyName='Central Azucarera de Tarlac, Inc.' lastTradedPrice=9.8"
+2026-08-13T16:54:06.116223,CAT,chart,200,393.1,rows=74
+2026-08-13T16:54:06.426988,CAT,dividends,200,310.5,rows=1
+2026-08-13T16:54:06.694714,CBC,company-info,200,267.5,sector='Financials'
+2026-08-13T16:54:07.006536,CBC,stock-data,200,311.6,cmpyName='China Banking Corporation' lastTradedPrice=53.9
+2026-08-13T16:54:07.370990,CBC,chart,200,363.9,rows=156
+2026-08-13T16:54:07.681045,CBC,dividends,200,309.8,rows=2
+2026-08-13T16:54:07.950438,CDC,company-info,200,269.2,sector='Property'
+2026-08-13T16:54:08.307971,CDC,stock-data,200,357.3,cmpyName='Cityland Development Corporation' lastTradedPrice=0.63
+2026-08-13T16:54:08.661139,CDC,chart,200,352.7,rows=153
+2026-08-13T16:54:08.985120,CDC,dividends,200,323.8,rows=1
+2026-08-13T16:54:09.320047,CEB,company-info,200,334.7,sector='Services'
+2026-08-13T16:54:09.599938,CEB,stock-data,200,279.7,"cmpyName='Cebu Air, Inc.' lastTradedPrice=28.65"
+2026-08-13T16:54:09.926035,CEB,chart,200,325.6,rows=156
+2026-08-13T16:54:10.193752,CEB,dividends,200,267.5,rows=1
+2026-08-13T16:54:10.472066,CEI,company-info,200,278.1,sector='Property'
+2026-08-13T16:54:10.821611,CEI,stock-data,200,349.3,"cmpyName='Crown Equities, Inc.' lastTradedPrice=0.085"
+2026-08-13T16:54:11.180280,CEI,chart,200,358.2,rows=127
+2026-08-13T16:54:11.490534,CEI,dividends,200,310.1,rows=2
+2026-08-13T16:54:11.805132,CEU,company-info,200,314.4,sector='Services'
+2026-08-13T16:54:12.127717,CEU,stock-data,200,322.4,cmpyName='Centro Escolar University' lastTradedPrice=14.8
+2026-08-13T16:54:12.489577,CEU,chart,200,361.4,rows=156
+2026-08-13T16:54:12.794586,CEU,dividends,200,304.8,rows=1
+2026-08-13T16:54:13.108585,CHP,company-info,200,313.8,sector='Industrial'
+2026-08-13T16:54:13.456304,CHP,stock-data,200,347.5,"cmpyName='Concreat Holdings Philippines, Inc.' lastTradedPrice=1.15"
+2026-08-13T16:54:13.785458,CHP,chart,200,328.6,rows=156
+2026-08-13T16:54:14.077594,CHP,dividends,200,291.9,rows=0
+2026-08-13T16:54:14.392052,CIC,company-info,200,314.2,sector='Industrial'
+2026-08-13T16:54:14.712080,CIC,stock-data,200,319.8,cmpyName='Concepcion Industrial Corporation ' lastTradedPrice=11.46
+2026-08-13T16:54:15.087142,CIC,chart,200,374.5,rows=154
+2026-08-13T16:54:15.347939,CIC,dividends,200,260.6,rows=1
+2026-08-13T16:54:15.620476,CLI,company-info,200,272.2,sector='Property'
+2026-08-13T16:54:15.941838,CLI,stock-data,200,321.1,"cmpyName='Cebu Landmasters, Inc.' lastTradedPrice=2.21"
+2026-08-13T16:54:16.327353,CLI,chart,200,385.0,rows=156
+2026-08-13T16:54:16.633777,CLI,dividends,200,306.1,rows=11
+2026-08-13T16:54:16.918617,CNPF,company-info,200,284.6,sector='Industrial'
+2026-08-13T16:54:17.255118,CNPF,stock-data,200,336.3,"cmpyName='Century Pacific Food, Inc.' lastTradedPrice=32.6"
+2026-08-13T16:54:17.642780,CNPF,chart,200,387.2,rows=156
+2026-08-13T16:54:17.929248,CNPF,dividends,200,286.3,rows=3
+2026-08-13T16:54:18.241786,CNVRG,company-info,200,312.3,sector='Services'
+2026-08-13T16:54:18.545781,CNVRG,stock-data,200,303.8,"cmpyName='Converge Information and Communications Technology Solutions, Inc.' lastTradedPrice=10.0"
+2026-08-13T16:54:18.839760,CNVRG,chart,200,293.5,rows=156
+2026-08-13T16:54:19.121957,CNVRG,dividends,200,282.0,rows=1
+2026-08-13T16:54:19.401819,COL,company-info,200,279.7,sector='Financials'
+2026-08-13T16:54:19.718454,COL,stock-data,200,316.4,"cmpyName='COL Financial Group, Inc.' lastTradedPrice=1.35"
+2026-08-13T16:54:20.063988,COL,chart,200,345.1,rows=154
+2026-08-13T16:54:20.337012,COL,dividends,200,272.8,rows=2
+2026-08-13T16:54:20.609361,COSCO,company-info,200,272.2,sector='Holding Firms'
+2026-08-13T16:54:20.943872,COSCO,stock-data,200,334.3,"cmpyName='Cosco Capital, Inc.' lastTradedPrice=8.1"
+2026-08-13T16:54:21.330559,COSCO,chart,200,386.1,rows=156
+2026-08-13T16:54:21.677966,COSCO,dividends,200,347.2,rows=3
+2026-08-13T16:54:21.977474,CPG,company-info,200,299.3,sector='Property'
+2026-08-13T16:54:22.257129,CPG,stock-data,200,279.4,"cmpyName='Century Properties Group, Inc.' lastTradedPrice=0.76"
+2026-08-13T16:54:22.629413,CPG,chart,200,371.9,rows=156
+2026-08-13T16:54:22.967596,CPG,dividends,200,338.0,rows=9
+2026-08-13T16:54:23.305098,CPM,company-info,200,337.3,sector='Mining and Oil'
+2026-08-13T16:54:23.619782,CPM,stock-data,200,314.5,cmpyName='Century Peak Holdings Corporation' lastTradedPrice=2.3
+2026-08-13T16:54:24.009821,CPM,chart,200,389.7,rows=51
+2026-08-13T16:54:24.290549,CPM,dividends,200,280.5,rows=0
+2026-08-13T16:54:24.604553,CREC,company-info,200,313.7,sector='Industrial'
+2026-08-13T16:54:24.933431,CREC,stock-data,200,328.6,cmpyName='Citicore Renewable Energy Corporation' lastTradedPrice=4.72
+2026-08-13T16:54:25.241121,CREC,chart,200,307.1,rows=156
+2026-08-13T16:54:25.541405,CREC,dividends,200,300.1,rows=1
+2026-08-13T16:54:25.821319,CREIT,company-info,200,279.7,sector='Property'
+2026-08-13T16:54:26.149134,CREIT,stock-data,200,327.6,cmpyName='Citicore Energy REIT Corp.' lastTradedPrice=3.37
+2026-08-13T16:54:26.487418,CREIT,chart,200,337.8,rows=156
+2026-08-13T16:54:26.794741,CREIT,dividends,200,307.1,rows=5
+2026-08-13T16:54:27.067228,CROWN,company-info,200,272.2,sector='Industrial'
+2026-08-13T16:54:27.353990,CROWN,stock-data,200,286.5,cmpyName='Crown Asia Chemicals Corporation ' lastTradedPrice=1.88
+2026-08-13T16:54:27.699276,CROWN,chart,200,344.8,rows=152
+2026-08-13T16:54:27.974045,CROWN,dividends,200,274.5,rows=2
+2026-08-13T16:54:28.251877,CSB,company-info,200,277.6,sector='Financials'
+2026-08-13T16:54:28.605855,CSB,stock-data,200,353.8,"cmpyName='Citystate Savings Bank, Inc.' lastTradedPrice=0.0"
+2026-08-13T16:54:28.959401,CSB,chart,200,353.2,rows=65
+2026-08-13T16:54:29.226558,CSB,dividends,200,267.0,rows=0
+2026-08-13T16:54:29.536983,CTS,company-info,200,310.2,"sector='Small, Medium & Emerging Board'"
+2026-08-13T16:54:29.855843,CTS,stock-data,200,318.6,"cmpyName='CTS Global Equity Group, Inc.' lastTradedPrice=0.0"
+2026-08-13T16:54:30.194032,CTS,chart,200,337.8,rows=106
+2026-08-13T16:54:30.513118,CTS,dividends,200,318.8,rows=2
+2026-08-13T16:54:30.837090,CYBR,company-info,200,323.7,sector='Property'
+2026-08-13T16:54:31.174550,CYBR,stock-data,200,337.2,cmpyName='Cyber Bay Corporation' lastTradedPrice=0.0
+2026-08-13T16:54:31.524193,CYBR,chart,200,349.4,rows=0
+2026-08-13T16:54:31.827668,CYBR,dividends,200,303.3,rows=0
+2026-08-13T16:54:32.109222,DD,company-info,200,281.3,sector='Property'
+2026-08-13T16:54:32.383422,DD,stock-data,200,273.9,"cmpyName='DDMP REIT, Inc.' lastTradedPrice=1.03"
+2026-08-13T16:54:32.696410,DD,chart,200,312.5,rows=156
+2026-08-13T16:54:33.003155,DD,dividends,200,306.5,rows=4
+2026-08-13T16:54:33.331905,DDMPR,company-info,200,328.5,sector='Property'
+2026-08-13T16:54:33.628268,DDMPR,stock-data,200,296.1,"cmpyName='DDMP REIT, Inc.' lastTradedPrice=1.03"
+2026-08-13T16:54:33.957683,DDMPR,chart,200,328.8,rows=156
+2026-08-13T16:54:34.232284,DDMPR,dividends,200,274.4,rows=4
+2026-08-13T16:54:34.539747,DELM,company-info,200,307.3,sector='Industrial'
+2026-08-13T16:54:34.859107,DELM,stock-data,200,319.2,cmpyName='Del Monte Pacific Limited' lastTradedPrice=3.75
+2026-08-13T16:54:35.266207,DELM,chart,200,406.7,rows=153
+2026-08-13T16:54:35.569428,DELM,dividends,200,303.0,rows=0
+2026-08-13T16:54:35.878948,DFNN,company-info,200,309.2,sector='Services'
+2026-08-13T16:54:36.172032,DFNN,stock-data,200,292.8,"cmpyName='DFNN, Inc.' lastTradedPrice=0.66"
+2026-08-13T16:54:36.500727,DFNN,chart,200,328.1,rows=135
+2026-08-13T16:54:36.800946,DFNN,dividends,200,299.9,rows=1
+2026-08-13T16:54:37.150312,DHI,company-info,200,349.1,sector='Financials'
+2026-08-13T16:54:37.439139,DHI,stock-data,200,288.5,"cmpyName='Dominion Holdings, Inc.' lastTradedPrice=15.38"
+2026-08-13T16:54:37.795817,DHI,chart,200,356.2,rows=151
+2026-08-13T16:54:38.101061,DHI,dividends,200,305.1,rows=0
+2026-08-13T16:54:38.372734,DITO,company-info,200,271.4,sector='Services'
+2026-08-13T16:54:38.655684,DITO,stock-data,200,282.8,cmpyName='DITO CME Holdings Corp.' lastTradedPrice=0.74
+2026-08-13T16:54:38.965716,DITO,chart,200,309.6,rows=156
+2026-08-13T16:54:39.274750,DITO,dividends,200,308.8,rows=0
+2026-08-13T16:54:39.557922,DIZ,company-info,200,283.0,sector='Mining and Oil'
+2026-08-13T16:54:39.869579,DIZ,stock-data,200,311.5,"cmpyName='Dizon Copper-Silver Mines, Inc.' lastTradedPrice=0.0"
+2026-08-13T16:54:40.466919,DIZ,chart,200,596.9,rows=93
+2026-08-13T16:54:40.811209,DIZ,dividends,200,344.0,rows=0
+2026-08-13T16:54:41.150685,DMC,company-info,200,339.3,sector='Holding Firms'
+2026-08-13T16:54:41.480774,DMC,stock-data,200,329.8,"cmpyName='DMCI Holdings, Inc.' lastTradedPrice=8.0"
+2026-08-13T16:54:41.840495,DMC,chart,200,359.2,rows=156
+2026-08-13T16:54:42.115560,DMC,dividends,200,274.8,rows=2
+2026-08-13T16:54:42.390633,DMW,company-info,200,274.8,sector='Property'
+2026-08-13T16:54:42.682171,DMW,stock-data,200,291.3,"cmpyName='D.M. Wenceslao & Associates, Incorporated' lastTradedPrice=5.15"
+2026-08-13T16:54:43.052965,DMW,chart,200,370.1,rows=155
+2026-08-13T16:54:43.325245,DMW,dividends,200,272.0,rows=1
+2026-08-13T16:54:43.634490,DNL,company-info,200,309.0,sector='Industrial'
+2026-08-13T16:54:43.956906,DNL,stock-data,200,322.0,"cmpyName='D&L Industries, Inc.' lastTradedPrice=3.57"
+2026-08-13T16:54:44.358556,DNL,chart,200,401.1,rows=156
+2026-08-13T16:54:44.637173,DNL,dividends,200,278.4,rows=2
+2026-08-13T16:54:44.999654,DWC,company-info,200,362.3,sector='Services'
+2026-08-13T16:54:45.338416,DWC,stock-data,200,338.6,cmpyName='Discovery World Corporation ' lastTradedPrice=0.0
+2026-08-13T16:54:45.697983,DWC,chart,200,359.2,rows=114
+2026-08-13T16:54:46.003963,DWC,dividends,200,305.7,rows=0
+2026-08-13T16:54:46.298851,ECP,company-info,200,294.7,sector='Services'
+2026-08-13T16:54:46.610584,ECP,stock-data,200,311.4,"cmpyName='EasyCall Communications Philippines, Inc.' lastTradedPrice=2.29"
+2026-08-13T16:54:46.924870,ECP,chart,200,313.8,rows=67
+2026-08-13T16:54:47.220306,ECP,dividends,200,295.2,rows=0
+2026-08-13T16:54:47.501650,ECVC,company-info,200,281.1,sector='Mining and Oil'
+2026-08-13T16:54:47.793000,ECVC,stock-data,200,291.1,cmpyName='East Coast Vulcan Mining Corporation' lastTradedPrice=0.28
+2026-08-13T16:54:48.133434,ECVC,chart,200,340.0,rows=124
+2026-08-13T16:54:48.401705,ECVC,dividends,200,268.1,rows=0
+2026-08-13T16:54:48.679512,EEI,company-info,200,277.6,sector='Industrial'
+2026-08-13T16:54:48.967976,EEI,stock-data,200,288.3,cmpyName='EEI Corporation' lastTradedPrice=2.01
+2026-08-13T16:54:49.340591,EEI,chart,200,372.1,rows=150
+2026-08-13T16:54:49.659880,EEI,dividends,200,318.9,rows=9
+2026-08-13T16:54:49.997913,EG,company-info,200,337.8,sector='Property'
+2026-08-13T16:54:50.350782,EG,stock-data,200,352.6,"cmpyName='Everwoods Green Resources and Holdings, Inc.' lastTradedPrice=0.029"
+2026-08-13T16:54:50.726877,EG,chart,200,375.8,rows=93
+2026-08-13T16:54:51.001470,EG,dividends,200,274.4,rows=0
+2026-08-13T16:54:51.318018,EGRN,company-info,200,316.4,sector='Property'
+2026-08-13T16:54:51.624559,EGRN,stock-data,200,306.3,"cmpyName='Everwoods Green Resources and Holdings, Inc.' lastTradedPrice=0.029"
+2026-08-13T16:54:51.970584,EGRN,chart,200,345.6,rows=93
+2026-08-13T16:54:52.279584,EGRN,dividends,200,308.8,rows=0
+2026-08-13T16:54:52.556081,ELI,company-info,200,276.3,sector='Property'
+2026-08-13T16:54:52.849719,ELI,stock-data,200,293.4,"cmpyName='Empire East Land Holdings, Inc.' lastTradedPrice=0.096"
+2026-08-13T16:54:53.180949,ELI,chart,200,330.7,rows=134
+2026-08-13T16:54:53.489105,ELI,dividends,200,308.0,rows=0
+2026-08-13T16:54:53.767145,EMI,company-info,200,277.8,sector='Industrial'
+2026-08-13T16:54:54.084962,EMI,stock-data,200,317.6,cmpyName='Emperador Inc.' lastTradedPrice=15.14
+2026-08-13T16:54:54.414159,EMI,chart,200,328.8,rows=156
+2026-08-13T16:54:54.723424,EMI,dividends,200,309.1,rows=1
+2026-08-13T16:54:55.009230,ENEX,company-info,200,285.6,sector='Mining and Oil'
+2026-08-13T16:54:55.357066,ENEX,stock-data,200,347.6,cmpyName='ENEX Energy Corp.' lastTradedPrice=0.0
+2026-08-13T16:54:55.708108,ENEX,chart,200,350.6,rows=115
+2026-08-13T16:54:56.017057,ENEX,dividends,200,308.7,rows=0
+2026-08-13T16:54:56.304766,EURO,company-info,200,287.4,sector='Industrial'
+2026-08-13T16:54:56.586359,EURO,stock-data,200,281.4,"cmpyName='Euro-Med Laboratories Phil., Inc.' lastTradedPrice=1.04"
+2026-08-13T16:54:56.917521,EURO,chart,200,330.7,rows=145
+2026-08-13T16:54:57.263657,EURO,dividends,200,345.9,rows=1
+2026-08-13T16:54:57.615114,EW,company-info,200,351.2,sector='Financials'
+2026-08-13T16:54:57.899555,EW,stock-data,200,284.2,cmpyName='East West Banking Corporation' lastTradedPrice=11.12
+2026-08-13T16:54:58.266636,EW,chart,200,366.6,rows=156
+2026-08-13T16:54:58.577033,EW,dividends,200,310.2,rows=1
+2026-08-13T16:54:58.848836,FAF,company-info,200,271.5,sector='Financials'
+2026-08-13T16:54:59.131890,FAF,stock-data,200,282.8,cmpyName='First Abacus Financial Holdings Corporation' lastTradedPrice=0.56
+2026-08-13T16:54:59.453756,FAF,chart,200,321.6,rows=50
+2026-08-13T16:54:59.779376,FAF,dividends,200,325.4,rows=0
+2026-08-13T16:55:00.093714,FB,company-info,200,314.2,sector='Industrial'
+2026-08-13T16:55:00.631024,FB,stock-data,200,537.1,"cmpyName='San Miguel Food and Beverage, Inc.' lastTradedPrice=48.65"
+2026-08-13T16:55:01.030515,FB,chart,200,399.0,rows=156
+2026-08-13T16:55:01.344728,FB,dividends,200,313.9,rows=8
+2026-08-13T16:55:01.661230,FCG,company-info,200,316.3,sector='Industrial'
+2026-08-13T16:55:01.946064,FCG,stock-data,200,284.6,"cmpyName='Figaro Culinary Group, Inc. ' lastTradedPrice=0.63"
+2026-08-13T16:55:02.323016,FCG,chart,200,376.5,rows=156
+2026-08-13T16:55:02.614830,FCG,dividends,200,291.6,rows=1
+2026-08-13T16:55:02.916555,FDC,company-info,200,301.5,sector='Holding Firms'
+2026-08-13T16:55:03.195040,FDC,stock-data,200,278.2,cmpyName='Filinvest Development Corporation' lastTradedPrice=3.5
+2026-08-13T16:55:03.843302,FDC,chart,200,647.8,rows=127
+2026-08-13T16:55:04.146077,FDC,dividends,200,302.6,rows=9
+2026-08-13T16:55:04.460033,FERRO,company-info,200,313.7,sector='Financials'
+2026-08-13T16:55:04.783993,FERRO,stock-data,200,323.6,"cmpyName='Ferronoux Holdings, Inc.' lastTradedPrice=4.25"
+2026-08-13T16:55:05.177038,FERRO,chart,200,392.5,rows=97
+2026-08-13T16:55:05.491752,FERRO,dividends,200,314.5,rows=0
+2026-08-13T16:55:05.778989,FEU,company-info,200,287.0,sector='Services'
+2026-08-13T16:55:06.060304,FEU,stock-data,200,281.1,"cmpyName='Far Eastern University, Incorporated' lastTradedPrice=0.0"
+2026-08-13T16:55:06.412358,FEU,chart,200,351.7,rows=105
+2026-08-13T16:55:06.731235,FEU,dividends,200,318.7,rows=2
+2026-08-13T16:55:07.054416,FFI,company-info,200,322.9,sector='Financials'
+2026-08-13T16:55:07.351258,FFI,stock-data,200,296.6,"cmpyName='Filipino Fund, Inc.' lastTradedPrice=0.0"
+2026-08-13T16:55:07.674604,FFI,chart,200,323.1,rows=41
+2026-08-13T16:55:07.935835,FFI,dividends,200,261.0,rows=0
+2026-08-13T16:55:08.250945,FGEN,company-info,200,314.9,sector='Industrial'
+2026-08-13T16:55:08.579052,FGEN,stock-data,200,327.9,cmpyName='First Gen Corporation' lastTradedPrice=28.0
+2026-08-13T16:55:08.922050,FGEN,chart,200,342.6,rows=154
+2026-08-13T16:55:09.297714,FGEN,dividends,200,375.5,rows=2
+2026-08-13T16:55:09.642961,FILRT,company-info,200,345.1,sector='Property'
+2026-08-13T16:55:09.933409,FILRT,stock-data,200,290.3,cmpyName='Filinvest REIT Corp.' lastTradedPrice=2.96
+2026-08-13T16:55:10.304398,FILRT,chart,200,370.6,rows=156
+2026-08-13T16:55:10.579769,FILRT,dividends,200,275.1,rows=5
+2026-08-13T16:55:10.867957,FJP,company-info,200,288.0,sector='Holding Firms'
+2026-08-13T16:55:11.161997,FJP,stock-data,200,293.8,cmpyName='F & J Prince Holdings Corporation' lastTradedPrice=0.0
+2026-08-13T16:55:11.486487,FJP,chart,200,324.2,rows=46
+2026-08-13T16:55:11.777867,FJP,dividends,200,291.1,rows=3
+2026-08-13T16:55:12.049294,FLI,company-info,200,271.2,sector='Property'
+2026-08-13T16:55:12.357839,FLI,stock-data,200,308.3,"cmpyName='Filinvest Land, Inc.' lastTradedPrice=0.69"
+2026-08-13T16:55:12.724375,FLI,chart,200,366.0,rows=156
+2026-08-13T16:55:12.998521,FLI,dividends,200,273.9,rows=1
+2026-08-13T16:55:13.284881,FMETF,company-info,200,286.0,sector='ETF'
+2026-08-13T16:55:13.601752,FMETF,stock-data,200,316.7,"cmpyName='First Metro Philippine Equity Exchange Traded Fund, Inc.' lastTradedPrice=106.4"
+2026-08-13T16:55:13.958908,FMETF,chart,200,356.7,rows=156
+2026-08-13T16:55:14.236121,FMETF,dividends,200,277.0,rows=0
+2026-08-13T16:55:14.588309,FNI,company-info,200,352.0,sector='Mining and Oil'
+2026-08-13T16:55:14.876910,FNI,stock-data,200,288.4,"cmpyName='Global Ferronickel Holdings, Inc.' lastTradedPrice=2.15"
+2026-08-13T16:55:15.266964,FNI,chart,200,389.6,rows=156
+2026-08-13T16:55:15.527100,FNI,dividends,200,259.9,rows=1
+2026-08-13T16:55:15.805445,FOOD,company-info,200,278.1,sector='Industrial'
+2026-08-13T16:55:16.170669,FOOD,stock-data,200,365.0,"cmpyName='Alliance Select Foods International, Inc.' lastTradedPrice=0.0"
+2026-08-13T16:55:16.494646,FOOD,chart,200,323.6,rows=92
+2026-08-13T16:55:16.762055,FOOD,dividends,200,267.2,rows=0
+2026-08-13T16:55:17.041145,FPH,company-info,200,278.9,sector='Industrial'
+2026-08-13T16:55:17.359984,FPH,stock-data,200,318.6,cmpyName='First Philippine Holdings Corporation' lastTradedPrice=98.0
+2026-08-13T16:55:17.705478,FPH,chart,200,345.0,rows=155
+2026-08-13T16:55:17.963211,FPH,dividends,200,257.6,rows=2
+2026-08-13T16:55:18.246605,FPI,company-info,200,283.2,sector='Holding Firms'
+2026-08-13T16:55:18.560325,FPI,stock-data,200,313.5,"cmpyName='Forum Pacific, Inc.' lastTradedPrice=0.0"
+2026-08-13T16:55:18.923676,FPI,chart,200,363.1,rows=36
+2026-08-13T16:55:19.220611,FPI,dividends,200,296.7,rows=0
+2026-08-13T16:55:19.509626,FRUIT,company-info,200,288.7,sector='Industrial'
+2026-08-13T16:55:19.822017,FRUIT,stock-data,200,312.2,"cmpyName='Fruitas Holdings, Inc.' lastTradedPrice=0.67"
+2026-08-13T16:55:20.249652,FRUIT,chart,200,427.2,rows=156
+2026-08-13T16:55:20.535032,FRUIT,dividends,200,285.1,rows=1
+2026-08-13T16:55:20.846356,FYN,company-info,200,311.1,sector='Industrial'
+2026-08-13T16:55:21.119574,FYN,stock-data,200,273.0,cmpyName='Filsyn Corporation' lastTradedPrice=0.0
+2026-08-13T16:55:21.482298,FYN,chart,200,362.5,rows=0
+2026-08-13T16:55:21.791909,FYN,dividends,200,309.4,rows=0
+2026-08-13T16:55:22.081676,GEO,company-info,200,289.5,sector='Mining and Oil'
+2026-08-13T16:55:22.427359,GEO,stock-data,200,345.5,"cmpyName='GEOGRACE Resources Philippines, Inc.' lastTradedPrice=0.108"
+2026-08-13T16:55:22.764483,GEO,chart,200,336.6,rows=150
+2026-08-13T16:55:23.074879,GEO,dividends,200,310.1,rows=0
+2026-08-13T16:55:23.404307,GERI,company-info,200,329.2,sector='Property'
+2026-08-13T16:55:23.758280,GERI,stock-data,200,353.8,"cmpyName='Global-Estate Resorts, Inc.' lastTradedPrice=0.0"
+2026-08-13T16:55:24.087223,GERI,chart,200,328.5,rows=129
+2026-08-13T16:55:24.368584,GERI,dividends,200,281.2,rows=0
+2026-08-13T16:55:24.674658,GLO,company-info,200,305.8,sector='Mining and Oil'
+2026-08-13T16:55:24.978479,GLO,stock-data,200,303.6,"cmpyName='Global Ferronickel Holdings, Inc.' lastTradedPrice=2.15"
+2026-08-13T16:55:25.335950,GLO,chart,200,357.0,rows=156
+2026-08-13T16:55:25.643689,GLO,dividends,200,307.5,rows=1
+2026-08-13T16:55:25.998798,GLOBA,company-info,200,354.9,sector='Mining and Oil'
+2026-08-13T16:55:26.334593,GLOBA,stock-data,200,335.6,"cmpyName='Global Ferronickel Holdings, Inc.' lastTradedPrice=2.15"
+2026-08-13T16:55:26.748927,GLOBA,chart,200,413.8,rows=156
+2026-08-13T16:55:27.069260,GLOBA,dividends,200,320.1,rows=1
+2026-08-13T16:55:27.347452,GMA7,company-info,200,278.0,sector='Services'
+2026-08-13T16:55:27.648700,GMA7,stock-data,200,301.0,"cmpyName='GMA Network, Inc.' lastTradedPrice=4.5"
+2026-08-13T16:55:28.013391,GMA7,chart,200,364.2,rows=156
+2026-08-13T16:55:28.322268,GMA7,dividends,200,308.7,rows=1
+2026-08-13T16:55:28.658181,GMAP,company-info,200,335.7,sector='Services'
+2026-08-13T16:55:28.942435,GMAP,stock-data,200,284.1,"cmpyName='GMA Holdings, Inc.' lastTradedPrice=4.07"
+2026-08-13T16:55:29.263941,GMAP,chart,200,321.1,rows=113
+2026-08-13T16:55:29.561820,GMAP,dividends,200,297.7,rows=0
+2026-08-13T16:55:29.899722,GPH,company-info,200,337.7,sector='Services'
+2026-08-13T16:55:30.217541,GPH,stock-data,200,317.5,cmpyName='Grand Plaza Hotel Corporation' lastTradedPrice=0.0
+2026-08-13T16:55:30.558757,GPH,chart,200,341.0,rows=30
+2026-08-13T16:55:30.835849,GPH,dividends,200,276.9,rows=0
+2026-08-13T16:55:31.172941,GREEN,company-info,200,336.8,sector='Industrial'
+2026-08-13T16:55:31.486626,GREEN,stock-data,200,313.5,cmpyName='Greenergy Holdings Incorporated' lastTradedPrice=0.158
+2026-08-13T16:55:31.824998,GREEN,chart,200,337.7,rows=154
+2026-08-13T16:55:32.135211,GREEN,dividends,200,310.0,rows=1
+2026-08-13T16:55:32.461628,GSMI,company-info,200,326.2,sector='Industrial'
+2026-08-13T16:55:32.788499,GSMI,stock-data,200,326.6,"cmpyName='Ginebra San Miguel,  Inc.' lastTradedPrice=245.0"
+2026-08-13T16:55:33.136775,GSMI,chart,200,347.6,rows=156
+2026-08-13T16:55:33.437451,GSMI,dividends,200,300.4,rows=10
+2026-08-13T16:55:33.712093,GTCAP,company-info,200,274.4,sector='Holding Firms'
+2026-08-13T16:55:33.987024,GTCAP,stock-data,200,274.7,"cmpyName='GT Capital Holdings, Inc.' lastTradedPrice=506.0"
+2026-08-13T16:55:35.505146,GTCAP,chart,200,1517.5,rows=156
+2026-08-13T16:55:35.813207,GTCAP,dividends,200,307.8,rows=10
+2026-08-13T16:55:36.123162,HI,company-info,200,309.8,sector='Holding Firms'
+2026-08-13T16:55:36.469160,HI,stock-data,200,345.8,"cmpyName='House of Investments, Inc.' lastTradedPrice=0.0"
+2026-08-13T16:55:36.788848,HI,chart,200,319.2,rows=107
+2026-08-13T16:55:37.066003,HI,dividends,200,276.9,rows=1
+2026-08-13T16:55:37.351325,HOME,company-info,200,285.1,sector='Services'
+2026-08-13T16:55:37.671090,HOME,stock-data,200,319.5,cmpyName='AllHome Corp.' lastTradedPrice=0.0
+2026-08-13T16:55:38.004987,HOME,chart,200,333.3,rows=103
+2026-08-13T16:55:38.283642,HOME,dividends,200,278.4,rows=0
+2026-08-13T16:55:38.575100,HTI,company-info,200,291.2,"sector='Small, Medium & Emerging Board'"
+2026-08-13T16:55:38.871448,HTI,stock-data,200,296.1,"cmpyName='Haus Talk, Inc.' lastTradedPrice=1.38"
+2026-08-13T16:55:39.244916,HTI,chart,200,372.9,rows=152
+2026-08-13T16:55:39.524228,HTI,dividends,200,279.1,rows=1
+2026-08-13T16:55:39.792812,I,company-info,200,268.3,sector='Financials'
+2026-08-13T16:55:40.071431,I,stock-data,200,278.4,"cmpyName='I-Remit, Inc.' lastTradedPrice=0.0"
+2026-08-13T16:55:40.430718,I,chart,200,359.1,rows=0
+2026-08-13T16:55:40.704319,I,dividends,200,273.4,rows=0
+2026-08-13T16:55:40.991931,ICT,company-info,200,287.4,sector='Services'
+2026-08-13T16:55:41.279153,ICT,stock-data,200,287.0,"cmpyName='International Container Terminal Services, Inc.' lastTradedPrice=965.0"
+2026-08-13T16:55:41.633366,ICT,chart,200,353.8,rows=156
+2026-08-13T16:55:41.951218,ICT,dividends,200,317.7,rows=1
+2026-08-13T16:55:42.298887,IDC,company-info,200,347.5,"sector='Small, Medium & Emerging Board'"
+2026-08-13T16:55:42.579269,IDC,stock-data,200,280.1,cmpyName='Italpinas Development Corporation' lastTradedPrice=0.66
+2026-08-13T16:55:42.905748,IDC,chart,200,326.0,rows=141
+2026-08-13T16:55:43.182753,IDC,dividends,200,276.8,rows=0
+2026-08-13T16:55:43.483836,IMI,company-info,200,300.9,sector='Industrial'
+2026-08-13T16:55:43.762522,IMI,stock-data,200,278.5,"cmpyName='Integrated Micro-Electronics, Inc.' lastTradedPrice=7.1"
+2026-08-13T16:55:44.089510,IMI,chart,200,326.5,rows=156
+2026-08-13T16:55:44.387541,IMI,dividends,200,297.7,rows=0
+2026-08-13T16:55:44.719208,IMP,company-info,200,331.4,sector='Services'
+2026-08-13T16:55:45.001713,IMP,stock-data,200,282.2,"cmpyName='Imperial Resources, Inc.' lastTradedPrice=0.0"
+2026-08-13T16:55:45.347650,IMP,chart,200,345.5,rows=98
+2026-08-13T16:55:45.644173,IMP,dividends,200,296.3,rows=0
+2026-08-13T16:55:45.935301,INFRA,company-info,200,290.9,sector='Property'
+2026-08-13T16:55:46.265958,INFRA,stock-data,200,330.4,"cmpyName='Philippine Infradev Holdings, Inc.' lastTradedPrice=0.0"
+2026-08-13T16:55:46.684375,INFRA,chart,200,418.1,rows=87
+2026-08-13T16:55:46.987411,INFRA,dividends,200,302.8,rows=1
+2026-08-13T16:55:47.271297,ION,company-info,200,283.7,sector='Industrial'
+2026-08-13T16:55:47.544089,ION,stock-data,200,272.6,"cmpyName='Ionics, Inc.' lastTradedPrice=1.47"
+2026-08-13T16:55:47.910797,ION,chart,200,366.2,rows=156
+2026-08-13T16:55:48.203656,ION,dividends,200,292.7,rows=1
+2026-08-13T16:55:48.541756,IPM,company-info,200,337.9,sector='Services'
+2026-08-13T16:55:48.857149,IPM,stock-data,200,315.2,"cmpyName='IPM Holdings, Inc.' lastTradedPrice=0.0"
+2026-08-13T16:55:49.193391,IPM,chart,200,336.0,rows=42
+2026-08-13T16:55:49.455906,IPM,dividends,200,262.3,rows=0
+2026-08-13T16:55:49.769360,IPO,company-info,200,313.2,sector='Services'
+2026-08-13T16:55:50.056475,IPO,stock-data,200,286.9,"cmpyName='iPeople, inc.' lastTradedPrice=7.34"
+2026-08-13T16:55:50.391912,IPO,chart,200,335.0,rows=126
+2026-08-13T16:55:50.683276,IPO,dividends,200,291.1,rows=1
+2026-08-13T16:55:50.990835,IS,company-info,200,307.3,sector='Services'
+2026-08-13T16:55:51.309863,IS,stock-data,200,318.8,"cmpyName='Island Information & Technology, Inc.' lastTradedPrice=0.12"
+2026-08-13T16:55:51.677129,IS,chart,200,366.6,rows=152
+2026-08-13T16:55:51.990781,IS,dividends,200,313.4,rows=0
+2026-08-13T16:55:52.283155,JAS,company-info,200,292.1,sector='Property'
+2026-08-13T16:55:52.564783,JAS,stock-data,200,281.3,"cmpyName='Jackstones, Inc.' lastTradedPrice=1.77"
+2026-08-13T16:55:52.938957,JAS,chart,200,373.9,rows=31
+2026-08-13T16:55:53.227969,JAS,dividends,200,288.8,rows=0
+2026-08-13T16:55:53.539996,JFC,company-info,200,311.7,sector='Industrial'
+2026-08-13T16:55:53.868174,JFC,stock-data,200,327.9,cmpyName='Jollibee Foods Corporation' lastTradedPrice=153.9
+2026-08-13T16:55:54.334787,JFC,chart,200,466.0,rows=156
+2026-08-13T16:55:54.612792,JFC,dividends,200,277.7,rows=6
+2026-08-13T16:55:54.917011,JGS,company-info,200,304.0,sector='Holding Firms'
+2026-08-13T16:55:55.226452,JGS,stock-data,200,309.2,"cmpyName='JG Summit Holdings, Inc.' lastTradedPrice=22.25"
+2026-08-13T16:55:55.544265,JGS,chart,200,317.4,rows=156
+2026-08-13T16:55:55.852769,JGS,dividends,200,308.2,rows=1
+2026-08-13T16:55:56.139099,JOH,company-info,200,286.1,sector='Industrial'
+2026-08-13T16:55:56.418453,JOH,stock-data,200,279.1,cmpyName='Jolliville Holdings Corporation' lastTradedPrice=0.0
+2026-08-13T16:55:56.777686,JOH,chart,200,359.0,rows=22
+2026-08-13T16:55:57.125730,JOH,dividends,200,347.8,rows=1
+2026-08-13T16:55:57.413651,KEEPR,company-info,200,287.7,sector='Industrial'
+2026-08-13T16:55:57.723313,KEEPR,stock-data,200,309.4,"cmpyName='The Keepers Holdings, Inc.' lastTradedPrice=1.88"
+2026-08-13T16:55:58.103484,KEEPR,chart,200,379.6,rows=156
+2026-08-13T16:55:58.363681,KEEPR,dividends,200,260.0,rows=1
+2026-08-13T16:55:58.638093,KEP,company-info,200,274.2,sector='Property'
+2026-08-13T16:55:58.991720,KEP,stock-data,200,353.4,"cmpyName='Keppel Philippines Properties, Inc.' lastTradedPrice=2.58"
+2026-08-13T16:55:59.360570,KEP,chart,200,368.4,rows=96
+2026-08-13T16:55:59.680271,KEP,dividends,200,319.4,rows=0
+2026-08-13T16:55:59.982056,KPPI,company-info,200,301.5,"sector='Small, Medium & Emerging Board'"
+2026-08-13T16:56:00.325661,KPPI,stock-data,200,343.4,"cmpyName='Kepwealth Property Phils., Inc.' lastTradedPrice=1.35"
+2026-08-13T16:56:00.727243,KPPI,chart,200,401.2,rows=84
+2026-08-13T16:56:01.035274,KPPI,dividends,200,307.8,rows=0
+2026-08-13T16:56:01.326084,LBC,company-info,200,290.6,sector='Services'
+2026-08-13T16:56:01.651330,LBC,stock-data,200,325.0,"cmpyName='LBC Express Holdings, Inc.' lastTradedPrice=0.0"
+2026-08-13T16:56:01.990834,LBC,chart,200,339.1,rows=133
+2026-08-13T16:56:02.293261,LBC,dividends,200,302.2,rows=0
+2026-08-13T16:56:02.606343,LC,company-info,200,312.8,sector='Mining and Oil'
+2026-08-13T16:56:02.923458,LC,stock-data,200,316.9,cmpyName='Lepanto Consolidated Mining Company' lastTradedPrice=0.222
+2026-08-13T16:56:03.264288,LC,chart,200,340.3,rows=156
+2026-08-13T16:56:03.535732,LC,dividends,200,271.2,rows=0
+2026-08-13T16:56:03.822660,LFM,company-info,200,286.7,"sector='Small, Medium & Emerging Board'"
+2026-08-13T16:56:04.116217,LFM,stock-data,200,293.3,cmpyName='LFM Properties Corporation' lastTradedPrice=0.0
+2026-08-13T16:56:04.437012,LFM,chart,200,320.3,rows=86
+2026-08-13T16:56:04.757775,LFM,dividends,200,320.6,rows=1
+2026-08-13T16:56:05.046023,LMG,company-info,200,288.0,sector='Financials'
+2026-08-13T16:56:05.334130,LMG,stock-data,200,287.9,cmpyName='LMG Corp.' lastTradedPrice=0.0
+2026-08-13T16:56:05.667878,LMG,chart,200,333.5,rows=16
+2026-08-13T16:56:05.955203,LMG,dividends,200,287.1,rows=0
+2026-08-13T16:56:06.264365,LODE,company-info,200,309.0,sector='Holding Firms'
+2026-08-13T16:56:06.582423,LODE,stock-data,200,317.8,cmpyName='Lodestar Investment Holdings Corporation' lastTradedPrice=0.35
+2026-08-13T16:56:06.944749,LODE,chart,200,361.8,rows=143
+2026-08-13T16:56:07.245609,LODE,dividends,200,300.6,rows=0
+2026-08-13T16:56:07.527621,LOTO,company-info,200,281.8,sector='Services'
+2026-08-13T16:56:07.821236,LOTO,stock-data,200,293.4,cmpyName='Pacific Online Systems Corporation' lastTradedPrice=1.84
+2026-08-13T16:56:08.136236,LOTO,chart,200,314.5,rows=130
+2026-08-13T16:56:08.445116,LOTO,dividends,200,308.7,rows=0
+2026-08-13T16:56:08.747390,LPC,company-info,200,302.0,"sector='Small, Medium & Emerging Board'"
+2026-08-13T16:56:09.058279,LPC,stock-data,200,310.7,cmpyName='LFM Properties Corporation' lastTradedPrice=0.0
+2026-08-13T16:56:09.374131,LPC,chart,200,315.4,rows=86
+2026-08-13T16:56:09.654297,LPC,dividends,200,279.9,rows=1
+2026-08-13T16:56:09.968293,LPZ,company-info,200,313.8,sector='Holding Firms'
+2026-08-13T16:56:10.286462,LPZ,stock-data,200,318.0,cmpyName='Lopez Holdings Corporation' lastTradedPrice=6.37
+2026-08-13T16:56:10.637204,LPZ,chart,200,350.2,rows=150
+2026-08-13T16:56:10.950317,LPZ,dividends,200,312.9,rows=1
+2026-08-13T16:56:11.266495,LSC,company-info,200,316.0,sector='Services'
+2026-08-13T16:56:11.558800,LSC,stock-data,200,292.1,cmpyName='Lorenzo Shipping Corporation' lastTradedPrice=0.65
+2026-08-13T16:56:11.899817,LSC,chart,200,340.6,rows=116
+2026-08-13T16:56:12.225134,LSC,dividends,200,325.1,rows=0
+2026-08-13T16:56:12.545161,LTG,company-info,200,319.8,sector='Holding Firms'
+2026-08-13T16:56:12.881706,LTG,stock-data,200,336.3,"cmpyName='LT Group, Inc.' lastTradedPrice=14.9"
+2026-08-13T16:56:13.235783,LTG,chart,200,353.6,rows=156
+2026-08-13T16:56:13.567097,LTG,dividends,200,331.1,rows=5
+2026-08-13T16:56:13.841881,MA,company-info,200,274.6,sector='Holding Firms'
+2026-08-13T16:56:14.162446,MA,stock-data,200,320.3,cmpyName='Mabuhay Holdings Corporation' lastTradedPrice=0.0
+2026-08-13T16:56:14.534344,MA,chart,200,371.6,rows=29
+2026-08-13T16:56:14.851202,MA,dividends,200,316.6,rows=0
+2026-08-13T16:56:15.165269,MAB,company-info,200,313.9,sector='Holding Firms'
+2026-08-13T16:56:15.482586,MAB,stock-data,200,317.0,cmpyName='Mabuhay Holdings Corporation' lastTradedPrice=0.0
+2026-08-13T16:56:15.804308,MAB,chart,200,321.5,rows=29
+2026-08-13T16:56:16.120138,MAB,dividends,200,315.6,rows=0
+2026-08-13T16:56:16.408531,MAC,company-info,200,288.2,sector='Industrial'
+2026-08-13T16:56:16.752016,MAC,stock-data,200,343.3,"cmpyName='Macay Holdings, Inc.' lastTradedPrice=0.0"
+2026-08-13T16:56:17.114071,MAC,chart,200,361.8,rows=54
+2026-08-13T16:56:17.447735,MAC,dividends,200,333.5,rows=2
+2026-08-13T16:56:17.729342,MACAY,company-info,200,281.3,sector='Industrial'
+2026-08-13T16:56:18.029864,MACAY,stock-data,200,300.3,"cmpyName='Macay Holdings, Inc.' lastTradedPrice=0.0"
+2026-08-13T16:56:18.348419,MACAY,chart,200,318.2,rows=54
+2026-08-13T16:56:18.642950,MACAY,dividends,200,294.3,rows=2
+2026-08-13T16:56:18.991300,MAH,company-info,200,348.1,sector='Services'
+2026-08-13T16:56:19.321942,MAH,stock-data,200,330.4,cmpyName='Metro Alliance Holdings & Equities Corp.' lastTradedPrice=0.0
+2026-08-13T16:56:19.670564,MAH,chart,200,348.4,rows=17
+2026-08-13T16:56:19.998954,MAH,dividends,200,328.2,rows=0
+2026-08-13T16:56:20.322608,MARC,company-info,200,323.4,sector='Mining and Oil'
+2026-08-13T16:56:20.602864,MARC,stock-data,200,280.0,"cmpyName='Marcventures Holdings, Inc.' lastTradedPrice=0.73"
+2026-08-13T16:56:20.971262,MARC,chart,200,367.7,rows=156
+2026-08-13T16:56:21.270724,MARC,dividends,200,299.3,rows=1
+2026-08-13T16:56:21.587015,MAXS,company-info,200,316.0,sector='Industrial'
+2026-08-13T16:56:21.972812,MAXS,stock-data,200,385.5,"cmpyName=""Max's Group, Inc."" lastTradedPrice=2.08"
+2026-08-13T16:56:22.362736,MAXS,chart,200,389.5,rows=155
+2026-08-13T16:56:22.634280,MAXS,dividends,200,271.3,rows=1
+2026-08-13T16:56:22.965618,MB,company-info,200,331.1,sector='Services'
+2026-08-13T16:56:23.318799,MB,stock-data,200,352.9,cmpyName='Manila Broadcasting Company' lastTradedPrice=5.11
+2026-08-13T16:56:23.642386,MB,chart,200,323.2,rows=86
+2026-08-13T16:56:23.942753,MB,dividends,200,300.1,rows=1
+2026-08-13T16:56:24.256497,MBC,company-info,200,313.5,sector='Services'
+2026-08-13T16:56:24.531537,MBC,stock-data,200,274.8,cmpyName='Manila Broadcasting Company' lastTradedPrice=5.11
+2026-08-13T16:56:24.883819,MBC,chart,200,351.9,rows=86
+2026-08-13T16:56:25.182833,MBC,dividends,200,298.8,rows=1
+2026-08-13T16:56:25.465414,MBT,company-info,200,282.4,sector='Financials'
+2026-08-13T16:56:25.775089,MBT,stock-data,200,309.5,cmpyName='Metropolitan Bank & Trust Company' lastTradedPrice=68.95
+2026-08-13T16:56:26.162177,MBT,chart,200,386.6,rows=156
+2026-08-13T16:56:26.444789,MBT,dividends,200,282.3,rows=3
+2026-08-13T16:56:26.765525,MED,company-info,200,320.5,sector='Financials'
+2026-08-13T16:56:27.061460,MED,stock-data,200,295.7,"cmpyName='MEDCO Holdings, Inc.' lastTradedPrice=0.109"
+2026-08-13T16:56:27.378458,MED,chart,200,316.6,rows=101
+2026-08-13T16:56:27.684984,MED,dividends,200,306.3,rows=0
+2026-08-13T16:56:27.958915,MEDIC,company-info,200,273.7,sector='Services'
+2026-08-13T16:56:28.272267,MEDIC,stock-data,200,313.1,cmpyName='Medilines Distributors Incorporated' lastTradedPrice=0.21
+2026-08-13T16:56:28.582092,MEDIC,chart,200,309.4,rows=142
+2026-08-13T16:56:28.924323,MEDIC,dividends,200,342.0,rows=1
+2026-08-13T16:56:29.237429,MEG,company-info,200,312.9,sector='Industrial'
+2026-08-13T16:56:29.583263,MEG,stock-data,200,345.6,cmpyName='Megawide Construction Corporation' lastTradedPrice=4.6
+2026-08-13T16:56:29.957266,MEG,chart,200,373.6,rows=156
+2026-08-13T16:56:30.277441,MEG,dividends,200,319.9,rows=24
+2026-08-13T16:56:30.607394,MER,company-info,200,329.7,sector='Industrial'
+2026-08-13T16:56:30.986547,MER,stock-data,200,378.9,cmpyName='Manila Electric Company' lastTradedPrice=491.6
+2026-08-13T16:56:31.366566,MER,chart,200,379.3,rows=156
+2026-08-13T16:56:31.654390,MER,dividends,200,287.6,rows=3
+2026-08-13T16:56:31.961396,MFC,company-info,200,306.7,sector='Financials'
+2026-08-13T16:56:32.319077,MFC,stock-data,200,357.4,cmpyName='Manulife Financial Corporation' lastTradedPrice=2600.0
+2026-08-13T16:56:32.635160,MFC,chart,200,315.4,rows=125
+2026-08-13T16:56:32.948934,MFC,dividends,200,313.5,rows=5
+2026-08-13T16:56:33.273638,MFIN,company-info,200,324.5,"sector='Small, Medium & Emerging Board'"
+2026-08-13T16:56:33.626208,MFIN,stock-data,200,352.3,cmpyName='Makati Finance Corporation' lastTradedPrice=0.0
+2026-08-13T16:56:33.952541,MFIN,chart,200,326.0,rows=39
+2026-08-13T16:56:34.232354,MFIN,dividends,200,279.4,rows=4
+2026-08-13T16:56:34.509058,MG,company-info,200,276.4,sector='Holding Firms'
+2026-08-13T16:56:34.814822,MG,stock-data,200,305.6,cmpyName='Metro Global Holdings Corporation' lastTradedPrice=0.0
+2026-08-13T16:56:35.152044,MG,chart,200,337.0,rows=0
+2026-08-13T16:56:35.416205,MG,dividends,200,263.9,rows=0
+2026-08-13T16:56:35.734493,MGH,company-info,200,318.0,sector='Holding Firms'
+2026-08-13T16:56:36.096040,MGH,stock-data,200,361.2,cmpyName='Metro Global Holdings Corporation' lastTradedPrice=0.0
+2026-08-13T16:56:36.422192,MGH,chart,200,325.8,rows=0
+2026-08-13T16:56:36.744308,MGH,dividends,200,321.9,rows=0
+2026-08-13T16:56:37.034353,MHC,company-info,200,289.8,sector='Holding Firms'
+2026-08-13T16:56:37.398846,MHC,stock-data,200,364.2,cmpyName='Mabuhay Holdings Corporation' lastTradedPrice=0.0
+2026-08-13T16:56:37.758646,MHC,chart,200,359.5,rows=29
+2026-08-13T16:56:38.057733,MHC,dividends,200,298.8,rows=0
+2026-08-13T16:56:38.403798,MJC,company-info,200,345.8,sector='Services'
+2026-08-13T16:56:38.698835,MJC,stock-data,200,294.6,"cmpyName='Manila Jockey Club, Inc.' lastTradedPrice=0.0"
+2026-08-13T16:56:39.054519,MJC,chart,200,355.4,rows=0
+2026-08-13T16:56:39.403733,MJC,dividends,200,348.9,rows=0
+2026-08-13T16:56:39.692157,MJIC,company-info,200,288.1,sector='Services'
+2026-08-13T16:56:39.969664,MJIC,stock-data,200,277.3,cmpyName='MJC Investments Corporation' lastTradedPrice=0.0
+2026-08-13T16:56:40.306684,MJIC,chart,200,336.8,rows=0
+2026-08-13T16:56:40.585683,MJIC,dividends,200,278.8,rows=0
+2026-08-13T16:56:40.865549,MM,company-info,200,279.7,"sector='Small, Medium & Emerging Board'"
+2026-08-13T16:56:41.233103,MM,stock-data,200,367.3,cmpyName='MerryMart Consumer Corp.' lastTradedPrice=0.0
+2026-08-13T16:56:41.532287,MM,chart,200,298.8,rows=102
+2026-08-13T16:56:41.825749,MM,dividends,200,293.2,rows=0
+2026-08-13T16:56:42.129733,MONDE,company-info,200,303.7,sector='Industrial'
+2026-08-13T16:56:42.402587,MONDE,stock-data,200,272.6,cmpyName='Monde Nissin Corporation' lastTradedPrice=7.22
+2026-08-13T16:56:42.798096,MONDE,chart,200,394.9,rows=156
+2026-08-13T16:56:43.081012,MONDE,dividends,200,282.7,rows=2
+2026-08-13T16:56:43.359949,MRC,company-info,200,278.7,sector='Property'
+2026-08-13T16:56:43.643349,MRC,stock-data,200,283.2,"cmpyName='MRC Allied, Inc.' lastTradedPrice=0.71"
+2026-08-13T16:56:43.984553,MRC,chart,200,340.6,rows=156
+2026-08-13T16:56:44.275979,MRC,dividends,200,291.2,rows=0
+2026-08-13T16:56:44.573166,MREIT,company-info,200,297.0,sector='Property'
+2026-08-13T16:56:44.862691,MREIT,stock-data,200,289.3,"cmpyName='MREIT, Inc.' lastTradedPrice=13.74"
+2026-08-13T16:56:45.365721,MREIT,chart,200,502.6,rows=156
+2026-08-13T16:56:45.685612,MREIT,dividends,200,319.6,rows=5
+2026-08-13T16:56:45.965886,MRSGI,company-info,200,280.0,sector='Services'
+2026-08-13T16:56:46.315330,MRSGI,stock-data,200,349.2,"cmpyName='Metro Retail Stores Group, Inc.' lastTradedPrice=1.07"
+2026-08-13T16:56:46.688997,MRSGI,chart,200,373.1,rows=150
+2026-08-13T16:56:46.988940,MRSGI,dividends,200,299.7,rows=1
+2026-08-13T16:56:47.265180,MVC,company-info,200,276.0,sector='Industrial'
+2026-08-13T16:56:47.604911,MVC,stock-data,200,339.5,cmpyName='Mabuhay Vinyl Corporation' lastTradedPrice=5.06
+2026-08-13T16:56:47.945743,MVC,chart,200,340.2,rows=82
+2026-08-13T16:56:48.252168,MVC,dividends,200,306.1,rows=1
+2026-08-13T16:56:48.541017,MWC,company-info,200,288.6,sector='Industrial'
+2026-08-13T16:56:48.837016,MWC,stock-data,200,295.7,"cmpyName='Manila Water Company, Inc.' lastTradedPrice=33.4"
+2026-08-13T16:56:49.230132,MWC,chart,200,392.3,rows=156
+2026-08-13T16:56:49.576409,MWC,dividends,200,345.9,rows=2
+2026-08-13T16:56:49.877679,MWIDE,company-info,200,300.6,sector='Industrial'
+2026-08-13T16:56:50.213241,MWIDE,stock-data,200,335.3,cmpyName='Megawide Construction Corporation' lastTradedPrice=4.6
+2026-08-13T16:56:50.562575,MWIDE,chart,200,348.5,rows=156
+2026-08-13T16:56:50.858324,MWIDE,dividends,200,295.4,rows=24
+2026-08-13T16:56:51.183058,MYNLD,company-info,200,324.5,sector='Industrial'
+2026-08-13T16:56:51.481371,MYNLD,stock-data,200,298.1,"cmpyName='Maynilad Water Services, Inc.' lastTradedPrice=18.12"
+2026-08-13T16:56:51.817343,MYNLD,chart,200,335.4,rows=156
+2026-08-13T16:56:52.115730,MYNLD,dividends,200,298.2,rows=1
+2026-08-13T16:56:52.450315,NI,company-info,200,334.3,sector='Mining and Oil'
+2026-08-13T16:56:52.757954,NI,stock-data,200,307.4,cmpyName='Nickel Asia Corporation' lastTradedPrice=4.07
+2026-08-13T16:56:53.447722,NI,chart,200,688.0,rows=156
+2026-08-13T16:56:53.809979,NI,dividends,200,361.8,rows=2
+2026-08-13T16:56:54.109882,NIKL,company-info,200,299.6,sector='Mining and Oil'
+2026-08-13T16:56:54.455506,NIKL,stock-data,200,345.2,cmpyName='Nickel Asia Corporation' lastTradedPrice=4.07
+2026-08-13T16:56:54.821085,NIKL,chart,200,364.9,rows=156
+2026-08-13T16:56:55.107344,NIKL,dividends,200,286.0,rows=2
+2026-08-13T16:56:55.395261,NOW,company-info,200,287.7,sector='Services'
+2026-08-13T16:56:55.745730,NOW,stock-data,200,350.2,cmpyName='Now Corporation' lastTradedPrice=0.5
+2026-08-13T16:56:56.147156,NOW,chart,200,400.4,rows=156
+2026-08-13T16:56:56.450946,NOW,dividends,200,303.5,rows=0
+2026-08-13T16:56:56.748976,NRCP,company-info,200,297.8,sector='Financials'
+2026-08-13T16:56:57.098819,NRCP,stock-data,200,349.6,cmpyName='National Reinsurance Corporation of the Philippines' lastTradedPrice=0.99
+2026-08-13T16:56:57.425473,NRCP,chart,200,326.2,rows=154
+2026-08-13T16:56:57.715289,NRCP,dividends,200,289.6,rows=1
+2026-08-13T16:56:58.006422,NXGEN,company-info,200,290.9,sector='Financials'
+2026-08-13T16:56:58.308613,NXGEN,stock-data,200,302.0,cmpyName='NextGenesis Corporation' lastTradedPrice=0.0
+2026-08-13T16:56:58.678452,NXGEN,chart,200,369.5,rows=0
+2026-08-13T16:56:58.994649,NXGEN,dividends,200,315.9,rows=0
+2026-08-13T16:56:59.314699,OGP,company-info,200,319.8,sector='Mining and Oil'
+2026-08-13T16:56:59.647644,OGP,stock-data,200,332.7,"cmpyName='OceanaGold (Philippines), Inc.' lastTradedPrice=36.8"
+2026-08-13T16:57:00.030001,OGP,chart,200,381.5,rows=156
+2026-08-13T16:57:00.395223,OGP,dividends,200,364.8,rows=5
+2026-08-13T16:57:00.715931,OM,company-info,200,320.5,sector='Property'
+2026-08-13T16:57:01.027615,OM,stock-data,200,311.5,cmpyName='Omico Corporation' lastTradedPrice=0.0
+2026-08-13T16:57:01.387649,OM,chart,200,359.7,rows=71
+2026-08-13T16:57:01.676263,OM,dividends,200,288.3,rows=0
+2026-08-13T16:57:01.967283,OPM,company-info,200,290.8,sector='Mining and Oil'
+2026-08-13T16:57:02.262771,OPM,stock-data,200,295.2,cmpyName='Oriental Petroleum and Minerals Corporation' lastTradedPrice=0.014
+2026-08-13T16:57:02.635497,OPM,chart,200,372.1,rows=154
+2026-08-13T16:57:02.991340,OPM,dividends,200,355.6,rows=1
+2026-08-13T16:57:03.273385,ORE,company-info,200,281.8,sector='Mining and Oil'
+2026-08-13T16:57:03.581032,ORE,stock-data,200,307.4,"cmpyName='Oriental Peninsula Resources Group, Inc.' lastTradedPrice=0.485"
+2026-08-13T16:57:03.979343,ORE,chart,200,397.8,rows=128
+2026-08-13T16:57:04.257213,ORE,dividends,200,277.4,rows=0
+2026-08-13T16:57:04.564881,OV,company-info,200,307.4,sector='Mining and Oil'
+2026-08-13T16:57:04.859677,OV,stock-data,200,294.5,cmpyName='The Philodrill Corporation' lastTradedPrice=0.0081
+2026-08-13T16:57:05.271580,OV,chart,200,411.5,rows=151
+2026-08-13T16:57:05.597290,OV,dividends,200,325.4,rows=0
+2026-08-13T16:57:05.872243,PA,company-info,200,274.7,sector='Services'
+2026-08-13T16:57:06.155923,PA,stock-data,200,283.4,cmpyName='Pacific Online Systems Corporation' lastTradedPrice=1.84
+2026-08-13T16:57:06.478233,PA,chart,200,321.9,rows=130
+2026-08-13T16:57:06.830360,PA,dividends,200,352.0,rows=0
+2026-08-13T16:57:07.155177,PAL,company-info,200,324.6,sector='Services'
+2026-08-13T16:57:07.481980,PAL,stock-data,200,326.6,"cmpyName='PAL Holdings, Inc.' lastTradedPrice=2.12"
+2026-08-13T16:57:07.855454,PAL,chart,200,373.0,rows=156
+2026-08-13T16:57:08.162522,PAL,dividends,200,306.8,rows=0
+2026-08-13T16:57:08.467662,PAX,company-info,200,304.9,sector='Services'
+2026-08-13T16:57:08.755448,PAX,stock-data,200,287.6,"cmpyName='Paxys, Inc.' lastTradedPrice=3.16"
+2026-08-13T16:57:09.120277,PAX,chart,200,364.5,rows=53
+2026-08-13T16:57:09.463052,PAX,dividends,200,342.5,rows=0
+2026-08-13T16:57:09.769595,PBB,company-info,200,306.3,sector='Financials'
+2026-08-13T16:57:10.056341,PBB,stock-data,200,286.6,cmpyName='Philippine Business Bank' lastTradedPrice=6.92
+2026-08-13T16:57:10.394461,PBB,chart,200,337.7,rows=133
+2026-08-13T16:57:10.674637,PBB,dividends,200,280.0,rows=0
+2026-08-13T16:57:11.003991,PBC,company-info,200,329.1,sector='Financials'
+2026-08-13T16:57:11.290298,PBC,stock-data,200,286.1,cmpyName='Philippine Bank of Communications' lastTradedPrice=0.0
+2026-08-13T16:57:11.600152,PBC,chart,200,309.6,rows=71
+2026-08-13T16:57:11.911611,PBC,dividends,200,311.3,rows=0
+2026-08-13T16:57:12.201177,PCOR,company-info,200,289.4,sector='Industrial'
+2026-08-13T16:57:12.484955,PCOR,stock-data,200,283.6,cmpyName='Petron Corporation' lastTradedPrice=2.3
+2026-08-13T16:57:12.834352,PCOR,chart,200,348.9,rows=156
+2026-08-13T16:57:13.149859,PCOR,dividends,200,315.2,rows=30
+2026-08-13T16:57:13.421696,PERC,company-info,200,271.7,sector='Industrial'
+2026-08-13T16:57:13.735935,PERC,stock-data,200,313.9,cmpyName='PetroEnergy Resources Corporation' lastTradedPrice=3.9
+2026-08-13T16:57:14.077212,PERC,chart,200,340.8,rows=126
+2026-08-13T16:57:14.352025,PERC,dividends,200,274.6,rows=1
+2026-08-13T16:57:14.672821,PGOLD,company-info,200,320.6,sector='Services'
+2026-08-13T16:57:14.952321,PGOLD,stock-data,200,279.3,"cmpyName='Puregold Price Club, Inc.' lastTradedPrice=41.0"
+2026-08-13T16:57:15.313800,PGOLD,chart,200,361.0,rows=156
+2026-08-13T16:57:15.618495,PGOLD,dividends,200,304.5,rows=3
+2026-08-13T16:57:15.918843,PHA,company-info,200,300.2,sector='Property'
+2026-08-13T16:57:16.204926,PHA,stock-data,200,285.9,cmpyName='Premiere Horizon Alliance Corporation' lastTradedPrice=0.155
+2026-08-13T16:57:16.538359,PHA,chart,200,333.0,rows=153
+2026-08-13T16:57:16.802675,PHA,dividends,200,264.1,rows=2
+2026-08-13T16:57:17.126039,PHC,company-info,200,323.1,sector='Services'
+2026-08-13T16:57:17.448178,PHC,stock-data,200,321.9,cmpyName='Philcomsat Holdings Corporation' lastTradedPrice=1.61
+2026-08-13T16:57:17.821561,PHC,chart,200,373.1,rows=75
+2026-08-13T16:57:18.125180,PHC,dividends,200,303.4,rows=1
+2026-08-13T16:57:18.401033,PHES,company-info,200,275.6,sector='Property'
+2026-08-13T16:57:18.708076,PHES,stock-data,200,306.9,cmpyName='Philippine Estates Corporation' lastTradedPrice=0.0
+2026-08-13T16:57:19.028534,PHES,chart,200,320.1,rows=89
+2026-08-13T16:57:19.300882,PHES,dividends,200,272.1,rows=0
+2026-08-13T16:57:19.585524,PHN,company-info,200,284.5,sector='Industrial'
+2026-08-13T16:57:19.884166,PHN,stock-data,200,298.5,cmpyName='Phinma Corporation' lastTradedPrice=14.9
+2026-08-13T16:57:20.238547,PHN,chart,200,353.9,rows=124
+2026-08-13T16:57:20.543010,PHN,dividends,200,304.2,rows=1
+2026-08-13T16:57:20.816287,PHR,company-info,200,273.0,sector='Services'
+2026-08-13T16:57:21.097893,PHR,stock-data,200,281.4,"cmpyName='PH Resorts Group Holdings, Inc.' lastTradedPrice=0.0"
+2026-08-13T16:57:21.504315,PHR,chart,200,406.1,rows=101
+2026-08-13T16:57:21.825339,PHR,dividends,200,320.9,rows=0
+2026-08-13T16:57:22.131861,PIZZA,company-info,200,306.3,sector='Industrial'
+2026-08-13T16:57:22.483988,PIZZA,stock-data,200,351.8,"cmpyName=""Shakey's Pizza Asia Ventures, Inc."" lastTradedPrice=5.95"
+2026-08-13T16:57:22.828484,PIZZA,chart,200,344.0,rows=154
+2026-08-13T16:57:23.103264,PIZZA,dividends,200,274.6,rows=2
+2026-08-13T16:57:23.385849,PLUS,company-info,200,282.3,sector='Services'
+2026-08-13T16:57:23.682324,PLUS,stock-data,200,296.3,cmpyName='DigiPlus Interactive Corp.' lastTradedPrice=9.65
+2026-08-13T16:57:24.040716,PLUS,chart,200,357.9,rows=156
+2026-08-13T16:57:24.378035,PLUS,dividends,200,337.1,rows=1
+2026-08-13T16:57:24.695651,PMPC,company-info,200,317.3,sector='Industrial'
+2026-08-13T16:57:25.015191,PMPC,stock-data,200,319.3,cmpyName='Panasonic Manufacturing Philippines Corporation' lastTradedPrice=7.48
+2026-08-13T16:57:25.379487,PMPC,chart,200,363.7,rows=155
+2026-08-13T16:57:25.687360,PMPC,dividends,200,307.7,rows=1
+2026-08-13T16:57:25.995402,PNB,company-info,200,307.8,sector='Financials'
+2026-08-13T16:57:26.299210,PNB,stock-data,200,303.6,cmpyName='Philippine National Bank' lastTradedPrice=65.0
+2026-08-13T16:57:26.615391,PNB,chart,200,315.8,rows=156
+2026-08-13T16:57:26.911238,PNB,dividends,200,295.6,rows=4
+2026-08-13T16:57:27.198656,PNC,company-info,200,287.2,sector='Industrial'
+2026-08-13T16:57:27.503965,PNC,stock-data,200,305.1,cmpyName='Philippine National Construction Corporation' lastTradedPrice=0.0
+2026-08-13T16:57:27.811467,PNC,chart,200,307.3,rows=0
+2026-08-13T16:57:28.136739,PNC,dividends,200,325.0,rows=0
+2026-08-13T16:57:28.448842,PNX,company-info,200,311.9,sector='Industrial'
+2026-08-13T16:57:28.734033,PNX,stock-data,200,285.0,"cmpyName='Phoenix Petroleum Philippines, Inc.' lastTradedPrice=0.0"
+2026-08-13T16:57:29.106077,PNX,chart,200,371.9,rows=0
+2026-08-13T16:57:29.400270,PNX,dividends,200,294.0,rows=1
+2026-08-13T16:57:29.678619,PORT,company-info,200,278.1,sector='Services'
+2026-08-13T16:57:29.961698,PORT,stock-data,200,282.9,"cmpyName='Globalport 900, Inc.' lastTradedPrice=0.0"
+2026-08-13T16:57:30.366823,PORT,chart,200,404.9,rows=0
+2026-08-13T16:57:30.641323,PORT,dividends,200,274.3,rows=0
+2026-08-13T16:57:30.930264,PPC,company-info,200,288.7,sector='Industrial'
+2026-08-13T16:57:31.281318,PPC,stock-data,200,350.7,cmpyName='Pryce Corporation' lastTradedPrice=15.0
+2026-08-13T16:57:31.672766,PPC,chart,200,390.9,rows=155
+2026-08-13T16:57:31.952570,PPC,dividends,200,279.6,rows=2
+2026-08-13T16:57:32.232452,PRC,company-info,200,279.6,sector='Property'
+2026-08-13T16:57:32.514645,PRC,stock-data,200,282.0,"cmpyName='Philippine Racing Club, Inc.' lastTradedPrice=0.0"
+2026-08-13T16:57:32.846688,PRC,chart,200,331.8,rows=67
+2026-08-13T16:57:33.161881,PRC,dividends,200,314.9,rows=1
+2026-08-13T16:57:33.447193,PREIT,company-info,200,285.0,sector='Property'
+2026-08-13T16:57:33.734911,PREIT,stock-data,200,287.5,cmpyName='Premiere Island Power REIT Corporation' lastTradedPrice=1.07
+2026-08-13T16:57:34.050749,PREIT,chart,200,315.2,rows=156
+2026-08-13T16:57:34.329254,PREIT,dividends,200,278.2,rows=3
+2026-08-13T16:57:34.629622,PRIM,company-info,200,300.2,sector='Holding Firms'
+2026-08-13T16:57:34.982311,PRIM,stock-data,200,352.4,"cmpyName='Prime Media Holdings, Inc.' lastTradedPrice=0.96"
+2026-08-13T16:57:35.376959,PRIM,chart,200,394.1,rows=149
+2026-08-13T16:57:35.685250,PRIM,dividends,200,308.1,rows=0
+2026-08-13T16:57:35.990998,PRMX,company-info,200,305.5,sector='Property'
+2026-08-13T16:57:36.267474,PRMX,stock-data,200,276.3,cmpyName='Primex Corporation' lastTradedPrice=1.12
+2026-08-13T16:57:36.601596,PRMX,chart,200,333.4,rows=84
+2026-08-13T16:57:36.881498,PRMX,dividends,200,279.6,rows=0
+2026-08-13T16:57:37.147138,PSB,company-info,200,265.5,sector='Financials'
+2026-08-13T16:57:37.489185,PSB,stock-data,200,341.8,cmpyName='Philippine Savings Bank' lastTradedPrice=52.3
+2026-08-13T16:57:37.837788,PSB,chart,200,348.2,rows=156
+2026-08-13T16:57:38.150340,PSB,dividends,200,312.4,rows=5
+2026-08-13T16:57:38.442040,PSE,company-info,200,291.5,sector='Financials'
+2026-08-13T16:57:38.744280,PSE,stock-data,200,301.8,"cmpyName='The Philippine Stock Exchange, Inc.' lastTradedPrice=206.0"
+2026-08-13T16:57:39.108151,PSE,chart,200,363.2,rows=156
+2026-08-13T16:57:39.443258,PSE,dividends,200,334.9,rows=2
+2026-08-13T16:57:39.765509,PTC,company-info,200,322.1,sector='Financials'
+2026-08-13T16:57:40.076902,PTC,stock-data,200,311.2,cmpyName='Philippine Trust Company' lastTradedPrice=0.0
+2026-08-13T16:57:40.433314,PTC,chart,200,356.1,rows=39
+2026-08-13T16:57:40.733473,PTC,dividends,200,300.0,rows=0
+2026-08-13T16:57:41.022307,PTT,company-info,200,288.6,sector='Services'
+2026-08-13T16:57:41.330616,PTT,stock-data,200,308.1,cmpyName='PT&T Corp.' lastTradedPrice=0.0
+2026-08-13T16:57:41.714597,PTT,chart,200,383.8,rows=0
+2026-08-13T16:57:42.060757,PTT,dividends,200,345.9,rows=0
+2026-08-13T16:57:42.337386,PX,company-info,200,276.4,sector='Mining and Oil'
+2026-08-13T16:57:42.653720,PX,stock-data,200,316.2,cmpyName='Philex Mining Corporation' lastTradedPrice=10.2
+2026-08-13T16:57:42.990075,PX,chart,200,335.8,rows=156
+2026-08-13T16:57:43.351050,PX,dividends,200,360.8,rows=1
+2026-08-13T16:57:43.658739,PXP,company-info,200,307.5,sector='Mining and Oil'
+2026-08-13T16:57:43.949821,PXP,stock-data,200,290.9,cmpyName='PXP Energy Corporation' lastTradedPrice=2.7
+2026-08-13T16:57:44.273688,PXP,chart,200,323.3,rows=156
+2026-08-13T16:57:44.566798,PXP,dividends,200,292.8,rows=0
+2026-08-13T16:57:44.845187,RCB,company-info,200,278.2,sector='Financials'
+2026-08-13T16:57:45.163826,RCB,stock-data,200,318.5,cmpyName='Rizal Commercial Banking Corporation' lastTradedPrice=23.0
+2026-08-13T16:57:45.504046,RCB,chart,200,339.8,rows=145
+2026-08-13T16:57:45.772187,RCB,dividends,200,267.9,rows=1
+2026-08-13T16:57:46.090144,RCI,company-info,200,317.7,sector='Industrial'
+2026-08-13T16:57:46.365413,RCI,stock-data,200,275.1,"cmpyName='Roxas and Company, Inc.' lastTradedPrice=2.4"
+2026-08-13T16:57:46.695135,RCI,chart,200,329.3,rows=142
+2026-08-13T16:57:47.038490,RCI,dividends,200,343.1,rows=0
+2026-08-13T16:57:47.380860,RCR,company-info,200,342.1,sector='Property'
+2026-08-13T16:57:47.679828,RCR,stock-data,200,298.8,"cmpyName='RL Commercial REIT, Inc.' lastTradedPrice=7.3"
+2026-08-13T16:57:48.064042,RCR,chart,200,383.8,rows=156
+2026-08-13T16:57:48.412422,RCR,dividends,200,348.2,rows=5
+2026-08-13T16:57:48.686364,REDC,company-info,200,273.8,sector='Industrial'
+2026-08-13T16:57:48.992676,REDC,stock-data,200,306.1,cmpyName='Repower Energy Development Corporation' lastTradedPrice=9.5
+2026-08-13T16:57:49.336411,REDC,chart,200,343.4,rows=129
+2026-08-13T16:57:49.646443,REDC,dividends,200,309.9,rows=1
+2026-08-13T16:57:50.003793,REG,company-info,200,357.1,sector='Holding Firms'
+2026-08-13T16:57:50.328308,REG,stock-data,200,324.3,cmpyName='Republic Glass Holdings Corporation' lastTradedPrice=0.0
+2026-08-13T16:57:50.654962,REG,chart,200,326.3,rows=45
+2026-08-13T16:57:50.935963,REG,dividends,200,280.8,rows=1
+2026-08-13T16:57:51.232031,RFM,company-info,200,295.8,sector='Industrial'
+2026-08-13T16:57:51.530383,RFM,stock-data,200,298.1,cmpyName='RFM Corporation' lastTradedPrice=5.3
+2026-08-13T16:57:51.895554,RFM,chart,200,364.8,rows=156
+2026-08-13T16:57:52.202300,RFM,dividends,200,306.6,rows=6
+2026-08-13T16:57:52.513760,RLC,company-info,200,311.3,sector='Property'
+2026-08-13T16:57:52.795174,RLC,stock-data,200,281.2,cmpyName='Robinsons Land Corporation' lastTradedPrice=17.5
+2026-08-13T16:57:53.193959,RLC,chart,200,398.3,rows=156
+2026-08-13T16:57:53.453433,RLC,dividends,200,259.1,rows=1
+2026-08-13T16:57:53.729853,RLT,company-info,200,276.2,sector='Property'
+2026-08-13T16:57:54.060089,RLT,stock-data,200,330.0,cmpyName='Philippine Realty and Holdings Corporation' lastTradedPrice=0.0
+2026-08-13T16:57:54.418922,RLT,chart,200,358.3,rows=116
+2026-08-13T16:57:54.729317,RLT,dividends,200,310.2,rows=0
+2026-08-13T16:57:55.076525,ROCK,company-info,200,347.0,sector='Property'
+2026-08-13T16:57:55.359665,ROCK,stock-data,200,282.9,cmpyName='Rockwell Land Corporation' lastTradedPrice=3.1
+2026-08-13T16:57:55.719691,ROCK,chart,200,359.6,rows=156
+2026-08-13T16:57:56.027467,ROCK,dividends,200,307.6,rows=2
+2026-08-13T16:57:56.322908,ROX,company-info,200,294.9,sector='Industrial'
+2026-08-13T16:57:56.620466,ROX,stock-data,200,297.2,"cmpyName='Roxas and Company, Inc.' lastTradedPrice=2.4"
+2026-08-13T16:57:57.000563,ROX,chart,200,379.7,rows=142
+2026-08-13T16:57:57.273922,ROX,dividends,200,273.1,rows=0
+2026-08-13T16:57:57.602171,RRHI,company-info,200,328.1,sector='Services'
+2026-08-13T16:57:57.882327,RRHI,stock-data,200,280.0,"cmpyName='Robinsons Retail Holdings, Inc.' lastTradedPrice=0.0"
+2026-08-13T16:57:59.239059,RRHI,chart,200,1356.3,rows=132
+2026-08-13T16:57:59.573074,RRHI,dividends,200,333.8,rows=1
+2026-08-13T16:58:00.273507,SBS,company-info,200,700.2,sector='Services'
+2026-08-13T16:58:00.621032,SBS,stock-data,200,347.3,cmpyName='SBS Philippines Corporation' lastTradedPrice=3.23
+2026-08-13T16:58:00.970435,SBS,chart,200,349.1,rows=52
+2026-08-13T16:58:01.258478,SBS,dividends,200,287.8,rows=2
+2026-08-13T16:58:01.530138,SCC,company-info,200,271.4,sector='Industrial'
+2026-08-13T16:58:01.813257,SCC,stock-data,200,282.9,cmpyName='Semirara Mining and Power Corporation' lastTradedPrice=18.42
+2026-08-13T16:58:02.494656,SCC,chart,200,680.9,rows=156
+2026-08-13T16:58:02.789591,SCC,dividends,200,294.7,rows=1
+2026-08-13T16:58:04.416456,SECB,company-info,200,1626.7,sector='Financials'
+2026-08-13T16:58:05.813732,SECB,stock-data,200,1397.1,cmpyName='Security Bank Corporation' lastTradedPrice=68.0
+2026-08-13T16:58:06.232872,SECB,chart,200,418.6,rows=156
+2026-08-13T16:58:06.545721,SECB,dividends,200,312.6,rows=2
+2026-08-13T16:58:06.869394,SEVN,company-info,200,323.5,sector='Services'
+2026-08-13T16:58:07.186898,SEVN,stock-data,200,317.3,cmpyName='Philippine Seven Corporation' lastTradedPrice=33.6
+2026-08-13T16:58:07.594790,SEVN,chart,200,407.1,rows=156
+2026-08-13T16:58:07.895737,SEVN,dividends,200,300.7,rows=2
+2026-08-13T16:58:08.215314,SFI,company-info,200,318.7,sector='Industrial'
+2026-08-13T16:58:08.506191,SFI,stock-data,200,290.5,"cmpyName='Swift Foods, Inc.' lastTradedPrice=0.051"
+2026-08-13T16:58:08.860224,SFI,chart,200,353.6,rows=118
+2026-08-13T16:58:09.133601,SFI,dividends,200,273.1,rows=0
+2026-08-13T16:58:09.442038,SGI,company-info,200,308.2,sector='Holding Firms'
+2026-08-13T16:58:09.777877,SGI,stock-data,200,335.7,"cmpyName='Solid Group, Inc.' lastTradedPrice=1.18"
+2026-08-13T16:58:10.139197,SGI,chart,200,360.9,rows=150
+2026-08-13T16:58:10.453104,SGI,dividends,200,313.6,rows=1
+2026-08-13T16:58:10.774891,SGP,company-info,200,321.6,sector='Industrial'
+2026-08-13T16:58:11.060177,SGP,stock-data,200,285.1,"cmpyName='Synergy Grid & Development Phils., Inc.' lastTradedPrice=28.1"
+2026-08-13T16:58:11.450685,SGP,chart,200,390.0,rows=156
+2026-08-13T16:58:11.770314,SGP,dividends,200,319.4,rows=4
+2026-08-13T16:58:12.058346,SHLPH,company-info,200,287.9,sector='Industrial'
+2026-08-13T16:58:12.375645,SHLPH,stock-data,200,317.1,cmpyName='Shell Pilipinas Corporation' lastTradedPrice=9.0
+2026-08-13T16:58:12.716241,SHLPH,chart,200,340.2,rows=156
+2026-08-13T16:58:12.983415,SHLPH,dividends,200,267.0,rows=1
+2026-08-13T16:58:13.324262,SHNG,company-info,200,340.7,sector='Property'
+2026-08-13T16:58:13.608900,SHNG,stock-data,200,284.4,"cmpyName='Shang Properties, Inc.' lastTradedPrice=3.18"
+2026-08-13T16:58:13.965478,SHNG,chart,200,356.1,rows=156
+2026-08-13T16:58:14.262661,SHNG,dividends,200,296.9,rows=2
+2026-08-13T16:58:14.540938,SLF,company-info,200,278.1,sector='Financials'
+2026-08-13T16:58:14.859454,SLF,stock-data,200,318.3,cmpyName='Sun Life Financial Inc.' lastTradedPrice=4850.0
+2026-08-13T16:58:15.207601,SLF,chart,200,347.7,rows=143
+2026-08-13T16:58:15.499945,SLF,dividends,200,292.1,rows=5
+2026-08-13T16:58:15.839126,SLI,company-info,200,339.0,sector='Property'
+2026-08-13T16:58:16.139310,SLI,stock-data,200,299.9,"cmpyName='Sta. Lucia Land, Inc.' lastTradedPrice=2.05"
+2026-08-13T16:58:16.530175,SLI,chart,200,390.3,rows=143
+2026-08-13T16:58:16.831836,SLI,dividends,200,301.5,rows=1
+2026-08-13T16:58:17.114952,SM,company-info,200,282.9,sector='Holding Firms'
+2026-08-13T16:58:17.434287,SM,stock-data,200,319.1,cmpyName='San Miguel Corporation' lastTradedPrice=65.7
+2026-08-13T16:58:17.797548,SM,chart,200,362.5,rows=156
+2026-08-13T16:58:18.145390,SM,dividends,200,347.3,rows=59
+2026-08-13T16:58:18.462281,SMC,company-info,200,316.6,sector='Holding Firms'
+2026-08-13T16:58:18.771510,SMC,stock-data,200,309.0,cmpyName='San Miguel Corporation' lastTradedPrice=65.7
+2026-08-13T16:58:19.158235,SMC,chart,200,386.3,rows=156
+2026-08-13T16:58:19.474929,SMC,dividends,200,316.4,rows=59
+2026-08-13T16:58:19.753669,SMPH,company-info,200,278.6,sector='Property'
+2026-08-13T16:58:20.104975,SMPH,stock-data,200,351.1,"cmpyName='SM Prime Holdings, Inc.' lastTradedPrice=18.2"
+2026-08-13T16:58:20.471204,SMPH,chart,200,365.7,rows=156
+2026-08-13T16:58:20.816560,SMPH,dividends,200,345.1,rows=1
+2026-08-13T16:58:21.102900,SOC,company-info,200,286.2,sector='Property'
+2026-08-13T16:58:21.413489,SOC,stock-data,200,310.4,"cmpyName='SOCResources, Inc.' lastTradedPrice=0.0"
+2026-08-13T16:58:21.760038,SOC,chart,200,346.1,rows=47
+2026-08-13T16:58:22.022829,SOC,dividends,200,262.5,rows=0
+2026-08-13T16:58:22.367470,SPC,company-info,200,344.4,sector='Industrial'
+2026-08-13T16:58:22.679694,SPC,stock-data,200,311.9,cmpyName='SPC Power Corporation' lastTradedPrice=9.59
+2026-08-13T16:58:22.990777,SPC,chart,200,310.5,rows=156
+2026-08-13T16:58:23.312373,SPC,dividends,200,321.4,rows=1
+2026-08-13T16:58:23.648588,SPM,company-info,200,336.0,sector='Holding Firms'
+2026-08-13T16:58:23.986681,SPM,stock-data,200,337.8,cmpyName='Seafront Resources Corporation' lastTradedPrice=0.0
+2026-08-13T16:58:24.357594,SPM,chart,200,370.6,rows=70
+2026-08-13T16:58:24.638153,SPM,dividends,200,280.4,rows=0
+2026-08-13T16:58:24.977151,SPNEC,company-info,200,338.8,sector='Industrial'
+2026-08-13T16:58:25.302674,SPNEC,stock-data,200,325.3,cmpyName='SP New Energy Corporation' lastTradedPrice=1.25
+2026-08-13T16:58:25.704437,SPNEC,chart,200,401.3,rows=156
+2026-08-13T16:58:26.039694,SPNEC,dividends,200,335.1,rows=0
+2026-08-13T16:58:26.349506,SRDC,company-info,200,309.6,sector='Industrial'
+2026-08-13T16:58:26.636731,SRDC,stock-data,200,286.9,cmpyName='Supercity Realty Development Corporation' lastTradedPrice=8.0
+2026-08-13T16:58:26.978645,SRDC,chart,200,341.6,rows=106
+2026-08-13T16:58:27.275720,SRDC,dividends,200,296.7,rows=0
+2026-08-13T16:58:27.611207,SSI,company-info,200,335.2,sector='Services'
+2026-08-13T16:58:27.962455,SSI,stock-data,200,351.1,"cmpyName='SSI Group, Inc.' lastTradedPrice=2.02"
+2026-08-13T16:58:28.353945,SSI,chart,200,391.0,rows=154
+2026-08-13T16:58:28.618765,SSI,dividends,200,264.7,rows=1
+2026-08-13T16:58:28.894261,STI,company-info,200,275.3,sector='Services'
+2026-08-13T16:58:29.186164,STI,stock-data,200,291.7,"cmpyName='STI Education Systems Holdings, Inc.' lastTradedPrice=1.21"
+2026-08-13T16:58:29.513152,STI,chart,200,326.4,rows=156
+2026-08-13T16:58:29.802476,STI,dividends,200,289.1,rows=1
+2026-08-13T16:58:30.101042,STN,company-info,200,298.4,sector='Industrial'
+2026-08-13T16:58:30.707716,STN,stock-data,200,606.4,cmpyName='Steniel Manufacturing Corporation' lastTradedPrice=2.1
+2026-08-13T16:58:31.048328,STN,chart,200,340.2,rows=98
+2026-08-13T16:58:31.323463,STN,dividends,200,275.0,rows=0
+2026-08-13T16:58:31.639235,STR,company-info,200,315.6,sector='Property'
+2026-08-13T16:58:31.928621,STR,stock-data,200,289.2,"cmpyName='Vistamalls, Inc.' lastTradedPrice=0.0"
+2026-08-13T16:58:32.237357,STR,chart,200,308.3,rows=75
+2026-08-13T16:58:32.533258,STR,dividends,200,295.7,rows=1
+2026-08-13T16:58:32.807621,SUN,company-info,200,274.0,sector='Financials'
+2026-08-13T16:58:33.131713,SUN,stock-data,200,323.9,cmpyName='Sun Life Financial Inc.' lastTradedPrice=4850.0
+2026-08-13T16:58:33.466766,SUN,chart,200,334.4,rows=143
+2026-08-13T16:58:33.815567,SUN,dividends,200,348.6,rows=5
+2026-08-13T16:58:34.133402,T,company-info,200,317.6,sector='Industrial'
+2026-08-13T16:58:34.425657,T,stock-data,200,292.1,cmpyName='Cirtek Holdings Philippines Corporation' lastTradedPrice=1.17
+2026-08-13T16:58:34.755325,T,chart,200,329.1,rows=156
+2026-08-13T16:58:35.037232,T,dividends,200,281.7,rows=17
+2026-08-13T16:58:35.321417,TBGI,company-info,200,283.9,sector='Services'
+2026-08-13T16:58:35.602510,TBGI,stock-data,200,280.9,cmpyName='Transpacific Broadband Group Int`l. Inc.' lastTradedPrice=0.115
+2026-08-13T16:58:35.925383,TBGI,chart,200,322.4,rows=153
+2026-08-13T16:58:36.204855,TBGI,dividends,200,279.2,rows=0
+2026-08-13T16:58:36.555186,TECH,company-info,200,350.1,sector='Industrial'
+2026-08-13T16:58:36.874226,TECH,stock-data,200,318.8,cmpyName='Cirtek Holdings Philippines Corporation' lastTradedPrice=1.17
+2026-08-13T16:58:37.191992,TECH,chart,200,317.3,rows=156
+2026-08-13T16:58:37.503065,TECH,dividends,200,310.9,rows=17
+2026-08-13T16:58:37.815559,TEL,company-info,200,312.2,sector='Services'
+2026-08-13T16:58:38.135204,TEL,stock-data,200,319.4,cmpyName='PLDT Inc.' lastTradedPrice=1225.0
+2026-08-13T16:58:38.517304,TEL,chart,200,381.7,rows=156
+2026-08-13T16:58:38.838736,TEL,dividends,200,321.2,rows=3
+2026-08-13T16:58:39.162097,TFC,company-info,200,323.1,sector='Property'
+2026-08-13T16:58:39.493492,TFC,stock-data,200,331.2,cmpyName='PTFC Redevelopment Corporation' lastTradedPrice=50.0
+2026-08-13T16:58:39.810189,TFC,chart,200,316.4,rows=54
+2026-08-13T16:58:40.103869,TFC,dividends,200,293.5,rows=1
+2026-08-13T16:58:40.376492,TFHI,company-info,200,272.4,sector='Holding Firms'
+2026-08-13T16:58:40.697625,TFHI,stock-data,200,321.0,"cmpyName='Top Frontier Investment Holdings, Inc.' lastTradedPrice=54.2"
+2026-08-13T16:58:41.067905,TFHI,chart,200,369.9,rows=145
+2026-08-13T16:58:41.340059,TFHI,dividends,200,271.9,rows=0
+2026-08-13T16:58:41.612317,TOP,company-info,200,272.0,sector='Holding Firms'
+2026-08-13T16:58:41.913634,TOP,stock-data,200,301.1,"cmpyName='Top Frontier Investment Holdings, Inc.' lastTradedPrice=54.2"
+2026-08-13T16:58:42.308260,TOP,chart,200,394.2,rows=145
+2026-08-13T16:58:42.612517,TOP,dividends,200,304.0,rows=0
+2026-08-13T16:58:42.897697,TUBIG,company-info,200,285.0,sector='Mining and Oil'
+2026-08-13T16:58:43.186407,TUBIG,stock-data,200,288.5,cmpyName='Tubig Pilipinas Holdings Inc.' lastTradedPrice=0.0
+2026-08-13T16:58:43.485477,TUBIG,chart,200,298.9,rows=0
+2026-08-13T16:58:43.801550,TUBIG,dividends,200,315.9,rows=0
+2026-08-13T16:58:44.124167,TUGS,company-info,200,322.4,sector='Services'
+2026-08-13T16:58:44.401145,TUGS,stock-data,200,276.8,"cmpyName='Harbor Star Shipping Services, Inc. ' lastTradedPrice=1.1"
+2026-08-13T16:58:44.743768,TUGS,chart,200,342.1,rows=153
+2026-08-13T16:58:45.022381,TUGS,dividends,200,278.4,rows=0
+2026-08-13T16:58:45.325266,UBP,company-info,200,302.6,sector='Financials'
+2026-08-13T16:58:45.616985,UBP,stock-data,200,291.5,cmpyName='Union Bank of the Philippines' lastTradedPrice=25.0
+2026-08-13T16:58:45.985974,UBP,chart,200,368.6,rows=156
+2026-08-13T16:58:46.300727,UBP,dividends,200,314.4,rows=1
+2026-08-13T16:58:46.635042,UNH,company-info,200,334.1,sector='Property'
+2026-08-13T16:58:46.958804,UNH,stock-data,200,323.5,cmpyName='Uniholdings Inc.' lastTradedPrice=0.0
+2026-08-13T16:58:47.275435,UNH,chart,200,316.3,rows=67
+2026-08-13T16:58:47.575598,UNH,dividends,200,300.0,rows=0
+2026-08-13T16:58:47.869701,UPM,company-info,200,293.9,sector='Mining and Oil'
+2026-08-13T16:58:48.190636,UPM,stock-data,200,320.3,cmpyName='United Paragon Mining Corporation' lastTradedPrice=0.0075
+2026-08-13T16:58:48.522262,UPM,chart,200,331.1,rows=142
+2026-08-13T16:58:48.828490,UPM,dividends,200,306.0,rows=0
+2026-08-13T16:58:49.182987,UPSON,company-info,200,354.3,sector='Services'
+2026-08-13T16:58:49.510829,UPSON,stock-data,200,327.6,cmpyName='Upson International Corp.' lastTradedPrice=0.72
+2026-08-13T16:58:49.845133,UPSON,chart,200,333.0,rows=154
+2026-08-13T16:58:50.176288,UPSON,dividends,200,330.8,rows=1
+2026-08-13T16:58:50.513132,URC,company-info,200,336.6,sector='Industrial'
+2026-08-13T16:58:50.825536,URC,stock-data,200,312.1,cmpyName='Universal Robina Corporation' lastTradedPrice=62.0
+2026-08-13T16:58:51.219517,URC,chart,200,393.3,rows=156
+2026-08-13T16:58:51.524827,URC,dividends,200,305.1,rows=3
+2026-08-13T16:58:51.824259,V,company-info,200,299.3,sector='Financials'
+2026-08-13T16:58:52.132024,V,stock-data,200,307.6,"cmpyName='Vantage Equities, Inc.' lastTradedPrice=0.81"
+2026-08-13T16:58:52.510254,V,chart,200,377.6,rows=139
+2026-08-13T16:58:52.785799,V,dividends,200,275.4,rows=1
+2026-08-13T16:58:53.099611,VITA,company-info,200,313.6,sector='Industrial'
+2026-08-13T16:58:53.416376,VITA,stock-data,200,316.6,cmpyName='Vitarich Corporation' lastTradedPrice=0.51
+2026-08-13T16:58:53.762080,VITA,chart,200,345.3,rows=153
+2026-08-13T16:58:54.119789,VITA,dividends,200,357.5,rows=1
+2026-08-13T16:58:54.425880,VLC,company-info,200,305.9,sector='Property'
+2026-08-13T16:58:54.715410,VLC,stock-data,200,289.4,cmpyName='Villar Land Holdings Corp.' lastTradedPrice=0.0
+2026-08-13T16:58:55.763787,VLC,chart,200,1048.0,rows=89
+2026-08-13T16:58:56.066358,VLC,dividends,200,302.4,rows=0
+2026-08-13T16:58:56.366341,VLL,company-info,200,299.8,sector='Property'
+2026-08-13T16:58:56.654863,VLL,stock-data,200,288.3,"cmpyName='Vista Land & Lifescapes, Inc.' lastTradedPrice=0.0"
+2026-08-13T16:58:57.043554,VLL,chart,200,388.3,rows=103
+2026-08-13T16:58:57.391555,VLL,dividends,200,347.7,rows=11
+2026-08-13T16:58:57.729760,VMC,company-info,200,338.0,sector='Industrial'
+2026-08-13T16:58:58.053885,VMC,stock-data,200,323.8,"cmpyName='Victorias Milling Company, Inc.' lastTradedPrice=1.93"
+2026-08-13T16:58:58.421429,VMC,chart,200,367.1,rows=87
+2026-08-13T16:58:58.710378,VMC,dividends,200,288.7,rows=1
+2026-08-13T16:58:59.014871,VREIT,company-info,200,304.2,sector='Property'
+2026-08-13T16:58:59.333013,VREIT,stock-data,200,317.8,"cmpyName='VistaREIT, Inc.' lastTradedPrice=0.0"
+2026-08-13T16:58:59.670449,VREIT,chart,200,337.0,rows=103
+2026-08-13T16:58:59.959306,VREIT,dividends,200,288.7,rows=3
+2026-08-13T16:59:00.234685,VVT,company-info,200,275.2,sector='Industrial'
+2026-08-13T16:59:00.545018,VVT,stock-data,200,310.1,cmpyName='Vivant Corporation' lastTradedPrice=20.7
+2026-08-13T16:59:00.921100,VVT,chart,200,375.6,rows=98
+2026-08-13T16:59:01.196819,VVT,dividends,200,275.4,rows=1
+2026-08-13T16:59:01.516991,WEB,company-info,200,320.0,sector='Services'
+2026-08-13T16:59:01.824546,WEB,stock-data,200,307.4,cmpyName='PhilWeb Corporation' lastTradedPrice=14.46
+2026-08-13T16:59:02.148565,WEB,chart,200,323.6,rows=156
+2026-08-13T16:59:02.442354,WEB,dividends,200,293.6,rows=0
+2026-08-13T16:59:02.726495,WIN,company-info,200,284.0,sector='Property'
+2026-08-13T16:59:03.090013,WIN,stock-data,200,363.3,"cmpyName='Wellex Industries, Incorporated' lastTradedPrice=0.0"
+2026-08-13T16:59:03.433892,WIN,chart,200,343.5,rows=61
+2026-08-13T16:59:03.718222,WIN,dividends,200,284.2,rows=0
+2026-08-13T16:59:04.030210,WLCON,company-info,200,311.8,sector='Services'
+2026-08-13T16:59:04.370913,WLCON,stock-data,200,340.5,"cmpyName='Wilcon Depot, Inc.' lastTradedPrice=5.83"
+2026-08-13T16:59:04.754660,WLCON,chart,200,383.3,rows=156
+2026-08-13T16:59:05.022720,WLCON,dividends,200,267.9,rows=2
+2026-08-13T16:59:05.332350,WPI,company-info,200,309.5,sector='Services'
+2026-08-13T16:59:05.616104,WPI,stock-data,200,283.6,"cmpyName='Waterfront Philippines, Incorporated' lastTradedPrice=0.39"
+2026-08-13T16:59:05.934800,WPI,chart,200,318.4,rows=100
+2026-08-13T16:59:06.235086,WPI,dividends,200,300.1,rows=0
+2026-08-13T16:59:06.505502,X,company-info,200,270.2,"sector='Small, Medium & Emerging Board'"
+2026-08-13T16:59:06.793799,X,stock-data,200,288.1,cmpyName='NexGen Energy Corp.' lastTradedPrice=2.72
+2026-08-13T16:59:07.104125,X,chart,200,309.9,rows=119
+2026-08-13T16:59:07.413736,X,dividends,200,309.4,rows=0
+2026-08-13T16:59:07.763773,XG,company-info,200,349.9,"sector='Small, Medium & Emerging Board'"
+2026-08-13T16:59:08.047792,XG,stock-data,200,283.8,cmpyName='NexGen Energy Corp.' lastTradedPrice=2.72
+2026-08-13T16:59:08.368370,XG,chart,200,320.2,rows=119
+2026-08-13T16:59:08.675466,XG,dividends,200,306.9,rows=0
+2026-08-13T16:59:08.987025,ZHI,company-info,200,311.4,sector='Holding Firms'
+2026-08-13T16:59:09.272944,ZHI,stock-data,200,285.7,"cmpyName='Zeus Holdings, Inc.' lastTradedPrice=0.063"
+2026-08-13T16:59:09.584769,ZHI,chart,200,311.3,rows=126
+2026-08-13T16:59:09.845773,ZHI,dividends,200,260.8,rows=0

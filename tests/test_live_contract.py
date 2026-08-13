@@ -3,6 +3,7 @@
 # These tests hit PSE endpoints.
 
 from datetime import datetime
+from models.chart import ChartData
 from scripts.scrape import (
     scrape_cmpy_info,
     scrape_stock_data,
@@ -16,7 +17,6 @@ from scripts.scrape import (
 CMPY_ID = "679"
 SECURITY_ID = "655"
 
-
 def test_scrape_cmpy_info_shape():
     result = scrape_cmpy_info(CMPY_ID)
 
@@ -25,10 +25,10 @@ def test_scrape_cmpy_info_shape():
     assert result.subSector.strip() != ""
     # Website can be blank
 
-
 def test_scrape_stock_data_shape():
     result = scrape_stock_data(CMPY_ID)
 
+    assert result.status.strip() != ""
     assert result.cmpyName.strip() != ""
     assert result.lastTradedPrice > 0
     assert result.open > 0
@@ -39,7 +39,6 @@ def test_scrape_stock_data_shape():
     datetime.strptime(result.date, "%Y-%m-%d")  
     datetime.strptime(result.time, "%H:%M:%S")
 
-
 def test_scrape_stock_chart_shape():
     result = scrape_stock_chart(CMPY_ID, SECURITY_ID, "07-01-2026", "08-01-2026")
 
@@ -47,10 +46,12 @@ def test_scrape_stock_chart_shape():
     assert len(result) > 0
 
     for entry in result:
-        for key in ("OPEN", "CLOSE", "HIGH", "LOW", "VALUE", "CHART_DATE"):
-            assert key in entry
-        datetime.strptime(entry["CHART_DATE"], "%b %d, %Y %H:%M:%S")
-
+        assert isinstance(entry, ChartData)
+        assert entry.open > 0
+        assert entry.close > 0
+        assert entry.high >= entry.low
+        assert entry.value >= 0
+        datetime.strptime(entry.chartDate, "%b %d, %Y %H:%M:%S")
 
 def test_scrape_stock_dividends_shape():
     result = scrape_stock_dividends(CMPY_ID)
@@ -65,7 +66,6 @@ def test_scrape_stock_dividends_shape():
         datetime.strptime(d.exDividendDate, "%Y-%m-%d")
         datetime.strptime(d.recordDate, "%Y-%m-%d")
         datetime.strptime(d.paymentDate, "%Y-%m-%d")
-
 
 def test_dividends_page_shape():
     # Single page only 
