@@ -15,6 +15,7 @@ from pse.exceptions import (
     PSEUnavailableError,
     PSEParseError,
 )
+from scripts.utils import extract_dividend_rate, safe_float, safe_int, safe_parse_date
 
 with open("data/cmpy.json", 'r', encoding='utf-8') as json_file:
     cmpy_list = json.load(json_file)
@@ -142,6 +143,11 @@ def _parse_stock_data(html: str) -> StockData:
             "time": str(dt_formatted.time()),
         }
 
+        status_table = content_div.find("table")
+        status_row = status_table.find("tr")
+        status = status_row.find("td").get_text(strip=True)
+        stock_args["status"] = status
+
         tab_elem = content_div.find_all("table")[1]
         rows = tab_elem.find_all("tr")
         for row in rows:
@@ -153,29 +159,40 @@ def _parse_stock_data(html: str) -> StockData:
                     continue
 
                 if label == "Previous Close and Date":
-                    space_idx = values[idx].find(' ')
-                    close = values[idx][:space_idx]
-                    par_idx = values[idx].find('(')
-                    date = values[idx][(par_idx + 1):-1]
+                    raw = values[idx]
+                    space_idx = raw.find(' ')
+                    par_idx = raw.find('(')
+                    if not raw or space_idx == -1 or par_idx == -1:
+                        stock_args[label_map[label][0]] = 0.0
+                        stock_args[label_map[label][1]] = ""
+                        continue
+
+                    close = raw[:space_idx]
+                    date = raw[(par_idx + 1):-1]
                     date_formatted = datetime.strptime(date, "%b %d %Y")
 
-                    stock_args[label_map[label][0]] = float(close)
+                    stock_args[label_map[label][0]] = safe_float(close)
                     stock_args[label_map[label][1]] = str(date_formatted.date())
                     continue
 
                 if label == "Change(% Change)":
-                    change = stock_args["lastTradedPrice"] - stock_args["previousClose"]
-                    percent_change = change / stock_args["previousClose"] * 100
+                    last = stock_args["lastTradedPrice"]
+                    prev = stock_args["previousClose"]
+                    if last and prev:
+                        change = last - prev
+                        percent_change = change / prev * 100
+                    else:
+                        change = 0.0
+                        percent_change = 0.0
 
                     stock_args[label_map[label][0]] = round(float(change), 2)
                     stock_args[label_map[label][1]] = round(float(percent_change), 2)
                     continue
 
                 if label == "Volume":
-                    values[idx] = int(values[idx])
-
-                if label_map[label] in float_args:
-                    values[idx] = float(values[idx])
+                    values[idx] = safe_int(values[idx])
+                elif label_map[label] in float_args:
+                    values[idx] = safe_float(values[idx])
 
                 stock_args[label_map[label]] = values[idx]
 
@@ -216,11 +233,10 @@ def _parse_stock_dividends(html: str) -> list[DividendData]:
             if len(cols) < 6:
                 continue
 
-            match = re.search(r"[\d,.]+", cols[2])
-            rate = float(match.group().replace(",", "")) if match else 0.0
-            ex_div_date = datetime.strptime(cols[3], "%b %d, %Y").strftime("%Y-%m-%d")
-            record_date = datetime.strptime(cols[4], "%b %d, %Y").strftime("%Y-%m-%d")
-            payment_date = datetime.strptime(cols[5], "%b %d, %Y").strftime("%Y-%m-%d")
+            rate = extract_dividend_rate(cols[2])
+            ex_div_date = safe_parse_date(cols[3])
+            record_date = safe_parse_date(cols[4])
+            payment_date = safe_parse_date(cols[5])
 
             results.append(DividendData(
                 companyName="",
@@ -342,11 +358,11 @@ def scrape_dividends() -> list[DividendData]:
 #     else:
 #         print(f"Company ID for {stock} not found in cmpy_list.")
 
-# print(scrape_stock_data("128"))
-# cmpy = lookup_cmpy("AREIT", return_entire_object=True)
-# cmpy_id = cmpy.get("cmpyId")
-# sec_id = cmpy.get("security_id")
-# print(scrape_stock_chart(cmpy_id, sec_id, "08-03-2026", "08-07-2026"))
-# print(scrape_stock_dividends("114"))
+# print(scrape_stock_data("679"))
+cmpy = lookup_cmpy("AREIT", return_entire_object=True)
+cmpy_id = cmpy.get("cmpyId")
+sec_id = cmpy.get("security_id")
+print(scrape_stock_chart(cmpy_id, sec_id, "08-03-2026", "08-07-2026"))
+# print(scrape_stock_dividends("679"))
 
 # print(scrape_cmpy_info(lookup_cmpy("AREIT")))

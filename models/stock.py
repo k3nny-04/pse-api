@@ -1,6 +1,7 @@
 from dataclasses import dataclass
 
 label_map = {
+    "Status": "status",
     "Last Traded Price": "lastTradedPrice",
     "Open": "open",
     "Previous Close and Date": ("previousClose", "previousCloseDate"),
@@ -19,6 +20,7 @@ float_args = ["lastTradedPrice", "open", "previousClose", "change", "percentChan
 @dataclass
 class StockData:
     cmpyName: str = ""
+    status: str = ""
     date: str = ""
     time: str = ""
     lastTradedPrice: float = 0.0
