@@ -1,5 +1,6 @@
 *.pyc
 venv/
 TODO
+.env
 # *.html
 # tests/fixtures/

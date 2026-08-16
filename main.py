@@ -1,5 +1,5 @@
 from datetime import datetime
-from fastapi import FastAPI, Query
+from fastapi import FastAPI, Query, Depends, Header, HTTPException
 from fastapi.responses import JSONResponse
 from scripts.scrape import (
     lookup_cmpy,
@@ -20,9 +20,14 @@ from models.company import CompanyData
 from models.stock import StockData
 from models.dividends import DividendData
 from models.chart import ChartData
+from dotenv import load_dotenv
+import os
+import secrets
 
-app = FastAPI(title="PSE Scraper API")
-
+load_dotenv()
+API_KEY = os.environ.get("PSE_API_KEY")
+if not API_KEY:
+    raise ValueError("PSE_API_KEY environment variable is not set")
 STATUS_MAP = {
     CompanyNotFoundError: 404,
     PSEBadRequestError: 422,
@@ -30,9 +35,17 @@ STATUS_MAP = {
     PSEParseError: 502,
 }
 
+def require_api_key(x_api_key: str = Header(...)):
+    if not secrets.compare_digest(x_api_key, API_KEY):
+        raise HTTPException(status_code=401, detail="Unauthorized")
+
+
+app = FastAPI(title="PSE Scraper API", dependencies=[Depends(require_api_key)])
+
+
 
 @app.exception_handler(PSEError)
-def pse_error_handler(request, exc: PSEError):
+def pse_error_handler(_, exc: PSEError):
     status_code = STATUS_MAP.get(type(exc), 500)
     return JSONResponse(status_code=status_code, content={"detail": str(exc)})
 

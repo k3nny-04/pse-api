@@ -359,10 +359,10 @@ def scrape_dividends() -> list[DividendData]:
 #         print(f"Company ID for {stock} not found in cmpy_list.")
 
 # print(scrape_stock_data("679"))
-cmpy = lookup_cmpy("AREIT", return_entire_object=True)
-cmpy_id = cmpy.get("cmpyId")
-sec_id = cmpy.get("security_id")
-print(scrape_stock_chart(cmpy_id, sec_id, "08-03-2026", "08-07-2026"))
+# cmpy = lookup_cmpy("AREIT", return_entire_object=True)
+# cmpy_id = cmpy.get("cmpyId")
+# sec_id = cmpy.get("security_id")
+# print(scrape_stock_chart(cmpy_id, sec_id, "08-03-2026", "08-07-2026"))
 # print(scrape_stock_dividends("679"))
 
 # print(scrape_cmpy_info(lookup_cmpy("AREIT")))
