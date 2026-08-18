@@ -11,9 +11,10 @@ Requires the API server running first:
     uvicorn main:app
 
 Then in a separate terminal:
-    python api_sweep.py                       # full sweep, all entries
-    python api_sweep.py --limit 20             # cheap dry run
+    python api_sweep.py                                    # full sweep, all entries
+    python api_sweep.py --limit 20                         # cheap dry run
     python api_sweep.py --base-url http://127.0.0.1:8000
+    python api_sweep.py --api-key your-secret-key           # send x-api-key header
 """
 
 import argparse
@@ -23,7 +24,6 @@ import statistics
 import time
 from collections import defaultdict
 from datetime import datetime
-
 import requests
 
 OUTPUT_CSV = "api_sweep_results.csv"
@@ -40,11 +40,11 @@ FIELDNAMES = [
 ENDPOINTS = ("company-info", "stock-data", "chart", "dividends")
 
 
-def call_endpoint(base_url, symbol, endpoint, params=None):
+def call_endpoint(base_url, symbol, endpoint, headers, params=None):
     url = f"{base_url}/{endpoint}/{symbol}"
     start = time.monotonic()
     try:
-        response = requests.get(url, params=params, timeout=15)
+        response = requests.get(url, params=params, headers=headers, timeout=15)
         elapsed_ms = round((time.monotonic() - start) * 1000, 1)
         detail = summarize(endpoint, response)
         return response.status_code, elapsed_ms, detail
@@ -76,8 +76,8 @@ def summarize(endpoint, response) -> str:
     return ""
 
 
-def run_call(writer, rows, base_url, symbol, endpoint, params=None):
-    status, elapsed_ms, detail = call_endpoint(base_url, symbol, endpoint, params)
+def run_call(writer, rows, base_url, symbol, endpoint, headers, params=None):
+    status, elapsed_ms, detail = call_endpoint(base_url, symbol, endpoint, headers, params)
 
     row = {
         "timestamp": datetime.now().isoformat(),
@@ -143,7 +143,10 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--limit", type=int, default=None, help="only sweep the first N entries")
     parser.add_argument("--base-url", type=str, default="http://127.0.0.1:8000")
+    parser.add_argument("--api-key", type=str, default=None, help="if set, sent as the x-api-key header on every request")
     args = parser.parse_args()
+
+    headers = {"x-api-key": args.api_key} if args.api_key else {}
 
     with open("../data/cmpy.json", "r", encoding="utf-8") as f:
         cmpy_list = json.load(f)
@@ -152,17 +155,17 @@ def main():
     if args.limit:
         items = items[: args.limit]
 
-    print(f"Sweeping {len(items)} entries x 4 endpoints against {args.base_url}")
+    print(f"Sweeping {len(items)} entries x 4 endpoints against {args.base_url}"
+          f" ({'with' if args.api_key else 'without'} x-api-key)")
 
     today = datetime.now()
     start_date = today.strftime(f"01-01-{today.year}")
     end_date = today.strftime("%m-%d-%Y")
 
     rows = []
-    with open(OUTPUT_CSV, "a", newline="", encoding="utf-8") as f:
+    with open(OUTPUT_CSV, "w", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(f, fieldnames=FIELDNAMES)
-        if f.tell() == 0:
-            writer.writeheader()
+        writer.writeheader()
 
         for symbol, record in items:
             if not record:
@@ -179,13 +182,13 @@ def main():
                 print(f"  [{symbol}] skipped — null record")
                 continue
 
-            run_call(writer, rows, args.base_url, symbol, "company-info")
-            run_call(writer, rows, args.base_url, symbol, "stock-data")
-            run_call(writer, rows, args.base_url, symbol, "chart",
+            run_call(writer, rows, args.base_url, symbol, "company-info", headers)
+            run_call(writer, rows, args.base_url, symbol, "stock-data", headers)
+            run_call(writer, rows, args.base_url, symbol, "chart", headers,
                       params={"start_date": start_date, "end_date": end_date})
-            run_call(writer, rows, args.base_url, symbol, "dividends")
+            run_call(writer, rows, args.base_url, symbol, "dividends", headers)
 
-    print(f"\nRaw results appended to {OUTPUT_CSV}")
+    print(f"\nResults written to {OUTPUT_CSV}")
     print_statistics(rows)
 
 
