@@ -129,9 +129,6 @@ pse-api/
 │   ├── utils.py                  # safe parsing helpers (blank fields, TBA dates, etc.)
 │   └── fetch_cmpys.py             # one-off script that built data/cmpy.json
 └── tests/
-    ├── fixtures/                  # committed HTML/JSON snapshots
-    ├── test_scrape_parsing.py     # fixture-based regression tests (fast, offline)
-    ├── test_api.py                # FastAPI TestClient + mocked scrapers
     ├── test_live_contract.py      # hits real PSE, shape-only assertions (manual)
     └── api_sweep.py                # load-tests every company against a running API
 ```
