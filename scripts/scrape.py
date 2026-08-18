@@ -1,7 +1,7 @@
 import re
 import requests
 import json
-
+import logging
 from bs4 import BeautifulSoup
 from datetime import datetime
 from models.chart import ChartData
@@ -17,6 +17,7 @@ from pse.exceptions import (
 )
 from scripts.utils import extract_dividend_rate, safe_float, safe_int, safe_parse_date
 
+logger = logging.getLogger("pse_scraper")
 with open("data/cmpy.json", 'r', encoding='utf-8') as json_file:
     cmpy_list = json.load(json_file)
 
@@ -27,11 +28,13 @@ def _request(method, url, **kwargs):
         return response
     except requests.HTTPError as e:
         status = e.response.status_code if e.response is not None else None
+        logger.error("HTTP error calling PSE at %s: %s", url, e)
         if status == 400:
-            raise PSEBadRequestError(f"PSE rejected request to {url}: {e}") from e
-        raise PSEUnavailableError(f"PSE returned error for {url}: {e}") from e
+            raise PSEBadRequestError("PSE rejected the request due to invalid parameters.") from e
+        raise PSEUnavailableError("PSE returned an error response.") from e
     except requests.RequestException as e:
-        raise PSEUnavailableError(f"Error reaching PSE at {url}: {e}") from e
+        logger.error("Network error calling PSE at %s: %s", url, e)
+        raise PSEUnavailableError("Error reaching PSE.") from e
 
 def lookup_cmpy(ticker_symbol: str, return_entire_object: bool = False):
     if ticker_symbol not in cmpy_list:
