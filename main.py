@@ -24,10 +24,6 @@ from dotenv import load_dotenv
 import os
 import secrets
 
-load_dotenv()
-API_KEY = os.environ.get("PSE_API_KEY")
-if not API_KEY:
-    raise ValueError("PSE_API_KEY environment variable is not set")
 STATUS_MAP = {
     CompanyNotFoundError: 404,
     PSEBadRequestError: 422,
@@ -35,14 +31,7 @@ STATUS_MAP = {
     PSEParseError: 502,
 }
 
-def require_api_key(x_api_key: str = Header(...)):
-    if not secrets.compare_digest(x_api_key, API_KEY):
-        raise HTTPException(status_code=401, detail="Unauthorized")
-
-
-app = FastAPI(title="PSE Scraper API", dependencies=[Depends(require_api_key)])
-
-
+app = FastAPI(title="PSE Scraper API")
 
 @app.exception_handler(PSEError)
 def pse_error_handler(_, exc: PSEError):
